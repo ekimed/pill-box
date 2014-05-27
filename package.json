@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "4.x",
+    "jade": "1.x",
+    "body-parser": "1.x"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}

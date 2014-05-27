@@ -1,0 +1,24 @@
+{
+  "name": "finalproject",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ekimed/Project-Eular",
+  "authors": [
+    "Eunice Kim <ekimed@gmail.com>"
+  ],
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-upload": "~1.0.10",
+    "angular-resource": "~1.2.16"
+  }
+}
