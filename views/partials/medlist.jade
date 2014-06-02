@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	div.container(ng-model="medications" ng-repeat="med in medications")
+		div.med-container
+			h4.med-title {{med.name}}
+			p.dose-format {{med.dose}}
+			p.indication-format {{med.cIndication}}
+

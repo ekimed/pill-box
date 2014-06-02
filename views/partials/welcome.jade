@@ -1,0 +1,16 @@
+div.login-container
+	h1.login-title Welcome to 
+	h1.login-tite.emphasize Blue Button
+	div.container.fileupload-box(ng-controller="FileController")
+		input.fileupload(type="file" ng-file-select="onFileSelect($files)")
+		i.fa.fa-5x#fileselect(ng-click="clickInput()" ng-class="{'fa-bullseye': onhover, 'fa-circle-thin': nothover}" ng-mouseenter="onHover()" ng-mouseleave="notHover()")
+		div.btn-container.line-height-zero
+			i.fa.fa-arrow-up.fa-2x.animated.bounce
+		p.line-height-zero.orange-font Upload your Blue Button file!
+
+
+
+
+
+
+

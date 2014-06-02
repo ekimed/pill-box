@@ -16,12 +16,53 @@
 	line-height: 150px;
 }
 
-.login-title {
+.login-title, .emphasize {
 	font-family: 'Raleway Dots', serif;
-	font-size: 75px;
+	font-size: 60px;
 	color: #2980b9;
+}
+
+.emphasize {
+	font-size: 90px;
+	margin-top: 0px;
 }
 .fa-circle-thin {
 	color: #3498db;
 	opacity: 0.6;
+}
+
+.fa-bullseye, .fa-arrow-up {
+	color: #2980b9;
+	opacity: 0.8;
+}
+
+.line-height-zero {
+	line-height: 0;
+}
+
+.bounce {
+	-webkit-animation-duration: 2s;
+	-moz-animmation-duration: 3s;
+	-moz-animation-delay: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-mox-animation-iteration-count: infinite;
+}
+
+.orange-font {
+	color: #f39c12;
+	opacity: 1.0;
+	font-weight: 100;
+	letter-spacing: 4px;
+}
+
+.btn-container {
+	margin: 10px;
+}
+
+#medList {
+	background: #bdc3c7;
+}
+
+#schedule {
+	background: #bdc3c7;
 }

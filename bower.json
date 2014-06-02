@@ -18,7 +18,10 @@
     "tests"
   ],
   "dependencies": {
-    "angular-upload": "~1.0.10",
-    "angular-resource": "~1.2.16"
+    "angular-resource": "~1.2.16",
+    "ng-file-upload": "~1.4.0"
+  },
+  "devDependencies": {
+    "ng-file-upload": "~1.4.0"
   }
 }
