@@ -8,10 +8,10 @@ div(ng-controller="MainController")
 		div.col-md-5#schedule
 			div
 				h3 Morning <i class="icon-cloud-sun"></i>
-				div#morning-container(draggable="true" ng-repeat="meds in morningMeds" drop-target="true" )
+				div#morning-container(draggable="true" drop-target)
 			div 
 				h3 Afternoon <i class="icon-sun"></i>
-				div#afternoon-container(draggable="true" ng-repeat="meds in afternoonMeds" drop-target="true")
+				div#afternoon-container(draggable="true" drop-target)
 			div
 				h3 Evening <i class="icon-moon"></i>
-				div#evening-container(draggable="true" ng-repeat="meds in eveningMeds" drop-target="true")
+				div#evening-container(draggable="true" drop-target)

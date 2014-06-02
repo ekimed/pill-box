@@ -19,9 +19,6 @@ angular.module('pillboxApp.directive')
 	.directive('isDraggable', function($rootScope) {
 		return {
 			restrict: "A",
-			scope: {
-				med:"="
-			},
 			link: function(scope, element, attrs) {
 				
 				// dragstart event
@@ -51,7 +48,7 @@ angular.module('pillboxApp.directive')
 		return {
 			restrict: "A",
 			scope: {
-				onDrop: "&"
+				med: "="
 			},
 			link: function(scope, element, attrs) {
 				function onDragOver(e) {
@@ -61,7 +58,7 @@ angular.module('pillboxApp.directive')
 					if (e.stopPropagation) {
 						e.stopPropagation();
 					}
-					e.dataTransfer.dropEffect = "move";
+					e.dataTransfer.dropEffect = "copy";
 					return false;
 				}
 
@@ -74,11 +71,10 @@ angular.module('pillboxApp.directive')
 					}
 					var data = e.dataTransfer.getData('text');
 					data = angular.fromJson(data);
-					var fn = $parse(attrs.dropTarget);
-					scope.$apply(function() {
-						fn(scope, {$data: data, $event: e});
-					})
 					console.log(data);
+					// scope.med = data;
+					// console.log(scope.med);
+
 
 				}
 
