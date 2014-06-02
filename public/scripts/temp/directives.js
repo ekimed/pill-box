@@ -29,7 +29,7 @@ angular.module('pillboxApp.directive').directive('isDraggable', [
           $rootScope.$emit('ANGULAR_DRAG_START');
         });
         element.bind('dragover', function (e) {
-          $rootScope.$emit('ANGULAR_DRAG_END');
+          // 	// $rootScope.$emit('ANGULAR_DRAG_END');
           if (e.preventDefault) {
             e.preventDefault();
           }
@@ -46,7 +46,7 @@ angular.module('pillboxApp.directive').directive('dropTarget', [
   function ($parse, $rootScope) {
     return {
       restrict: 'A',
-      scope: { med: '=' },
+      scope: { ngModel: '=' },
       link: function (scope, element, attrs) {
         function onDragOver(e) {
           if (e.preventDefault) {
@@ -59,6 +59,7 @@ angular.module('pillboxApp.directive').directive('dropTarget', [
           return false;
         }
         function onDrop(e) {
+          $rootScope.$emit('ANGULAR_DRAG_END');
           if (e.preventDefault) {
             e.preventDefault();
           }
@@ -67,14 +68,15 @@ angular.module('pillboxApp.directive').directive('dropTarget', [
           }
           var data = e.dataTransfer.getData('text');
           data = angular.fromJson(data);
-          console.log(data);  // scope.med = data;
-                              // console.log(scope.med);
+          scope.ngModel.push(data);
+          scope.$apply();
         }
         $rootScope.$on('ANGULAR_DRAG_START', function () {
           element.bind('dragover', onDragOver);
           element.bind('drop', onDrop);
         });
         $rootScope.$on('ANGULAR_DRAG_END', function () {
+          console.log('angular_drag_end is being fired');
           element.unbind('dragover', onDragOver);
           element.unbind('drop', onDrop);
         });

@@ -56,17 +56,16 @@ angular.module('pillboxApp')
 	});
 
 angular.module('pillboxApp')
-	.controller('MainController', function($scope, Data) {
+	.controller('MedListCtrl', function($scope, Data) {
 		$scope.data = Data.getData().data;
-		$scope.morningMeds = [];
-		$scope.afternoonMeds = [];
-		$scope.eveningMeds = [];
- 
-
-
-		
 
 	})
+
+angular.module('pillboxApp')
+	.controller('ListCtrl', function($scope) {
+		$scope.list = [];
+	})
+
 
 
 

@@ -76,24 +76,3 @@ module.exports = {
 
 
 };
-
-
-
-
-
-
-// var Transform = require('stream').Transform;
-
-// var dataFile = function(data){
-// 	return fs.createReadStream(data);
-// };
-
-// var parser = new Transform();
-// parser._transform = function(data, enc, done) {
-// 	this.push(data);
-// 	done();
-// };
-
-// dataFile
-// 	.pipe(parser)
-// 	.pipe(process.stdout);

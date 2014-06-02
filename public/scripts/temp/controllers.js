@@ -49,13 +49,16 @@ angular.module('pillboxApp').controller('FileController', [
     };
   }
 ]);
-angular.module('pillboxApp').controller('MainController', [
+angular.module('pillboxApp').controller('MedListCtrl', [
   '$scope',
   'Data',
   function ($scope, Data) {
     $scope.data = Data.getData().data;
-    $scope.morningMeds = [];
-    $scope.afternoonMeds = [];
-    $scope.eveningMeds = [];
+  }
+]);
+angular.module('pillboxApp').controller('ListCtrl', [
+  '$scope',
+  function ($scope) {
+    $scope.list = [];
   }
 ]);
