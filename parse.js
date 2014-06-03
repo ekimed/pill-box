@@ -70,8 +70,13 @@ module.exports = {
 			finalMedListData.push(tempObject);
 		}
 		finalMedListData.shift();
-		console.log(finalMedListData);
 		return finalMedListData;
+	},
+
+	getFirstName: function(string) {
+		var keyPattern = /Name:[A-Z ,-]+,\s([A-Z]+)/
+		var match = string.match(keyPattern);
+		return match[1]
 	}
 
 

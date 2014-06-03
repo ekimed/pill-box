@@ -19,6 +19,10 @@ module.exports = {
 			// var titlesArray = parse.parseSection(d);
 
 			var data = parse.splitToSectionTitle(d)
+			var personalInfoSection = data['MY HEALTHEVET PERSONAL INFORMATION REPORT'];
+
+			var firstName = parse.getFirstName(personalInfoSection);
+
 			var medHistoryData = parse.getMedHistoryData(data);
 
 			var indices = parse.getIndicesOfElements(medHistoryData);
@@ -29,15 +33,8 @@ module.exports = {
 
 			var medicationsObj = parse.medListToJsonFormat(medicationsArrObj);
 
-			// console.log(medicationsObj);
-
-			res.send({data:medicationsObj});			
+			res.send({data:medicationsObj, firstName: firstName});			
 		});
 	}
 
-	// dataPost: function(req, res) {
-	// 	var data = req.query;
-	// 	console.log(data);
-	// 	res.send(data);
-	// }
 }

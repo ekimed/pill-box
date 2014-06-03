@@ -66,3 +66,7 @@
 #schedule {
 	background: #bdc3c7;
 }
+
+.show {
+	display: none;
+}

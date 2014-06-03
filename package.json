@@ -4,6 +4,7 @@
     "connect-multiparty": "^1.0.4",
     "express": "4.x",
     "jade": "1.x",
+    "mongoose": "^3.8.12",
     "underscore": "^1.6.0"
   },
   "devDependencies": {

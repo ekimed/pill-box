@@ -34,7 +34,6 @@ angular.module('pillboxApp').controller('FileController', [
       });
     };
     $scope.clickInput = function () {
-      console.log('click');
       $('.fileupload').click();
     };
     $scope.onhover = false;
@@ -54,6 +53,8 @@ angular.module('pillboxApp').controller('MedListCtrl', [
   'Data',
   function ($scope, Data) {
     $scope.data = Data.getData().data;
+    $scope.name = Data.getData().firstName;
+    console.log($scope.data);  // console.log($scope.name);
   }
 ]);
 angular.module('pillboxApp').controller('ListCtrl', [

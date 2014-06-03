@@ -1,4 +1,5 @@
-angular.module('pillboxApp.service', []).service('fileUpload', [
+angular.module('pillboxApp.service', []);
+angular.module('pillboxApp.service').service('fileUpload', [
   '$http',
   function ($http) {
     this.uploadFileToUrl = function (file, uploadUrl) {
