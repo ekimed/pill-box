@@ -13,7 +13,7 @@ app.use(bodyParser());
 app.use(multipart());
 
 // connect to a database with a connection string
-mongoose.connect('mongodb://localhost/rxterms');
+mongoose.connect('mongodb://localhost/RxTerms');
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -23,13 +23,11 @@ db.once('open', function callback (){
 app.get('/', routes.layout);
 app.get('/partials/:name', routes.partials);
 app.post('/fileupload', routes.upload);
-// app.get('/fileupload', routes.dataPost);
 app.get('*', routes.layout);
 
 
 
-
-
-var server = app.listen(8759, function() {
+var port = Number(process.env.PORT || 8759)
+var server = app.listen(port, function() {
 	console.log('Express server listening on port ' + server.address().port);
 });

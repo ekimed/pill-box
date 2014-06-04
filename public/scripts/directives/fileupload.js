@@ -110,15 +110,12 @@ angular.module('pillboxApp.directive')
 						e.stopPropagation();
 					}
 					var data = e.dataTransfer.getData('text');
-					console.log(e.dataTransfer.getData('id'));
 
 					data = angular.fromJson(data);
 					if(!data.id) {
 						data.id = uuid.new();
 					}
-					// else {
-					// 	// $('#'+data.id).remove();
-					// }
+
 
 					scope.ngModel.push(data);
 					scope.$apply();

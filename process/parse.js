@@ -43,6 +43,9 @@ module.exports = {
 
 			start = indices[i];
 		}
+
+		var lastArray = medHistoryData.splice(indices[indices.length-1]);
+		sectionsArray.push(lastArray);
 		return sectionsArray;
 	},
 

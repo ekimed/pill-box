@@ -1,29 +1,45 @@
-div(ng-controller="MedListCtrl")
+div.container.main(ng-controller="MedListCtrl")
 	div.med-list-container(ng-model="data")
-		h1 {{name}}, these are your current medications: 
-		div.col-md-5#medList
-			div.single-med(ng-repeat="med in data")
-				div.med-container(draggable="true" is-draggable med="med")
-					h4.med-title {{med.Medication}}
-					h6.med-instructions {{med.Instructions}}
+		h1.greeting {{name}}, these are your current medications:
+		div.col-md-4#medList
+			div.row.border
+				div.single-med(ng-repeat="med in data")
+					div.med-container(draggable="true" is-draggable med="med")
+						h4.med.med-title {{med.Medication}}
+						h6.med.med-instructions {{med.Instructions}}
+			div.row
+				a(href="/list") <i class="fa fa-download fa-5x"></i>
 
-		div.col-md-2#space
-		div.col-md-5#schedule
-			div(ng-controller="ListCtrl")
-				h3 Morning <i class="icon-cloud-sun"></i>
-				div.morning-container(draggable="true" drop-target="true" ng-model="list")
-					div(ng-class="{hide: list.length > 0}") Drag and drop your morning medications here!
-					div(ng-repeat="med in list" draggable="true" is-draggable)
-						p(id="{{med.id}}") {{med.Medication}}
-			div(ng-controller="ListCtrl")
-				h3 Afternoon <i class="icon-sun"></i>
-				div.afternoon-container(draggable="true" drop-target="true" ng-model="list")
-					div(ng-class="{hide: list.length > 0}") Drag and drop your afternoon medications here!
-					div(ng-repeat="med in list" draggable="true" is-draggable)
-						p(id="{{med.id}}") {{med.Medication}}
-			div(ng-controller="ListCtrl")
-				h3 Evening <i class="icon-moon"></i>
-				div.evening-container(draggable="true" drop-target="true" ng-model="list")
-					div(ng-class="{hide: list.length > 0}") Drag and drop your evening medications here!
-					div(ng-repeat="med in list" draggable="true" is-draggable)
-						p(id="{{med.id}}") {{med.Medication}}
+		div.col-md-3(ng-controller="ListCtrl")
+			div.space(drop-target="true" ng-model="list")
+				h6.margin-zero Drag to add 
+				<i class="fa fa-long-arrow-right fa-2x"></i>
+
+				h6 Drop to delete
+				<i class="icon-arrow-curved" id="drop-icon"></i>
+		div.col-md-4#schedule
+			div.row.border
+				div(ng-controller="ListCtrl")
+					h3.raleway#morning-title Morning <i class="icon-cloud-sun"></i>
+					div.morning-container(draggable="true" drop-target="true" ng-model="list")
+						div(ng-class="{hide: list.length > 0}") Drag and drop your morning medications here!
+						div(ng-repeat="med in list" draggable="true" is-draggable)
+							p(id="{{med.id}}") {{med.Medication}}
+				div(ng-controller="ListCtrl")
+					h3.raleway#afternoon-title Afternoon <i class="icon-sun"></i>
+					div.afternoon-container(draggable="true" drop-target="true" ng-model="list")
+						div(ng-class="{hide: list.length > 0}") Drag and drop your afternoon medications here!
+						div(ng-repeat="med in list" draggable="true" is-draggable)
+							p(id="{{med.id}}") {{med.Medication}}
+				div(ng-controller="ListCtrl")
+					h3.raleway#evening-title Evening <i class="icon-moon"></i>
+					div.evening-container(draggable="true" drop-target="true" ng-model="list")
+						div(ng-class="{hide: list.length > 0}") Drag and drop your evening medications here!
+						div(ng-repeat="med in list" draggable="true" is-draggable)
+							p(id="{{med.id}}") {{med.Medication}}
+			div.row
+				a(href="/schedule") <i class="fa fa-download fa-5x"></i>
+		div.col-md-1(ng-controller="ListCtrl")
+			div.space(drop-target="true" ng-model="list")
+				p &nbsp;
+

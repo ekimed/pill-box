@@ -1,0 +1,19 @@
+div.col-md-4#schedule
+			div(ng-controller="ListCtrl")
+				h3#morning-title Morning <i class="icon-cloud-sun"></i>
+				div.morning-container(draggable="true" drop-target="true" ng-model="list")
+					div(ng-class="{hide: list.length > 0}") Drag and drop your morning medications here!
+					div(ng-repeat="med in list" draggable="true" is-draggable)
+						p(id="{{med.id}}") {{med.Medication}}
+			div(ng-controller="ListCtrl")
+				h3#afternoon-title Afternoon <i class="icon-sun"></i>
+				div.afternoon-container(draggable="true" drop-target="true" ng-model="list")
+					div(ng-class="{hide: list.length > 0}") Drag and drop your afternoon medications here!
+					div(ng-repeat="med in list" draggable="true" is-draggable)
+						p(id="{{med.id}}") {{med.Medication}}
+			div(ng-controller="ListCtrl")
+				h3#evening-title Evening <i class="icon-moon"></i>
+				div.evening-container(draggable="true" drop-target="true" ng-model="list")
+					div(ng-class="{hide: list.length > 0}") Drag and drop your evening medications here!
+					div(ng-repeat="med in list" draggable="true" is-draggable)
+						p(id="{{med.id}}") {{med.Medication}}

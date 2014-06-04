@@ -1,7 +1,7 @@
 ------------------ MY HEALTHEVET PERSONAL INFORMATION REPORT -------------------
                     *************CONFIDENTIAL*************
-                    Produced by the VA Blue Button (v12.6)
-                               09 Sep 2013 @ 0602
+                    Produced by the VA Blue Button (v12.5)
+                               03 Jul 2013 @ 0956
 
 This summary is a copy of information from your My HealtheVet Personal
 Health Record. Your summary may include:
@@ -13,17 +13,15 @@ Health Record. Your summary may include:
 your Personal Health Record unless you share it with them. Contact your
 health care team if you have questions about your health information.***
 
-Key:  Double dashes (--) mean there is no information to display.
 
-
-Name: MHVTESTVETERAN, EUNICE A         Date of Birth: 01 Mar 1948
+Name: MHVTESTVETERAN, ONE A         Date of Birth: 01 Mar 1948
 
 --------------------------- DOWNLOAD REQUEST SUMMARY ---------------------------
 
-System Request Date/Time:  09 Sep 2013 @ 0602
-File Name:                 mhv_MHVTESTVETERAN_20130909_0602.txt
+System Request Date/Time:  03 Jul 2013 @ 0956
+File Name:                 mhv_MHVTESTVETERAN_20130703_0956.txt
 
-Date Range Selected:       09 Sep 2012 to 09 Sep 2013
+Date Range Selected:       03 Jul 2012 to 03 Jul 2013
 Data Types Selected:
   My HealtheVet Account Summary
   Self Reported Demographics
@@ -52,8 +50,7 @@ Data Types Selected:
   VA Radiology Reports
   VA Electrocardiogram (EKG) Reports
   Self Reported Family Health History
-  Self Reported My Goals Current
-  Self Reported My Goals Completed 
+  Self Reported My Goals 
   Self Reported Activity Journal
   Self Reported Food Journal
   Self Reported Military Health History
@@ -102,7 +99,7 @@ Mailing or Destination City:             Anywhere
 Mailing or Destination State:            DC
 Mailing or Destination Country:          United States
 Mailing or Destination Province:         
-Mailing or Destination Zip/Postal Code:  20420
+Mailing or Destination Zip/Postal Code:  00001
 
 Home Phone Number:  000-010-0202
 Work Phone Number:  000-010-0404
@@ -127,7 +124,7 @@ EMERGENCY CONTACTS
   State:               DC
   Country:             United States
   Province:            
-  Zip/Post Code:       20420
+  Zip/Post Code:       00001
   Email Address:       mhvveterantwo@emailaddress.com
 
   Contact First Name:  Three
@@ -142,13 +139,13 @@ EMERGENCY CONTACTS
   State:               DC
   Country:             United States
   Province:            
-  Zip/Post Code:       20420
+  Zip/Post Code:       00001
   Email Address:       mhvveteranthree@emailaddress.com
 
 ------------------------------- VA DEMOGRAPHICS --------------------------------
 
 Source:        VA
-Last Updated:  
+Last Updated:  03 Jul 2013 @ 0635
 Sorted By:     VA Treating Facility
 
 Your information in My HealtheVet is not transferred to your VA Health Record. 
@@ -163,8 +160,8 @@ VA Treating Facility: VA SOUTHERN OREGON REHABILITATION CENTER CLINICS
 First Name:          ONE
 Middle Name:         A
 Last Name:           MHVTESTVETERAN
-Religion:            --
-Ethnicity:           --
+Religion:            
+Ethnicity:           
 Date of Birth:       01 Mar 1948
 Place of Birth:      WASHINGTON, DISTRICT OF COLUMBIA
 Age:                 65
@@ -176,89 +173,94 @@ Marital Status:      DIVORCED
 PERMANENT ADDRESS AND CONTACT INFORMATION
   Street Address:     123 ANYWHERE RD
   Street Address 2:   APT 123
-  Work Phone Number:  --
+  Work Phone Number:  
   City:               WASHINGTON
   State:              DISTRICT OF COLUMBIA
   Zip Code:           20420
   County:             001
   Country:            USA
 
-  Home Phone Number:  --
-  Work Phone Number:  --
-  Cell Phone Number:  --
+  Home Phone Number:  
+  Work Phone Number:  
+  Cell Phone Number:  
   Email Address:      MHVVETERAN@EMAILADDRESS.COM
 
 --------------------------------------------------------------------------------
 
 ELIGIBILITY
-  Primary Eligibility Code:      --
+  Primary Eligibility Code:      
   Service Connected Percentage:  70
 
 EMPLOYMENT
   Employment Status: NOT EMPLOYED
-  Employer Name:     --
+  Employer Name:     
 
 --------------------------------------------------------------------------------
 
 ACTIVE INSURANCE            
-  Insurance Company:        --
-  Effective Date:           --
-  Expiration Date:          --
-  Group Name:               --
-  Group Number:             --
-  Subscriber ID:            --
-  Subscriber Name:          --
-  Subscriber Relationship:  --
+  Insurance Company:        
+  Effective Date:           
+  Expiration Date:          
+  Group Name:               
+  Group Number:             
+  Subscriber ID:            
+  Subscriber Name:          
+  Subscriber Relationship:  
 
 --------------------------------------------------------------------------------
 
 PRIMARY NEXT OF KIN  
-  Name:               PERSON NAME
+  Name:               NEXTOFKIN ONE
   Street Address:     123 ANYWHERE RD
-  City:               WASHINGTON
-  State:              DISTRICT OF COLUMBIA
-  Zip Code:           43232
+  City:               COLUMBUS
+  State:              OHIO
+  Zip Code:           00001
+  Country:            
 
   Home Phone Number:  001-002-0003
-  Work Phone Number:  --
+  Work Phone Number:  
 
 --------------------------------------------------------------------------------
 
 EMERGENCY CONTACT     
-  Name:               PERSON NAME
+  Name:               CONTACT ONE
   Street Address:     123 ANYWHERE RD
-  City:               WASHINGTON
-  State:              DISTRICT OF COLUMBIA
+  City:               COLUMBUS
+  State:              OHIO
   Zip Code:           43232
+  Country:            
 
   Home Phone Number:  001-002-0003
-  Work Phone Number:  --
+  Work Phone Number:  
 
 --------------------------------------------------------------------------------
 
 VA GUARDIAN           
-  Name:               --                      
-  Street Address:     --
-  City:               --
-  State:              --
-  Zip Code:           --
+  Name:                                              
+  Street Address:     
+  City:               
+  State:              
+  Zip Code:           
+  Country:            
 
-  Home Phone Number:  --
-  Work Phone Number:  --
+  Home Phone Number:  
+  Work Phone Number:  
 
 --------------------------------------------------------------------------------
 
 CIVIL GUARDIAN  
-  Name:               --
-  Street Address:     --
-  City:               --
-  State:              --
-  Zip Code:           --
+  Name:               
+  Street Address:     
+  City:               
+  State:              
+  Zip Code:           
+  Country:            
 
-  Home Phone Number:  --
-  Work Phone Number:  --
+  Home Phone Number:  
+  Work Phone Number:  
 
-
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 ================================================================================
 VA Treating Facility: SPOKANE VAMC
 --------------------------------------------------------------------------------
@@ -266,8 +268,8 @@ VA Treating Facility: SPOKANE VAMC
 First Name:          ONE
 Middle Name:         A
 Last Name:           MHVTESTVETERAN
-Religion:            --
-Ethnicity:           --
+Religion:            
+Ethnicity:           
 Date of Birth:       01 Mar 1948
 Place of Birth:      WASHINGTON, DISTRICT OF COLUMBIA
 Age:                 65
@@ -279,89 +281,93 @@ Marital Status:      DIVORCED
 PERMANENT ADDRESS AND CONTACT INFORMATION
   Street Address:     123 ANYWHERE RD
   Street Address 2:   APT 123
-  Work Phone Number:  --
+  Work Phone Number:  
   City:               WASHINGTON
   State:              DISTRICT OF COLUMBIA
-  Zip Code:           20420
-  County:             001
+  Zip Code:           00001
   Country:            USA
 
-  Home Phone Number:  --
-  Work Phone Number:  --
-  Cell Phone Number:  --
+  Home Phone Number:  
+  Work Phone Number:  
+  Cell Phone Number:  
   Email Address:      MHVVETERAN@EMAILADDRESS.COM
 
 --------------------------------------------------------------------------------
 
 ELIGIBILITY
-  Primary Eligibility Code:      --
+  Primary Eligibility Code:      
   Service Connected Percentage:  70
 
 EMPLOYMENT
   Employment Status: NOT EMPLOYED
-  Employer Name:     --
+  Employer Name:     
 
 --------------------------------------------------------------------------------
 
 ACTIVE INSURANCE            
-  Insurance Company:        --
-  Effective Date:           --
-  Expiration Date:          --
-  Group Name:               --
-  Group Number:             --
-  Subscriber ID:            --
-  Subscriber Name:          --
-  Subscriber Relationship:  --
+  Insurance Company:        
+  Effective Date:           
+  Expiration Date:          
+  Group Name:               
+  Group Number:             
+  Subscriber ID:            
+  Subscriber Name:          
+  Subscriber Relationship:  
 
 --------------------------------------------------------------------------------
 
 PRIMARY NEXT OF KIN  
-  Name:               PERSON NAME
+  Name:               NEXTOFKIN TWO
   Street Address:     123 ANYWHERE RD
-  City:               WASHINGTON
-  State:              DISTRICT OF COLUMBIA
-  Zip Code:           43232
+  City:               COLUMBUS
+  State:              OHIO
+  Zip Code:           00001
+  Country:            
 
   Home Phone Number:  001-002-0003
-  Work Phone Number:  --
+  Work Phone Number:  
 
 --------------------------------------------------------------------------------
 
 EMERGENCY CONTACT     
-  Name:               PERSON NAME
+  Name:               CONTACT TWO
   Street Address:     123 ANYWHERE RD
-  City:               WASHINGTON
-  State:              DISTRICT OF COLUMBIA
-  Zip Code:           43232
+  City:               COLUMBUS
+  State:              OHIO
+  Zip Code:           00001
+  Country:            
 
-  Home Phone Number:  001-002-0003
-  Work Phone Number:  --
+  Home Phone Number:  001-002-0004
+  Work Phone Number:  
 
 --------------------------------------------------------------------------------
 
 VA GUARDIAN           
-  Name:               --                      
-  Street Address:     --
-  City:               --
-  State:              --
-  Zip Code:           --
+  Name:                                              
+  Street Address:     
+  City:               
+  State:              
+  Zip Code:           
+  Country:            
 
-  Home Phone Number:  --
-  Work Phone Number:  --
+  Home Phone Number:  
+  Work Phone Number:  
 
 --------------------------------------------------------------------------------
 
 CIVIL GUARDIAN  
-  Name:               --
-  Street Address:     --
-  City:               --
-  State:              --
-  Zip Code:           --
+  Name:               
+  Street Address:     
+  City:               
+  State:              
+  Zip Code:           
+  Country:            
 
-  Home Phone Number:  --
-  Work Phone Number:  --
+  Home Phone Number:  
+  Work Phone Number:  
 
-
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 ================================================================================
 VA Treating Facility: PORTLAND, OREGON VA MEDICAL CENTER
 --------------------------------------------------------------------------------
@@ -369,8 +375,8 @@ VA Treating Facility: PORTLAND, OREGON VA MEDICAL CENTER
 First Name:          ONE
 Middle Name:         A
 Last Name:           MHVTESTVETERAN
-Religion:            --
-Ethnicity:           --
+Religion:            
+Ethnicity:           
 Date of Birth:       01 Mar 1948
 Place of Birth:      WASHINGTON, DISTRICT OF COLUMBIA
 Age:                 65
@@ -382,88 +388,93 @@ Marital Status:      DIVORCED
 PERMANENT ADDRESS AND CONTACT INFORMATION
   Street Address:     123 ANYWHERE RD
   Street Address 2:   APT 123
-  Work Phone Number:  --
+  Work Phone Number:  
   City:               WASHINGTON
   State:              DISTRICT OF COLUMBIA
-  Zip Code:           20420
+  Zip Code:           00001
   County:             001
   Country:            USA
 
-  Home Phone Number:  --
-  Work Phone Number:  --
-  Cell Phone Number:  --
+  Home Phone Number:  
+  Work Phone Number:  
+  Cell Phone Number:  
   Email Address:      MHVVETERAN@EMAILADDRESS.COM
 
 --------------------------------------------------------------------------------
 
 ELIGIBILITY
-  Primary Eligibility Code:      --
+  Primary Eligibility Code:      
   Service Connected Percentage:  0
 
 EMPLOYMENT
   Employment Status: NOT EMPLOYED
-  Employer Name:     --
+  Employer Name:     
 
 --------------------------------------------------------------------------------
 
 ACTIVE INSURANCE            
-  Insurance Company:        --
-  Effective Date:           --
-  Expiration Date:          --
-  Group Name:               --
-  Group Number:             --
-  Subscriber ID:            --
-  Subscriber Name:          --
-  Subscriber Relationship:  --
+  Insurance Company:        
+  Effective Date:           
+  Expiration Date:          
+  Group Name:               
+  Group Number:             
+  Subscriber ID:            
+  Subscriber Name:          
+  Subscriber Relationship:  
 
 --------------------------------------------------------------------------------
 
 PRIMARY NEXT OF KIN  
-  Name:               PERSON NAME
+  Name:               NEXTOFKIN THREE
   Street Address:     123 ANYWHERE RD
-  City:               WASHINGTON
-  State:              DISTRICT OF COLUMBIA
-  Zip Code:           43232
+  City:               COLUMBUS
+  State:              OHIO
+  Zip Code:           00001
+  Country:            
 
-  Home Phone Number:  6001-002-0003
-  Work Phone Number:  --
+  Home Phone Number:  001-002-0003
+  Work Phone Number:  
 
 --------------------------------------------------------------------------------
 
 EMERGENCY CONTACT     
-  Name:               PERSON NAME
+  Name:               CONTACT THREE
   Street Address:     123 ANYWHERE RD
-  City:               WASHINGTON
-  State:              DISTRICT OF COLUMBIA
-  Zip Code:           43232
+  City:               COLUMBUS
+  State:              OHIO
+  Zip Code:           00001
+  Country:            
 
   Home Phone Number:  001-002-0003
-  Work Phone Number:  --
+  Work Phone Number:  
 
 --------------------------------------------------------------------------------
 
 VA GUARDIAN           
-  Name:               --                      
-  Street Address:     --
-  City:               --
-  State:              --
-  Zip Code:           --
+  Name:                                              
+  Street Address:     
+  City:               
+  State:              
+  Zip Code:           
+  Country:            
 
-  Home Phone Number:  --
-  Work Phone Number:  --
+  Home Phone Number:  
+  Work Phone Number:  
 
 --------------------------------------------------------------------------------
 
 CIVIL GUARDIAN  
-  Name:               --
-  Street Address:     --
-  City:               --
-  State:              --
-  Zip Code:           --
+  Name:               
+  Street Address:     
+  City:               
+  State:              
+  Zip Code:           
+  Country:            
 
-  Home Phone Number:  --
-  Work Phone Number:  --
+  Home Phone Number:  
+  Work Phone Number:  
 
+--------------------------------------------------------------------------------
 
 ------------------ SELF REPORTED HEALTH CARE PROVIDERS ------------------
 
@@ -474,17 +485,16 @@ Type of Provider: Primary
 Other Clinician Information:  
 Phone Number: 000-000-0000    Ext: 1234
 Email: provider@institution.org
-Comments: Dr. Provider can be reached on the weekend if needed by leaving a message 
-with the clinic. 
+Comments: Dr. Provider can be reached on the weekend if needed by leaving a 
+message with the clinic. 
 
-Provider Name: ONE PROVIDER
+Provider Name: TWO PROVIDER
 Type of Provider: Specialist
 Other Clinician Information:  
 Phone Number: 000-000-0001    Ext: 1234
 Email: specialist@institution.org
-Comments: Dr. Provider should be notified of any changes in my medical condition. 
-Requires a referral from my health insurance company. 
-
+Comments: Dr. Provider should be notified of any changes in my medical 
+condition. Requires a referral from my health insurance company. 
 
 ------------------ SELF REPORTED TREATMENT FACILITIES--------------------
 
@@ -536,35 +546,34 @@ Pre-Approval Phone Number:              000-000-0005
 Health Insurance Company Phone Number:  000-000-0005
 Comments: Coverage only for vision and dental. 
 
-
 ---------------------------- VA WELLNESS REMINDERS -------------------------
 
 Source: VA
-Last Updated: 09 Sep 2013 @ 0602
+Last Updated: 03 Jul 2013 @ 0635
 
 Wellness Reminder                  Due Date    Last Completed   Location
 ----------------------------------------------------------------------------
-Pneumonia Vaccine                  --          06 Mar 2011      PORTLAND, OR
-Body Mass Index more than 25       --          --               PORTLAND, OR
-Control of Your Cholesterol        --          --               PORTLAND, OR
-Influenza Vaccine                  --          --               PORTLAND, OR
+Pneumonia Vaccine                              06 Mar 2011      PORTLAND, OR
+Control of Your Cholesterol        DUE NOW     UNKNOWN          PORTLAND, OR
+Influenza Vaccine                  DUE NOW     UNKNOWN          PORTLAND, OR
 Colon Cancer Screening             01 Oct 2022 01 Oct 2012      PORTLAND, OR
-Pneumonia Vaccine                  --          --               SPOKANE VAMC
-Colon Cancer Screening             --          --               SPOKANE VAMC
-Influenza Vaccine                  --          --               SPOKANE VAMC
-Colon Cancer Screening             --          --               VA SOUTHERN 
-Influenza Vaccine                  --          --               VA SOUTHERN 
-Pneumonia Vaccine                  --          --               VA SOUTHERN 
+Body Mass Index more than 25       DUE NOW     UNKNOWN          PORTLAND, OR
+Colon Cancer Screening             DUE NOW     UNKNOWN          SPOKANE VAMC
+Influenza Vaccine                  DUE NOW     UNKNOWN          SPOKANE VAMC
+Pneumonia Vaccine                  DUE NOW     UNKNOWN          SPOKANE VAMC
+Colon Cancer Screening             DUE NOW     UNKNOWN          VA SOUTHERN 
+Influenza Vaccine                  DUE NOW     UNKNOWN          VA SOUTHERN 
+Pneumonia Vaccine                  DUE NOW     UNKNOWN          VA SOUTHERN 
 
 Learn more about these Wellness Reminders by visiting My HealtheVet.
 Please contact your health care team with any questions about your VA
 Wellness Reminders.
 
+
 --------------------------- VA APPOINTMENTS -----------------------------
 
 Source: VA
-Last Updated: 09 Sep 2013 @ 0602
-
+Last Updated: 03 Jul 2013 @ 0635
 Sort By: Date (Descending)
 
 All future VA Appointments are shown below. Past VA Appointments are 
@@ -578,40 +587,42 @@ FUTURE APPOINTMENTS:
 Date/Time:      09 Dec 2013 @ 0800
 Location:       PORTLAND
 Status:         FUTURE
-Clinic:         MH1I PROVIDER,A P2 Bldg 104
+Clinic:         MH1I P2 Bldg 104
+Phone Number:   5-5187
+
+Date/Time:      05 Aug 2013 @ 0800
+Location:       BEND
+Status:         FUTURE
+Clinic:         DEMENTIA BEND CVT 
+Phone Number:   5-1440
+
+Date/Time:      08 Jul 2013 @ 0800
+Location:       PORTLAND
+Status:         FUTURE
+Clinic:         MH1I P2 Bldg 104
 Phone Number:   5-5187
 
 
 PAST APPOINTMENTS:
 --------------------
-Date/Time:      05 Aug 2013 @ 0800
-Location:       BEND
-Status:         CANCELLED
-Clinic:         DEMENTIA BEND CVT PROVIDER
-Phone Number:   5-1440
-
-Date/Time:      08 Jul 2013 @ 0800
-Location:       PORTLAND
-Status:         APPOINTMENT NOT KEPT
-Clinic:         MH1I PROVIDER,O P2 Bldg 104
-Phone Number:   5-5187
-
 Date/Time:      16 May 2013 @ 0800
 Location:       PORTLAND
 Status:         CANCELLED
-Clinic:         MH1I PROVIDER,O P2 Bldg 104
+Clinic:         MH1I P2 Bldg 104
 Phone Number:   5-5187
 
 Date/Time:      07 Jan 2013 @ 0800
 Location:       PORTLAND
 Status:         APPOINTMENT NOT KEPT
-Clinic:         MH1I PROVIDER,O P2 Bldg 104
+Clinic:         MH1I P2 Bldg 104
 Phone Number:   5-5187
+
+
 
 -------------------------- VA MEDICATION HISTORY ----------------------
 
 Source: VA
-Last Updated: 28 Aug 2013 @ 0958
+Last Updated: 03 Jun 2013 @ 1016
 
 Sorted By: Last Filled On (Descending)
 
@@ -666,6 +677,158 @@ Days Supply: 30
 Pharmacy: PORTLAND PHARMACY
 Prescription Number: 11532048
 
+Medication: AMLODIPINE BESYLATE 10MG TAB 
+Instructions: TAKE ONE-HALF TABLET BY MOUTH EVERY DAY FOR BLOOD PRESSURE -- 
+AVOID GRAPEFRUIT JUICE -- 
+Status: Discontinued
+Refills Remaining: 3
+Last Filled On: 15 Jul 2012
+Initially Ordered On: 15 Jul 2012
+Quantity: 45
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181487A
+
+Medication: COLON ELECTROLYTE LAVAGE PWD FOR SOLN 
+Instructions: MIX 1 GALLON IN WATER AND DRINK AS DIRECTED FOR 1 DAY DISSOLVE 1 
+BOTTLE 
+Status: Discontinued
+Refills Remaining: 0
+Last Filled On: 15 Jul 2012
+Initially Ordered On: 13 Jul 2012
+Quantity: 1
+Days Supply: 2
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11461309
+
+Medication: DEXAMETHASONE 4MG TAB 
+Instructions: TAKE TWO TABLETS BY MOUTH HOUR FOR 2 DAYS -- TAKE WITH FOOD -- 
+Status: Discontinued
+Refills Remaining: 2
+Last Filled On: 09 Jul 2012
+Initially Ordered On: 06 Jul 2012
+Quantity: 96
+Days Supply: 30
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181530A
+
+Medication: IBUPROFEN 600MG TAB 
+Instructions: TAKE ONE TABLET BY MOUTH FOUR TIMES DAILY WITH MEALS AS NEEDED 
+FOR PAIN 
+Status: Discontinued
+Refills Remaining: 3
+Last Filled On: 09 Jul 2012
+Initially Ordered On: 06 Jul 2012
+Quantity: 240
+Days Supply: 60
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181491A
+
+Medication: INSULIN NPH HUMAN 100 UNIT/ML NOVOLIN N 
+Instructions: INJECT 16 UNITS SUBCUTANEOUSLY EVERY MORNING AND INJECT 18 UNITS 
+AT BEDTIME EACH VIAL EXPIRES 30 DAYS AFTER FIRST OPENING. 
+Status: Discontinued
+Refills Remaining: 1
+Last Filled On: 09 Jul 2012
+Initially Ordered On: 06 Jul 2012
+Quantity: 3
+Days Supply: 30
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181492A
+
+Medication: INSULIN,GLARGINE 100U/ML INJ 10ML VIAL 
+Instructions: INJECT 25 UNITS SUBCUTANEOUSLY AT BEDTIME * DO NOT MIX OTHER 
+INSULINS IN SAME SYRINGE AS GLARGINE. DISCARD VIAL 28 DAYS AFTER OPENING.  EACH 
+VIAL EXPIRES 28 DAYS AFTER FIRST OPENING. 
+Status: Discontinued
+Refills Remaining: 2
+Last Filled On: 09 Jul 2012
+Initially Ordered On: 06 Jul 2012
+Quantity: 3
+Days Supply: 30
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181494A
+
+Medication: ACCU-CHEK AVIVA (GLUCOSE) TEST STRIP #50 
+Instructions: USE 1 STRIP FOR BLOOD GLUCOSE TESTING AS DIRECTED 
+Status: Discontinued
+Refills Remaining: 2
+Last Filled On: 09 Jul 2012
+Initially Ordered On: 06 Jul 2012
+Quantity: 200
+Days Supply: 50
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181484A
+
+Medication: METFORMIN HCL 1000MG TAB 
+Instructions: TAKE ONE TABLET BY MOUTH TWICE DAILY WITH MEALS FOR DIABETES. 
+Status: Discontinued
+Refills Remaining: 2
+Last Filled On: 09 Jul 2012
+Initially Ordered On: 06 Jul 2012
+Quantity: 180
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181499A
+
+Medication: NAPROXEN 500MG TAB 
+Instructions: TAKE ONE TABLET BY MOUTH TWICE A DAY -- TAKE WITH FOOD IF GI 
+Status: Discontinued
+Refills Remaining: 3
+Last Filled On: 09 Jul 2012
+Initially Ordered On: 06 Jul 2012
+Quantity: 60
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181531A
+
+Medication: SIMVASTATIN 40MG TAB 
+Instructions: TAKE ONE-HALF TABLET BY MOUTH AT BEDTIME TO LOWER YOUR 
+CHOLESTEROL. AVOID CONSUMING GRAPEFRUIT PRODUCTS.  CALL YOUR PROVIDER IF YOU 
+HAVE UNEXPLAINED MUSCLE PAIN, TENDERNESS OR  WEAKNESS. 
+Status: Discontinued
+Refills Remaining: 2
+Last Filled On: 09 Jul 2012
+Initially Ordered On: 06 Jul 2012
+Quantity: 45
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181502A
+
+Medication: SODIUM CHLORIDE 0.65% SOLN NASAL 
+Instructions: SPRAY 2 SPRAYS MOUTH MINUTE FOR 30 DAYS 
+Status: Discontinued
+Refills Remaining: 3
+Last Filled On: 09 Jul 2012
+Initially Ordered On: 06 Jul 2012
+Quantity: 10
+Days Supply: 30
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181532A
+
+Medication: BACITRACIN OINTMENT 1 OZ 
+Instructions: APPLY SMALL AMOUNT TOPICALLY TO AFFECTED AREA TWICE A DAY TO 
+THREE TIMES A DAY FOR 30 DAYS 
+Status: Discontinued
+Refills Remaining: 1
+Last Filled On: 09 Jul 2012
+Initially Ordered On: 06 Jul 2012
+Quantity: 10
+Days Supply: 45
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181529A
+
+Medication: LISINOPRIL 10MG TAB 
+Instructions: TAKE ONE TABLET BY MOUTH EVERY DAY FOR BLOOD PRESSURE 
+Status: Discontinued
+Refills Remaining: 3
+Last Filled On: 09 Jul 2012
+Initially Ordered On: 06 Jul 2012
+Quantity: 30
+Days Supply: 30
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11181497A
+
 ------------------- SELF REPORTED MEDICATIONS AND SUPPLEMENTS ---------------
 
 Source: Self-Entered
@@ -674,7 +837,7 @@ No information was available that matched your selection.
 ----------------------------- VA ALLERGIES ------------------------------
 
 Source: VA
-Last Updated: 09 Sep 2013 @ 0602
+Last Updated: 03 Jul 2013 @ 0635
 
 Remember to share all information about your allergies with your health care 
 team.  If you have any questions about your information please visit the FAQs 
@@ -693,7 +856,7 @@ Comments:            severe
 Allergy Name:        TRIMETHOPRIM
 Location:            PORTLAND, OREGON VA MEDICAL CENTER
 Date Entered:        03 Jun 2011
-Reaction:            -- 
+Reaction:             
 Allergy Type:        DRUG 
 VA Drug Class:       ANTI-INFECTIVES,OTHER 
 Observed/Historical: HISTORICAL
@@ -719,12 +882,12 @@ Reaction:            DIZZINESS
 Allergy Type:        DRUG 
 VA Drug Class:       ALPHA BLOCKERS/RELATED 
 Observed/Historical: HISTORICAL
-Comments:            -- 
+Comments:             
 
 Allergy Name:        BACTRIM
 Location:            PORTLAND, OREGON VA MEDICAL CENTER
 Date Entered:        03 Jun 2011
-Reaction:            -- 
+Reaction:             
 Allergy Type:        DRUG 
 VA Drug Class:       SULFONAMIDE/RELATED ANTIMICROBIALS 
 Observed/Historical: HISTORICAL
@@ -753,6 +916,7 @@ Allergy information.
 
 Source: Self-Entered
 
+
 Allergy Name: Diovan
 Date:         07 Jan 2013
 Severity:     Mild
@@ -763,10 +927,11 @@ Reaction: Dry cough
 Comments: I called my provider and told him the reaction I had. He is calling 
 in a new Rx for my HTN 
 
+
 ---------------------------- VA PROBLEM LIST ----------------------------
 
 Source: VA
-Last Updated: 
+Last Updated: 03 Jul 2013 @ 0635
 
 Sorted By: Date/Time Entered (Descending) then alphabetically by Problem
 
@@ -780,45 +945,42 @@ information, visit the FAQs or contact your VA health care team.
 Problem:            Posttraumatic Stress Disorder
 Date/Time Entered:  11 Feb 2013 @ 1200
 Location:           PORTLAND, OREGON VA MEDICAL CENTER
-Status:             ACTIVE
+Status:             ACTIVE/CHRONIC
 Provider:           PROVIDER, ONE A
-Comments:           AWAITING A COMP AND PEN EXAM                                        comment #1                                         
-Comment #2                                        comment #3                                         
+Comments:           AWAITING A COMP AND PEN EXAM                                        comment #1                                        Comment #2                                        comment #3                                         
 
 Problem:            MILD COGNITIVE IMPAIRMENT
 Date/Time Entered:  16 Jan 2013 @ 1200
 Location:           PORTLAND, OREGON VA MEDICAL CENTER
-Status:             ACTIVE
+Status:             ACTIVE/CHRONIC
 Provider:           PROVIDER, ONE A
-Comments:           this is only a test                                        INDEPENDENT IN ADLs AND IADLs                                   
-       
+Comments:           this is only a test                                        INDEPENDENT IN ADLs AND IADLs                                         
 
 Problem:            Diabetes with neurological Manifestations, type i [Juvenile type], not stated as
 Date/Time Entered:  07 Dec 2012 @ 1200
 Location:           PORTLAND, OREGON VA MEDICAL CENTER
 Status:             ACTIVE
 Provider:           PROVIDER, ONE A
-Comments:           -- 
+Comments:            
 
 Problem:            Hyperlipidemia
 Date/Time Entered:  07 Dec 2012 @ 1200
 Location:           PORTLAND, OREGON VA MEDICAL CENTER
 Status:             ACTIVE
 Provider:           PROVIDER, ONE A
-Comments:           -- 
+Comments:            
 
 Problem:            TRAUMATIC BRAIN INJURY
 Date/Time Entered:  07 Dec 2012 @ 1200
 Location:           PORTLAND, OREGON VA MEDICAL CENTER
 Status:             ACTIVE
 Provider:           PROVIDER, ONE A
-Comments:           -- 
-
+Comments:            
 
 --------------------- VA ADMISSIONS AND DISCHARGES ----------------------
 
 Source: VA
-Last Updated: 
+Last Updated: 03 Jul 2013 @ 0635
 Sorted By: Admission Date/Time (Descending)
 
 Discharge summaries are available 3 calendar days after they are 
@@ -838,7 +1000,7 @@ DISCHARGE SUMMARY
  LOCAL TITLE: Discharge Summary                                  
 STANDARD TITLE: DISCHARGE SUMMARY                               
    DICT DATE: DEC 10, 2012@10:40     ENTRY DATE: DEC 10, 2012@10:41:06      
- DICTATED BY: PROVIDER, ONE A         ATTENDING: PROVIDER, ONE A            
+ DICTATED BY: PROVIDER, ONE A         ATTENDING: PROVIDER, ONE A             
      URGENCY: routine                    STATUS: COMPLETED                     
 
 THIS IS ONLY A TEST
@@ -900,17 +1062,17 @@ PROCEDURE               ORDERED(Y/N)    EXPECTED DATE IF NOT ORDERED
 2.
 3.
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 12/10/2012 16:15
-for PROVIDER A ONE MD                            
+for ONE A PROVIDER MD                            
 INTERNAL MEDICINE RESIDENT                        
 
 
 ------------------------------- VA NOTES --------------------------------
 
 Source: VA
-Last Updated: 
+Last Updated: 03 Jul 2013 @ 0635
 
 Sorted By: Date/Time (Descending)
 
@@ -925,20 +1087,24 @@ Note Title:              CARDIOLOGY - FOLLOW-UP
 Location:                PORTLAND, OREGON VA MEDICAL CENTER
 Signed By:               PROVIDER, ONE A
 Co-signed By:            PROVIDER, ONE A
-Date/Time Signed:        25 Jan 2013 @ 0707
+Date/Time Signed:        25 Jan 2013 @ 0701
 -------------------------------------------------------------------------
 
  LOCAL TITLE: CARDIOLOGY - FOLLOW-UP                             
 STANDARD TITLE: CARDIOLOGY OUTPATIENT NOTE                      
-DATE OF NOTE: JAN 25, 2013@07:01     ENTRY DATE: JAN 25, 2013@07:02:25      
-      AUTHOR: PROVIDER, ONE A  EXP COSIGNER: PROVIDER, ONE A          
-     URGENCY:                            STATUS: COMPLETED                     
+DATE OF NOTE: JAN 25, 2013@07:01     ENTRY DATE: JAN 25, 2013@07:02:25     
+ 
+      AUTHOR: PROVIDER, TWO B EXP COSIGNER: PROVIDER, ONE A          
+
+     URGENCY:                            STATUS: COMPLETED                 
+    
 
 
 Mr. ONE A MHVTESTVETERAN is a 64 yo M with a PMHx as below who 
 presents in routine follow-up.
 
-Past Cardiology History:Patient family history of cardiac stess and disease 
+Past Cardiology History:Patient family history of cardiac stess and 
+disease 
 (uncle and older brother) all with diabetes. 
 
 SUBJECTIVE:
@@ -999,85 +1165,93 @@ IMPRESSION:
 3.
 4.
 
-PLAN:Order a series of test to include a stress test and a series of cardiac lab 
-
+PLAN:Order a series of test to include a stress test and a series of 
+cardiac lab 
 panels.  Will also review patient's current medication history and revise 
 accordingly.
 
-FELLOW SUPERVISION: Staffed with Dr. Provider who agrees with my assessment and 
+FELLOW SUPERVISION: Staffed with Dr. Provider who agrees with my 
+assessment and 
 plan.
 
 
  
-/es/ ONE A PROVIDER
+/es/ TWO B PROVIDER
 Chief of  Clinical Appl Coord  
 Signed: 01/25/2013 07:07
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Cosigned: 02/11/2013 07:55
-
- LOCAL TITLE: CARDIOLOGY - FOLLOW-UP                             
-STANDA
+ 
 =========================================================================
 Date/Time:               25 Jan 2013 @ 0655
 Note Title:              INPAT - MED - MS - PROGRESS
 Location:                PORTLAND, OREGON VA MEDICAL CENTER
-Signed By:               PROVIDER, ONE A
-Co-signed By:            PROVIDER, ONE A
-Date/Time Signed:        25 Jan 2013 @ 0700
+Signed By:               PROVIDER, TWO B
+Co-signed By:            PROVIDER, TWO B
+Date/Time Signed:        25 Jan 2013 @ 0655
 -------------------------------------------------------------------------
 
  LOCAL TITLE: INPAT - MED - MS - PROGRESS                        
 STANDARD TITLE: STUDENT INPATIENT NOTE                          
-DATE OF NOTE: JAN 25, 2013@06:55     ENTRY DATE: JAN 25, 2013@06:56:26      
-      AUTHOR: PROVIDER, ONE A  EXP COSIGNER: PROVIDER, ONE A           
-     URGENCY:                            STATUS: COMPLETED                     
+DATE OF NOTE: JAN 25, 2013@06:55     ENTRY DATE: JAN 25, 2013@06:56:26     
+ 
+      AUTHOR: PROVIDER, TWO B  EXP COSIGNER: PROVIDER, ONE A          
+
+     URGENCY:                            STATUS: COMPLETED                 
+    
 
    *** INPAT - MED - MS - PROGRESS Has ADDENDA ***
 
 Patient presented and discussed at multi-disciplinary rounds today: Yes
 
-during patient interview&lt; ia sked Mr. MHV if his family had a history of 
-cardiac issues and diabetes, he replied that yes there was a history of both 
-with his uncle and older brother.  This new line of questioning was in response 
-to a comment he made earlier to his RN. Plan to follow up with Dr. Provider, the 
+during patient interview&lt; ia sked Mr. MHV if his family had a history 
+of 
+cardiac issues and diabetes, he replied that yes there was a history of 
+both 
+with his uncle and older brother.  This new line of questioning was in 
+response 
+to a comment he made earlier to his RN. Plan to follow up with Dr.Provider, 
+the 
 resident which is providing care for Mr. MHV.
 
  
-The patient was staffed with Dr. Provider who agrees with my assessment and plan.
+The patient was staffed with Dr. Provider who agrees with my assessment 
+and plan.
  
-/es/ ONE A PROVIDER
+/es/ TWO B PROVIDER
 Chief of  Clinical Appl Coord  
 Signed: 01/25/2013 07:00
  
-/es/ PROVIDER, ONE A MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Cosigned: 02/11/2013 07:55
 
 01/25/2013 ADDENDUM                      STATUS: COMPLETED
 this is only a test of making an addendum
  
-/es/ PROVIDER, ONE A MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/25/2013 11:48
-
- LOCAL TITLE: INPAT - MED - MS - PROGRESS                        
-STANDA
+ 
 =========================================================================
 Date/Time:               24 Jan 2013 @ 1437
 Note Title:              PHYSICAL THERAPY - INPATIENT NOTE
 Location:                PORTLAND, OREGON VA MEDICAL CENTER
 Signed By:               PROVIDER, ONE A
 Co-signed By:            PROVIDER, ONE A
-Date/Time Signed:        24 Jan 2013 @ 1438
+Date/Time Signed:        24 Jan 2013 @ 1437
 -------------------------------------------------------------------------
 
  LOCAL TITLE: PHYSICAL THERAPY - INPATIENT NOTE                  
 STANDARD TITLE: PHYSICAL THERAPY INPATIENT NOTE                 
-DATE OF NOTE: JAN 24, 2013@14:37     ENTRY DATE: JAN 24, 2013@14:38         
+DATE OF NOTE: JAN 24, 2013@14:37     ENTRY DATE: JAN 24, 2013@14:38        
+ 
       AUTHOR: PROVIDER, ONE A      EXP COSIGNER:                           
-     URGENCY:                            STATUS: COMPLETED                     
+
+     URGENCY:                            STATUS: COMPLETED                 
+    
 
 S: 
         Pain level: 
@@ -1094,26 +1268,27 @@ THIS IS ONLY A TEST
 /es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/24/2013 14:38
-
- LOCAL TITLE: PHYSICAL THERAPY - INPATIENT NOTE                  
-STANDA
+ 
 =========================================================================
 Date/Time:               24 Jan 2013 @ 1436
 Note Title:              INPAT - CT SURG - ADMIT
 Location:                PORTLAND, OREGON VA MEDICAL CENTER
 Signed By:               PROVIDER, ONE A
 Co-signed By:            PROVIDER, ONE A
-Date/Time Signed:        24 Jan 2013 @ 1437
+Date/Time Signed:        24 Jan 2013 @ 1436
 -------------------------------------------------------------------------
 
  LOCAL TITLE: INPAT - CT SURG - ADMIT                            
 STANDARD TITLE: THORACIC SURGERY INPATIENT NOTE                 
-DATE OF NOTE: JAN 24, 2013@14:36     ENTRY DATE: JAN 24, 2013@14:37:02      
-      AUTHOR: PROVIDER, ONE A      EXP COSIGNER:                           
-     URGENCY:                            STATUS: COMPLETED                     
+DATE OF NOTE: JAN 24, 2013@14:36     ENTRY DATE: JAN 24, 2013@14:37:02     
+ 
+      AUTHOR: PROVIDER, ONE A     EXP COSIGNER:                           
+
+     URGENCY:                            STATUS: COMPLETED                 
+    
 
 I have seen and discussed the patient with my supervising 
-practitioner, Dr. One A Provider , and Dr. Two B Provider
+practitioner, Dr. One A Providerr, and Dr. Two B Provider
 who is in agreement with the assesment and plan.
 
 Patient Name: MHVTESTVETERAN,ONE A 
@@ -1154,12 +1329,10 @@ A:
 P: 
  
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/24/2013 14:37
-
- LOCAL TITLE: INPAT - CT SURG - ADMIT                            
-STANDA
+ 
 =========================================================================
 Date/Time:               24 Jan 2013 @ 1435
 Note Title:              SPECIALTY CLINIC PROGRESS NOTE
@@ -1171,32 +1344,36 @@ Date/Time Signed:        24 Jan 2013 @ 1435
 
  LOCAL TITLE: SPECIALTY CLINIC PROGRESS NOTE                     
 STANDARD TITLE: NURSING NOTE                                    
-DATE OF NOTE: JAN 24, 2013@14:35     ENTRY DATE: JAN 24, 2013@14:35:11      
+DATE OF NOTE: JAN 24, 2013@14:35     ENTRY DATE: JAN 24, 2013@14:35:11     
+ 
       AUTHOR: PROVIDER, ONE A      EXP COSIGNER:                           
-     URGENCY:                            STATUS: COMPLETED                     
+
+     URGENCY:                            STATUS: COMPLETED                 
+    
 
 This is only a test. 
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/24/2013 14:35
-
- LOCAL TITLE: SPECIALTY CLINIC PROGRESS NOTE                     
-STANDA
+ 
 =========================================================================
 Date/Time:               24 Jan 2013 @ 1433
 Note Title:              DAILY PERIPHERAL LINE - MAINTENANCE
 Location:                PORTLAND, OREGON VA MEDICAL CENTER
 Signed By:               PROVIDER, ONE A
 Co-signed By:            PROVIDER, ONE A
-Date/Time Signed:        24 Jan 2013 @ 1434
+Date/Time Signed:        24 Jan 2013 @ 1433
 -------------------------------------------------------------------------
 
  LOCAL TITLE: DAILY PERIPHERAL LINE - MAINTENANCE                
 STANDARD TITLE: TEAM NOTE                                       
-DATE OF NOTE: JAN 24, 2013@14:33     ENTRY DATE: JAN 24, 2013@14:33:56      
-      AUTHOR: PROVIDER, ONE A      EXP COSIGNER:                           
-     URGENCY:                            STATUS: COMPLETED                     
+DATE OF NOTE: JAN 24, 2013@14:33     ENTRY DATE: JAN 24, 2013@14:33:56     
+ 
+      AUTHOR: PROVIDER, ONE A        EXP COSIGNER:                           
+
+     URGENCY:                            STATUS: COMPLETED                 
+    
 
    *** DAILY PERIPHERAL LINE - MAINTENANCE Has ADDENDA ***
 
@@ -1210,7 +1387,7 @@ Location: Right hand
   Phlebitis (REQUIRED): 
     0 = No symptoms.
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/24/2013 14:34
 
@@ -1223,35 +1400,37 @@ Thought Processing:
 Speech is regular rate and rhythm, normal volume with no thought disorder.
 
 Thought Content:
-Patient thoughts marked by no evidence of psychotic symptoms, no evidence of SI 
+Patient thoughts marked by no evidence of psychotic symptoms, no evidence 
+of SI 
 or HI.
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/25/2013 11:48
-
- LOCAL TITLE: DAILY PERIPHERAL LINE - MAINTENANCE                
-STANDA
+ 
 =========================================================================
 Date/Time:               24 Jan 2013 @ 1431
 Note Title:              GEN SURG - ATTENDING
 Location:                PORTLAND, OREGON VA MEDICAL CENTER
 Signed By:               PROVIDER, ONE A
 Co-signed By:            PROVIDER, ONE A
-Date/Time Signed:        24 Jan 2013 @ 1432
+Date/Time Signed:        24 Jan 2013 @ 1431
 -------------------------------------------------------------------------
 
  LOCAL TITLE: GEN SURG - ATTENDING                               
 STANDARD TITLE: SURGERY ATTENDING NOTE                          
-DATE OF NOTE: JAN 24, 2013@14:31     ENTRY DATE: JAN 24, 2013@14:32:05      
-      AUTHOR: PROVIDER, ONE A      EXP COSIGNER:                           
-     URGENCY:                            STATUS: COMPLETED                     
+DATE OF NOTE: JAN 24, 2013@14:31     ENTRY DATE: JAN 24, 2013@14:32:05     
+ 
+      AUTHOR: PROVIDER, ONE A        EXP COSIGNER:                           
+
+     URGENCY:                            STATUS: COMPLETED                 
+    
 
    *** GEN SURG - ATTENDING Has ADDENDA ***
 
 THIS IS ONLY A TEST
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/24/2013 14:32
 
@@ -1398,87 +1577,90 @@ Axis V
 TREATMENT PLAN
 
  
-/es/ ONE A.PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/25/2013 11:47
-
- LOCAL TITLE: GEN SURG - ATTENDING                               
-STANDA
+ 
 =========================================================================
 Date/Time:               24 Jan 2013 @ 1430
 Note Title:              PDHC - NEW PCP
 Location:                PORTLAND, OREGON VA MEDICAL CENTER
 Signed By:               PROVIDER, ONE A
 Co-signed By:            PROVIDER, ONE A
-Date/Time Signed:        24 Jan 2013 @ 1431
+Date/Time Signed:        24 Jan 2013 @ 1430
 -------------------------------------------------------------------------
 
  LOCAL TITLE: PDHC - NEW PCP                                     
 STANDARD TITLE: OEF/OIF NOTE                                    
-DATE OF NOTE: JAN 24, 2013@14:30     ENTRY DATE: JAN 24, 2013@14:31:16      
-      AUTHOR: PROVIDER, ONE A      EXP COSIGNER:                           
-     URGENCY:                            STATUS: COMPLETED                     
+DATE OF NOTE: JAN 24, 2013@14:30     ENTRY DATE: JAN 24, 2013@14:31:16     
+ 
+      AUTHOR: PROVIDER, ONE A        EXP COSIGNER:                           
+
+     URGENCY:                            STATUS: COMPLETED                 
+    
 
    *** PDHC - NEW PCP Has ADDENDA ***
 
 This is only a test. 
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/24/2013 14:31
 
 01/25/2013 ADDENDUM                      STATUS: COMPLETED
 this is only a test
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/25/2013 11:47
-
- LOCAL TITLE: PDHC - NEW PCP                                     
-STANDA
+ 
 =========================================================================
 Date/Time:               08 Jan 2013 @ 1145
 Note Title:              10-10M
 Location:                VA SOUTHERN OREGON REHABILITATION CENTER CLINICS
-Signed By:               PROVIDER,ONE A
-Co-signed By:            PROVIDER,ONE A
-Date/Time Signed:        08 Jan 2013 @ 1146
+Signed By:               PROVIDER, ONE A
+Co-signed By:            PROVIDER, ONE A
+Date/Time Signed:        08 Jan 2013 @ 1145
 -------------------------------------------------------------------------
 
  LOCAL TITLE: 10-10M                                             
 STANDARD TITLE: PHYSICIAN NOTE                                  
-DATE OF NOTE: JAN 08, 2013@11:45     ENTRY DATE: JAN 08, 2013@11:45:58      
-      AUTHOR: PROVIDER,ONE A       EXP COSIGNER:                           
-     URGENCY:                            STATUS: COMPLETED                     
+DATE OF NOTE: JAN 08, 2013@11:45     ENTRY DATE: JAN 08, 2013@11:45:58     
+ 
+      AUTHOR: PROVIDER, ONE A        EXP COSIGNER:                           
+
+     URGENCY:                            STATUS: COMPLETED                 
+    
 
 Testing for national and VISN for Open Notes project
  
-/es/ ONE A PROVIDER
+/es/ TWO B PROVIDER
 PRIVACY OFFICER
 Signed: 01/08/2013 11:46
-
- LOCAL TITLE: 10-10M                                             
-STANDA
+ 
 =========================================================================
 Date/Time:               07 Jan 2013 @ 1428
 Note Title:              SECURE MESSAGING
 Location:                PORTLAND, OREGON VA MEDICAL CENTER
 Signed By:               PROVIDER, ONE A
 Co-signed By:            PROVIDER, ONE A
-Date/Time Signed:        07 Jan 2013 @ 1429
+Date/Time Signed:        07 Jan 2013 @ 1428
 -------------------------------------------------------------------------
 
  LOCAL TITLE: SECURE MESSAGING                                   
 STANDARD TITLE: MHV DIALOG NOTE                                 
-DATE OF NOTE: JAN 07, 2013@14:28     ENTRY DATE: JAN 07, 2013@14:28:52      
-      AUTHOR: PROVIDER, ONE A      EXP COSIGNER:                           
-     URGENCY:                            STATUS: COMPLETED                     
+DATE OF NOTE: JAN 07, 2013@14:28     ENTRY DATE: JAN 07, 2013@14:28:52     
+ 
+      AUTHOR: PROVIDER, ONE A        EXP COSIGNER:                           
+
+     URGENCY:                            STATUS: COMPLETED                 
+    
 
    *** SECURE MESSAGING Has ADDENDA ***
 
 THIS IS A TEST
  
-/es/ ONE A. PROVIDER MD
+/es/ DONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/07/2013 14:29
 
@@ -1505,7 +1687,8 @@ CLINICAL REMINDER ACTIVITY
 
     ASSESSMENT: Suicide risk screen is negative. 
 
-    PROVIDER EVALUATION The results of the PHQ depression screen have been
+    PROVIDER EVALUATION The results of the PHQ depression screen have 
+been
     reviewed. I have personally evaluated the patient including inquiry
     about feelings of hopelessness, suicidal thoughts, suicide plan if
     thoughts are present, and prior suicide attempts. Based on the
@@ -1522,16 +1705,19 @@ CLINICAL REMINDER ACTIVITY
               Given by: Staff Nurse 
  
 
-       Patient was given a copy of 2012-2013 Vaccine Information Statement
+       Patient was given a copy of 2012-2013 Vaccine Information 
+Statement
        for Influenza and verbalized an understanding of the document. 
 
        Patient has been advised of possible side effects 
        (rash, hives, nausea, difficulty breathing, redness, unusual 
         pain, fever) and given the following instructions: 
 
-        *Notify the nurse immediately if any side effects are experienced.
+        *Notify the nurse immediately if any side effects are 
+experienced.
 
-        *If any urgent or emergent problems are experienced after leaving 
+        *If any urgent or emergent problems are experienced after 
+leaving 
          the clinical area report to the nearest emergency room or call
       911.
   *Nurse/MA BP&gt;=140/90:
@@ -1573,11 +1759,13 @@ CLINICAL REMINDER ACTIVITY
       year?
       Never
 
-      2. How many drinks containing alcohol did you have on a typical day
+      2. How many drinks containing alcohol did you have on a typical 
+day
       when you were drinking in the past year?
       Response not required due to responses to other questions.
 
-      3. How often did you have six or more drinks on one occasion in the 
+      3. How often did you have six or more drinks on one occasion in 
+the 
       past year?
       Response not required due to responses to other questions.
     The patient reports drinking below the recommended limits.
@@ -1601,7 +1789,8 @@ CLINICAL REMINDER ACTIVITY
 
     ASSESSMENT: Suicide risk screen is negative. 
 
-    PROVIDER EVALUATION The results of the PHQ depression screen have been
+    PROVIDER EVALUATION The results of the PHQ depression screen have 
+been
     reviewed. I have personally evaluated the patient including inquiry
     about feelings of hopelessness, suicidal thoughts, suicide plan if
     thoughts are present, and prior suicide attempts. Based on the
@@ -1621,41 +1810,40 @@ CLINICAL REMINDER ACTIVITY
       No mental health condition requiring further intervention.
         Comment: test patient
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/07/2013 15:31
-
- LOCAL TITLE: SECURE MESSAGING                                   
-STANDA
+ 
 =========================================================================
 Date/Time:               07 Jan 2013 @ 1427
 Note Title:              MHD - INDIVIDUAL NOTE
 Location:                PORTLAND, OREGON VA MEDICAL CENTER
 Signed By:               PROVIDER, ONE A
 Co-signed By:            PROVIDER, ONE A
-Date/Time Signed:        07 Jan 2013 @ 1428
+Date/Time Signed:        07 Jan 2013 @ 1427
 -------------------------------------------------------------------------
 
  LOCAL TITLE: MHD - INDIVIDUAL NOTE                              
 STANDARD TITLE: MENTAL HEALTH OUTPATIENT NOTE                   
-DATE OF NOTE: JAN 07, 2013@14:27     ENTRY DATE: JAN 07, 2013@14:28:02      
-      AUTHOR: PROVIDER, ONE AM      EXP COSIGNER:                           
-     URGENCY:                            STATUS: COMPLETED                     
+DATE OF NOTE: JAN 07, 2013@14:27     ENTRY DATE: JAN 07, 2013@14:28:02     
+ 
+      AUTHOR: PROVIDER, ONE A        EXP COSIGNER:                           
+
+     URGENCY:                            STATUS: COMPLETED                 
+    
 
 THIS IS A TEST.  THIS IS ONLY A TEST
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Signed: 01/07/2013 14:28
  
-/es/ ONE A. PROVIDER MD
+/es/ ONE A PROVIDER MD
 CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
 Cosigned: 05/03/2013 09:43
 for                                               
                                                   
-
- LOCAL TITLE: MHD - INDIVIDUAL NOTE                              
-STANDA
+ 
 
 
 ----------------------- SELF REPORTED MEDICAL EVENTS ------------------------
@@ -1670,11 +1858,10 @@ Response: Slipped and fell on ice. Placed in cast from my hand to my elbow
 
 Comments: Need to F/U with VA PCP 
 
-
 ---------------------------- VA IMMUNIZATIONS -------------------------
 
 Source: VA
-Last Updated: 
+Last Updated: 03 Jul 2013 @ 0635
 
 Your VA Immunizations list may not be complete.  If you have any questions 
 about your information, visit the FAQs or contact your VA health care team. 
@@ -1710,7 +1897,7 @@ Immunization:   INFLUENZA-H1N1-09, NOVEL (PANDEMIC)
 Date Received:  01 Oct 2012 @ 1200
 Location:       PORTLAND (OR) VAMC
 Reaction:*      None Reported
-Comments:       -- 
+Comments:        
 
 --------------------------------------------------------------------------
 
@@ -1758,11 +1945,10 @@ Reactions:
 Comments: Stepped on a board with rusty nails in it. Nail just broke the skin 
 
 
-
 ------------------------- VA LABORATORY RESULTS -------------------------
 
 Source: VA
-Last Updated: 09 Sep 2013 @ 0602
+Last Updated: 03 Jul 2013 @ 0635
 
 Sorted By: Date Specimen Collected (Descending) Lab Test(Alphabetical 
 Order), then Time Specimen Collected 
@@ -1776,19 +1962,19 @@ contact your VA health care team.
 =========================================================================
 Lab Test: Potassium
 Lab Type: Chemistry/Hematology
-Ordering Provider: PROVIDER, TWO
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Provider: PROVIDER, THREE
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 17 Jan 2013 @ 1341
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: POTASSIUM
 Result: 6.5 Critical High
 Units: mmol/L
 Reference Range: (3.5-5.0)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -1845,10 +2031,10 @@ MIC  = Minimum Inhibitory Concentration     R = Resistant
 Lab Test: Glycohemoglobin A(1) C
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Whole blood
 Date/Time Collected: 12 Dec 2012 @ 0811
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: HEMOGLOBIN A1C/HEMOGLOBIN.TOTAL
 Result: 8.5 High
@@ -1859,9 +2045,9 @@ Hemoglobin A1c values reported after 1-1-95 are standardized
 in accordance with recommendations of the Diabetes Control
 and Complications Trial(DCCT).  Based on these recommendations,
 a upward shift in reported results will be noted.  A table
-depicting this shift is available in Chemistry on request.
- Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+depicting this shift is available in Chemistry on request. 
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -1872,45 +2058,63 @@ Comments: TEST
 Lab Test: Cell Count Body Fluid
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Cerebral spinal fluid
 Date/Time Collected: 12 Dec 2012 @ 0810
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
+Test Name: APPEARANCE BODY FLUID
+Result: CLEAR 
+Units: 
+Reference Range: 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: COLOR
+Result: YELLOW 
+Units: 
+Reference Range: 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
 Test Name: ERYTHROCYTES
 Result: 10 High
 Units: #/cumm
 Reference Range: (0-0)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 ----------------------
 Test Name: LEUKOCYTES
 Result: 250 High
 Units: #/cumm
 Reference Range: (0-6)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 ----------------------
 Test Name: TUBE NUMBER
 Result: 1 
-Units: --
+Units: 
 Reference Range: 
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 ----------------------
-Test Name: XANTHOCHROMIA
+Test Name: XANTHOCHROMIA, CSF
 Result: NEG 
-Units: --
+Units: 
 Reference Range: 
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -1921,18 +2125,18 @@ Comments: TEST
 Lab Test: Albumin/Creat Ratio
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Urine
 Date/Time Collected: 12 Dec 2012 @ 0810
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: ALBUMIN
 Result: 25 High
 Units: MG/DL
 Reference Range: (0-2)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 ----------------------
 Test Name: ALBUMIN/CREATININE
@@ -1943,17 +2147,17 @@ Interpretation: Reference range change per ADA Guidelines.
 Normal                <30      mg/g
 Microalbuminuria      30 - 299 mg/g
 Clinical Albuminuria  >300     mg/g 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 ----------------------
 Test Name: CREATININE
 Result: 1.2 
 Units: mg/dL
 Reference Range: 
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -1964,10 +2168,10 @@ Comments: TEST
 Lab Test: Lipid Panel
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0809
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: CHOLESTEROL
 Result: 165 
@@ -1976,17 +2180,17 @@ Reference Range: (1-240)
 Interpretation: DESIRABLE VALUE:     <200
 BORDERLINE VALUE: 201-239
 ELEVATED VALUE:      >240 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 ----------------------
 Test Name: CHOLESTEROL.IN HDL
 Result: 45 
 Units: mg/dL
 Reference Range: (32-78)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 ----------------------
 Test Name: CHOLESTEROL.IN LDL
@@ -2001,9 +2205,9 @@ LOW RISK:     <130 MG/DL
 BORDERLINE HIGH RISK:  130-159 MG/DL
 HIGH RISK:    >=160 MG/DL
 NOTE THAT NONFASTING RESULTS ARE SLIGHTLY LOWER THAN
-FASTING RESULTS.
- Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+FASTING RESULTS. 
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 ----------------------
 Test Name: TRIGLYCERIDE
@@ -2014,9 +2218,9 @@ Interpretation: DESIRABLE VALUE:     <150
 BORDERLINE VALUE: 150-199
 ELEVATED VALUE:   200-499
 Patient should be fasting at time of specimen collection for
-valid interpretation of triglyceride level.
- Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+valid interpretation of triglyceride level. 
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2027,18 +2231,18 @@ Comments: TEST
 Lab Test: VDRL
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Cerebral spinal fluid
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: REAGIN AB
 Result: NEG 
-Units: --
-Reference Range: ("SEE INTERPRETATION")
+Units: 
+Reference Range: (SEE INTERPRETATION)
 Interpretation: NORMAL REFERENCE RANGE = NONREACTIVE 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2049,18 +2253,18 @@ Comments: TEST
 Lab Test: Carbon Dioxide Content
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: CARBON DIOXIDE
 Result: 25 
 Units: mmol/L
 Reference Range: (21-32)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2071,18 +2275,18 @@ Comments: TEST
 Lab Test: Chloride
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: CHLORIDE
 Result: 102 
 Units: mmol/L
 Reference Range: (95-108)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2093,18 +2297,18 @@ Comments: TEST
 Lab Test: Creatinine
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: CREATININE
 Result: 1.3 
 Units: mg/dL
 Reference Range: (0.8-1.5)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2115,22 +2319,44 @@ Comments: TEST
 Lab Test: Creatinine eGFR
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: GLOMERULAR FILTRATION RATE.PREDICTED
 Result: 56 Low
-Units: --
+Units: 
 Reference Range: (>60)
 Interpretation: An eGFR <60 is abnormal.
 Estimated glomerular filtration rate (eGFR) results >60 are imprecise.
 Many variables affect the calculated result.
 Interpretation of eGFR results >60 must be monitored over time.
 Units are mL/min/1.73m^2. 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
+Status: Final
+-------------------------------------------------------------------------
+
+Comments: TEST 
+
+=========================================================================
+
+Lab Test: Gen Chem Specimen
+Lab Type: Chemistry/Hematology
+Ordering Provider: PROVIDER, ONE
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
+Specimen: Plasma
+Date/Time Collected: 12 Dec 2012 @ 0808
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
+-------------------------------------------------------------------------
+Test Name: ANION GAP
+Result: 19 
+Units: mmol/L
+Reference Range: (10-22)
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2141,18 +2367,18 @@ Comments: TEST
 Lab Test: Glucose Quant
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: GLUCOSE
 Result: 150 High
 Units: mg/dL
 Reference Range: (71-109)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2163,10 +2389,10 @@ Comments: TEST
 Lab Test: Lipid Panel
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: CHOLESTEROL
 Result: 150 
@@ -2175,17 +2401,17 @@ Reference Range: (1-240)
 Interpretation: DESIRABLE VALUE:     <200
 BORDERLINE VALUE: 201-239
 ELEVATED VALUE:      >240 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 ----------------------
 Test Name: CHOLESTEROL.IN HDL
 Result: 23 Low
 Units: mg/dL
 Reference Range: (32-78)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 ----------------------
 Test Name: CHOLESTEROL.IN LDL
@@ -2200,9 +2426,9 @@ LOW RISK:     <130 MG/DL
 BORDERLINE HIGH RISK:  130-159 MG/DL
 HIGH RISK:    >=160 MG/DL
 NOTE THAT NONFASTING RESULTS ARE SLIGHTLY LOWER THAN
-FASTING RESULTS.
- Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+FASTING RESULTS. 
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 ----------------------
 Test Name: TRIGLYCERIDE
@@ -2213,9 +2439,9 @@ Interpretation: DESIRABLE VALUE:     <150
 BORDERLINE VALUE: 150-199
 ELEVATED VALUE:   200-499
 Patient should be fasting at time of specimen collection for
-valid interpretation of triglyceride level.
- Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+valid interpretation of triglyceride level. 
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2226,18 +2452,18 @@ Comments: TEST
 Lab Test: Potassium
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: POTASSIUM
 Result: 3.5 
 Units: mmol/L
 Reference Range: (3.5-5.0)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2248,18 +2474,18 @@ Comments: TEST
 Lab Test: Sodium
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: SODIUM
 Result: 145 High
 Units: mmol/L
 Reference Range: (131-142)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2270,18 +2496,18 @@ Comments: TEST
 Lab Test: Thyroid Stimulating Hormone
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: THYROTROPIN
 Result: 29 High
 Units: uIU/mL
 Reference Range: (0.27-4.20)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2292,40 +2518,18 @@ Comments: TEST
 Lab Test: Transferase Aspartate  SGOT
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: ASPARTATE AMINOTRANSFERASE
 Result: 12 Low
 Units: IU/L
 Reference Range: (14-44)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
-Status: Final
--------------------------------------------------------------------------
-
-Comments: TEST 
-
-=========================================================================
-
-Lab Test: Unknown
-Lab Type: Chemistry/Hematology
-Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
-Specimen: Plasma
-Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
--------------------------------------------------------------------------
-Test Name: ANION GAP
-Result: 19 
-Units: mmol/L
-Reference Range: (10-22)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2336,18 +2540,18 @@ Comments: TEST
 Lab Test: Urea Nitrogen
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Plasma
 Date/Time Collected: 12 Dec 2012 @ 0808
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: UREA NITROGEN
 Result: 25 High
 Units: mg/dL
 Reference Range: (7-23)
-Interpretation: -- 
-Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+Interpretation:  
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2358,10 +2562,10 @@ Comments: TEST
 Lab Test: Glycohemoglobin A(1) C
 Lab Type: Chemistry/Hematology
 Ordering Provider: PROVIDER, ONE
-Ordering Location: PORTLAND (OR) VAMC
+Ordering Location: PORTLAND, OREGON VA MEDICAL CENTER
 Specimen: Whole blood
 Date/Time Collected: 12 Dec 2012 @ 0806
-Collected Location: PORTLAND (OR) VAMC
+Collected Location: PORTLAND, OREGON VA MEDICAL CENTER
 -------------------------------------------------------------------------
 Test Name: HEMOGLOBIN A1C/HEMOGLOBIN.TOTAL
 Result: 7.4 High
@@ -2372,9 +2576,9 @@ Hemoglobin A1c values reported after 1-1-95 are standardized
 in accordance with recommendations of the Diabetes Control
 and Complications Trial(DCCT).  Based on these recommendations,
 a upward shift in reported results will be noted.  A table
-depicting this shift is available in Chemistry on request.
- Performing Location: PORTLAND (OR) VAMC 3710 SW US VETERANS HOSPTL RD , 
-PORTLAND, OR 97239-2964 
+depicting this shift is available in Chemistry on request. 
+Performing Location: PORTLAND, OREGON VA MEDICAL CENTER 3710 SW US VETERANS 
+HOSPTL RD , PORTLAND, OR 97239-2964 
 Status: Final
 -------------------------------------------------------------------------
 
@@ -2387,7 +2591,7 @@ Comments: TEST
 ------------------------- VA PATHOLOGY REPORTS --------------------------
 
 Source: VA
-Last Updated: 
+Last Updated: 03 Jul 2013 @ 0635
 
 Sorted By: Date Obtained (Descending), Type of Report
 
@@ -2406,10 +2610,10 @@ Date Completed:       28 Mar 2013
 SURGICAL PATHOLOGY REPORT
 
 
-Date Spec taken: Mar 28, 2013 08:18  Pathologist:ONE PROVIDER
+Date Spec taken: Mar 28, 2013 08:18  Pathologist:TWO PROVIDER
 Date Spec rec'd: Mar 28, 2013 08:18  Resident: 
 Date  completed: Mar 28, 2013        Accession #: SP 13 99997
-Submitted by: PROVIDER,O              Practitioner:ONE A PROVIDER MD
+Submitted by: PROVIDER, O            Practitioner:ONE A PROVIDER MD
 -------------------------------------------------------------------------------
 Specimen: 
 SKIN
@@ -2431,10 +2635,10 @@ Date Completed:       09 Jan 2013
 CYTOLOGY REPORT
 
 
-Date Spec taken: Jan 09, 2013 08:51  Pathologist:PROVIDER B TWO MD
-Date Spec rec'd: Jan 09, 2013 08:51  Tech: ONE PROVIDER
+Date Spec taken: Jan 09, 2013 08:51  Pathologist:TWO B PROVIDER MD
+Date Spec rec'd: Jan 09, 2013 08:51  Tech: TWO TECHNICIAN
 Date  completed: Jan 09, 2013        Accession #: CY 13 9998
-Submitted by: provider, one        Practitioner:PROVIDER B TWO MD
+Submitted by: TWO PROVIDER           Practitioner:TWO B PROVIDER MD
 -------------------------------------------------------------------------------
 Specimen: 
 nose
@@ -2456,10 +2660,10 @@ Date Completed:       28 Dec 2012
 SURGICAL PATHOLOGY REPORT
 
 
-Date Spec taken: Dec 28, 2012 07:24  Pathologist:ONE PROVIDER
+Date Spec taken: Dec 28, 2012 07:24  Pathologist: TWO PROVIDER
 Date Spec rec'd: Dec 28, 2012 07:24  Resident: 
 Date  completed: Dec 28, 2012        Accession #: SP 12 99998
-Submitted by: PROVIDER,ONE            Practitioner: PROVIDER, ONE A MD
+Submitted by: PROVIDER, ONE          Practitioner:ONE A PROVIDER MD
 -------------------------------------------------------------------------------
 Specimen: 
 NOSE
@@ -2471,11 +2675,11 @@ Postoperative Diagnosis:
 STILL NO FINDINGS
 GROSS DESCRIPTION:
                            *+* MODIFIED REPORT *+*
-(Last modified: Mar 27, 2013 08:27 typed by PROVIDER, ONE)
+(Last modified: Mar 27, 2013 08:27 typed by PROVIDER, TWO)
 really gross nose
 MICROSCOPIC EXAM: (Date Spec taken: Dec 28, 2012 07:24)
                            *+* MODIFIED REPORT *+*
-(Last modified: Mar 27, 2013 08:28 typed by PROVIDER, ONE)
+(Last modified: Mar 27, 2013 08:28 typed by PROVIDER, TWO)
 large pores under microscopic exam
 Comments:
 TEST PATIENT
@@ -2506,7 +2710,7 @@ Comments: This is an old lab test. I wanted the report in my record
 ------------------------ VA VITALS AND READINGS -------------------------
 
 Source: VA
-Last Updated: 
+Last Updated: 03 Jul 2013 @ 0635
 
 
 VA Vitals and Readings displays your vital signs and other health 
@@ -2541,133 +2745,133 @@ Sorted By: Type of Vital Sign or Health Reading, then Date/Time
 -----------------------------------------------------------
 Vital Sign:           Blood Pressure
 Measurement:          190/70 mm[Hg]
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  07 Jan 2013 @ 1527
 
 Vital Sign:           Blood Pressure
 Measurement:          200/120 mm[Hg]
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  10 Dec 2012 @ 0924
 
 Vital Sign:           Blood Pressure
 Measurement:          190/120 mm[Hg]
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  07 Dec 2012 @ 1201
 
 Vital Sign:           Blood Pressure
 Measurement:          150/70 mm[Hg]
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  11 Nov 2012 @ 0900
 -----------------------------------------------------------
 Vital Sign:           Temperature
 Measurement:          98.5 F
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  10 Dec 2012 @ 0924
 
 Vital Sign:           Temperature
 Measurement:          101.3 F
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  11 Nov 2012 @ 0900
 -----------------------------------------------------------
 Vital Sign:           Circumference/Girth
 Measurement:          50 in
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  10 Dec 2012 @ 0924
 -----------------------------------------------------------
 Vital Sign:           Height
 Measurement:          70 in
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  10 Dec 2012 @ 0924
 
 Vital Sign:           Height
 Measurement:          70 in
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  07 Dec 2012 @ 1201
 
 Vital Sign:           Height
 Measurement:          70 in
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  11 Nov 2012 @ 0900
 -----------------------------------------------------------
 Vital Sign:           Pain Level
 Measurement:          3
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  07 Jan 2013 @ 1527
 
 Vital Sign:           Pain Level
 Measurement:          8
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  10 Dec 2012 @ 0924
 
 Vital Sign:           Pain Level
 Measurement:          7
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  07 Dec 2012 @ 1201
 
 Vital Sign:           Pain Level
 Measurement:          6
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  11 Nov 2012 @ 0900
 -----------------------------------------------------------
 Vital Sign:           Pulse Oximetry
 Measurement:          98 %
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  10 Dec 2012 @ 0924
 -----------------------------------------------------------
 Vital Sign:           Pulse Rate
 Measurement:          88 /min
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  10 Dec 2012 @ 0924
 
 Vital Sign:           Pulse Rate
 Measurement:          120 /min
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  11 Nov 2012 @ 0900
 -----------------------------------------------------------
 Vital Sign:           Respiration
 Measurement:          16 /min
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  10 Dec 2012 @ 0924
 
 Vital Sign:           Respiration
 Measurement:          20 /min
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  11 Nov 2012 @ 0900
 -----------------------------------------------------------
 Vital Sign:           Weight
 Measurement:          325 lb
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  10 Dec 2012 @ 0924
 
 Vital Sign:           Weight
 Measurement:          350 lb
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  07 Dec 2012 @ 1201
 
 Vital Sign:           Weight
 Measurement:          310 lb
-Comments:             -- 
+Comments:              
 Location:             PORTLAND, OREGON VA MEDICAL CENTER
 Date/Time Collected:  11 Nov 2012 @ 0900
 
@@ -2789,7 +2993,7 @@ PTT only 13.3
 -------------------------- VA RADIOLOGY REPORTS -------------------------
 
 Source: VA
-Last Updated: 
+Last Updated: 03 Jul 2013 @ 0635
 
 Sorted By: Date/Time Exam Performed (Descending)
 
@@ -2803,13 +3007,15 @@ provider who ordered the study or your primary care provider.
 Procedure/Test Name:          CT HEAD OR BRAIN W/O CONTRAST
 Date/Time Exam Performed:     10 Dec 2012 @ 1018
 Ordering Location:            PORTLAND, OREGON VA MEDICAL CENTER
-Requesting Provider:          PROVIDER,ONE A
+Requesting Provider:          PROVIDER, ONE A
 Reasons for Study:            THIS IS ONLY A TEST
 Clinical History:             
 THIS IS ONLY A TEST
 
 
-Performing Location:          PORTLAND, OREGON VA MEDICAL CENTER PO BOX 1034, PORTLAND 97207
+Performing Location:          PORTLAND, OREGON VA MEDICAL CENTER
+                              PO BOX 1034
+                              PORTLAND 97207
 Radiologist:                  XRAY,MISSING
 --------------------------------------------------------------------------
 RADIOLOGY REPORT
@@ -2829,13 +3035,15 @@ Primary Diagnostic Code:
 Procedure/Test Name:          BONE DENSITY (DPX), AXIAL SKELETON, HIPS/PELVIS/SPINE
 Date/Time Exam Performed:     10 Dec 2012 @ 1017
 Ordering Location:            PORTLAND, OREGON VA MEDICAL CENTER
-Requesting Provider:          PROVIDER,ONE A
+Requesting Provider:          PROVIDER, ONE A
 Reasons for Study:            THIS IS ONLY A TEST
 Clinical History:             
 THIS IS ONLY A TEST
 
 
-Performing Location:          PORTLAND, OREGON VA MEDICAL CENTER PO BOX 1034, PORTLAND 97207
+Performing Location:          PORTLAND, OREGON VA MEDICAL CENTER
+                              PO BOX 1034
+                              PORTLAND 97207
 Radiologist:                  XRAY,MISSING
 --------------------------------------------------------------------------
 RADIOLOGY REPORT
@@ -2855,13 +3063,15 @@ Primary Diagnostic Code:
 Procedure/Test Name:          *BONE IMAGING, WHOLE BODY
 Date/Time Exam Performed:     10 Dec 2012 @ 1016
 Ordering Location:            PORTLAND, OREGON VA MEDICAL CENTER
-Requesting Provider:          PROVIDER,ONE A
+Requesting Provider:          PROVIDER, ONE A
 Reasons for Study:            THIS IS ONLY A TEST
 Clinical History:             
 THIS IS ONLY A TEST
 
 
-Performing Location:          PORTLAND, OREGON VA MEDICAL CENTER PO BOX 1034, PORTLAND 97207
+Performing Location:          PORTLAND, OREGON VA MEDICAL CENTER
+                              PO BOX 1034
+                              PORTLAND 97207
 Radiologist:                  XRAY,MISSING
 --------------------------------------------------------------------------
 RADIOLOGY REPORT
@@ -2881,13 +3091,15 @@ Primary Diagnostic Code:
 Procedure/Test Name:          CHEST 2 VIEWS PA&LAT
 Date/Time Exam Performed:     10 Dec 2012 @ 1014
 Ordering Location:            PORTLAND, OREGON VA MEDICAL CENTER
-Requesting Provider:          PROVIDER,ONE A
+Requesting Provider:          PROVIDER, ONE A
 Reasons for Study:            THIS IS ONLY A TEST
 Clinical History:             
 r/o pneumonia
 
 
-Performing Location:          PORTLAND, OREGON VA MEDICAL CENTER PO BOX 1034, PORTLAND 97207
+Performing Location:          PORTLAND, OREGON VA MEDICAL CENTER
+                              PO BOX 1034
+                              PORTLAND 97207
 Radiologist:                  XRAY,MISSING
 --------------------------------------------------------------------------
 RADIOLOGY REPORT
@@ -2914,7 +3126,9 @@ Clinical History:
 THIS IS ONLY  A TEST
 
 
-Performing Location:          PORTLAND, OREGON VA MEDICAL CENTER PO BOX 1034, PORTLAND 97207
+Performing Location:          PORTLAND, OREGON VA MEDICAL CENTER
+                              PO BOX 1034
+                              PORTLAND 97207
 Radiologist:                  XRAY,MISSING
 --------------------------------------------------------------------------
 RADIOLOGY REPORT
@@ -2935,7 +3149,7 @@ Primary Diagnostic Code:
 ------------------ VA ELECTROCARDIOGRAM (EKG) REPORTS -------------------
 
 Source: VA
-Last Updated: 
+Last Updated: 03 Jul 2013 @ 0635
 
 Sorted By: Date/Time Exam Performed (Descending)
 
@@ -3000,8 +3214,7 @@ Chronic joint pain
 
 Comments: Mother died of cancer at age 40 
 
-
------------------------- SELF REPORTED MY GOALS: CURRENT GOALS --------------------
+--------------------- SELF REPORTED MY GOALS: CURRENT GOALS --------------------
 
 Source:     Self-Entered
 Sorted By:  Priority, then by Goal Start Date (Descending)
@@ -3016,6 +3229,7 @@ ALL CURRENT GOALS - SUMMARY LIST (BY PRIORITY)
 --------------------------------------------------------------------------------
 
 Goals Most Important to Me
+--------------------------------------------------------------------------------
 
   My Goal:              Lose Weight 
   Description:          Lose 20 lbs 
@@ -3025,15 +3239,9 @@ Goals Most Important to Me
   Description:          I want to get out of debt. 
   Goal Start Date:      01 Jan 2013
 
---------------------------------------------------------------------------------
-
-Goals Second Most Important to Me
-
-    None Entered
-
---------------------------------------------------------------------------------
 
 My Other Goals
+--------------------------------------------------------------------------------
 
   My Goal:              Have More Fun 
   Description:          I want to have more things to do and be more social. 
@@ -3286,6 +3494,7 @@ MY GOAL:  DATING
 
 Source:               Self-Entered
 Sorted By:            Date Goal Completed (Descending)
+Date Range Selected:  03 Jul 2012 to 03 Jul 2013
 
 Remember to share your self-entered information with your VA health care team. 
 
@@ -3370,13 +3579,16 @@ MY GOAL:  FIND A PLACE TO LIVE
                         I am not sure how much I can afford. 
                         -------------------------------------------------------
 
-                        Task:                How much rent can I pay. 
-                        Task Description:    I will review my income and see 
-                                             how much money I have for rent. 
-                        Task Completion:     Has An End Date
-                        Task Start Date:     10 Mar 2013
-                        Task End Date:       15 Mar 2013
-                        Task Repeats:        Twice a day
+                        Task:                Remind myself of other things that 
+                                             I have done well on my own. 
+                        Task Description:    I will list things that I have 
+                                             done well in my life. When I am 
+                                             feeling alone I will read over my 
+                                             list. 
+                        Task Completion:     No End Date (Ongoing)
+                        Task Start Date:     03 Mar 2013
+                        Task End Date:       None Entered
+                        Task Repeats:        Every Monday, Wednesday, Friday
                         Date Task Finished:  10 Apr 2013
 
                         -------------------------------------------------------
@@ -3393,12 +3605,12 @@ MY GOAL:  FIND A PLACE TO LIVE
 
                         -------------------------------------------------------
 
-                        Task:                Rental Listings 
-                        Task Description:    I will get rental listings from 
-                                             newspapers, rental agencies, or 
-                                             online postings. I will get help 
-                                             from my local Veteran service 
-                                             officer or social services agency. 
+                        Task:                Fill out rental applications. 
+                        Task Description:    I will search online or go to 
+                                             rental agencies to pick up rental 
+                                             applications for the place I want 
+                                             to live. I will submit 
+                                             applications online or in person. 
                         Task Completion:     No End Date (Ongoing)
                         Task Start Date:     03 Mar 2013
                         Task End Date:       None Entered
@@ -3418,12 +3630,12 @@ MY GOAL:  FIND A PLACE TO LIVE
 
                         -------------------------------------------------------
 
-                        Task:                Remind myself of other things that 
-                                             I have done well on my own. 
-                        Task Description:    I will list things that I have 
-                                             done well in my life. When I am 
-                                             feeling alone I will read over my 
-                                             list. 
+                        Task:                Rental Listings 
+                        Task Description:    I will get rental listings from 
+                                             newspapers, rental agencies, or 
+                                             online postings. I will get help 
+                                             from my local Veteran service 
+                                             officer or social services agency. 
                         Task Completion:     No End Date (Ongoing)
                         Task Start Date:     03 Mar 2013
                         Task End Date:       None Entered
@@ -3432,16 +3644,13 @@ MY GOAL:  FIND A PLACE TO LIVE
 
                         -------------------------------------------------------
 
-                        Task:                Fill out rental applications. 
-                        Task Description:    I will search online or go to 
-                                             rental agencies to pick up rental 
-                                             applications for the place I want 
-                                             to live. I will submit 
-                                             applications online or in person. 
-                        Task Completion:     No End Date (Ongoing)
-                        Task Start Date:     03 Mar 2013
-                        Task End Date:       None Entered
-                        Task Repeats:        Every Monday, Wednesday, Friday
+                        Task:                How much rent can I pay. 
+                        Task Description:    I will review my income and see 
+                                             how much money I have for rent. 
+                        Task Completion:     Has An End Date
+                        Task Start Date:     10 Mar 2013
+                        Task End Date:       15 Mar 2013
+                        Task Repeats:        Twice a day
                         Date Task Finished:  10 Apr 2013
 
   Rewards:              Invite a friend over. 
@@ -3487,10 +3696,56 @@ MY GOAL:  GO TO SCHOOL
                         important to me. 
 
 
+
 -------------------- SELF REPORTED ACTIVITY JOURNAL ---------------------
 
 Source: Self-Entered
-No information was available that matched your selection.
+
+=========================================================================
+Date:                28 Aug 2012
+Day of Week:         Tuesday  
+Comments:            Started my new exercise program today 
+-------------------------------------------------------------------------
+  Activity:          Walked for 30 minutes
+  Type:              Aerobic/cardio
+  Distance/Duration: 1
+  Measure:           mile(s)
+  Intensity:         Moderate impact
+  Time of Day:       Morning
+-------------------------------------------------------------------------
+  Activity:          Swam 20 laps
+  Type:              Aerobic/cardio
+  Distance/Duration: 45
+  Measure:           lap(s)
+  Intensity:         High impact
+  Time of Day:       Afternoon
+-------------------------------------------------------------------------
+  Activity:          Lifted weights
+  Type:              Weights
+  Distance/Duration: 15
+  Measure:           pound(s)
+  Intensity:         Low impact
+  Number of Sets:    2
+  Number of Reps:    10
+  Time of Day:       Afternoon
+-------------------------------------------------------------------------
+  Activity:          Yoga
+  Type:              Other
+  Distance/Duration: 30
+  Measure:           min(s)
+  Intensity:         Low impact
+  Time of Day:       Evening
+=========================================================================
+Date:                27 Aug 2012
+Day of Week:         Monday   
+Comments:            I need to get back in shape 
+-------------------------------------------------------------------------
+  Activity:          Stretching
+  Type:              Other
+  Distance/Duration: 1
+  Measure:           hour(s)
+  Intensity:         Low impact
+  Time of Day:       Afternoon
 
 
 ----------------------- SELF REPORTED FOOD JOURNAL ----------------------
@@ -3661,17 +3916,17 @@ Day of Week:  Monday
 
 Source: Self-Entered
 
-Event Title:                     Overseas Deployment
-Event Date:                      07 Apr 2002
-Service Branch:                  Army                        Rank: COL
-Exposures:                       Yes
-Location of Service:             Overseas            Onboard Ship: No
+Event Title: Overseas Deployment
+Event Date: 07 Apr 2002
+Service Branch: Army                             Rank: COL
+Exposures: Yes
+Location of Service: Overseas            Onboard Ship: No
 Military Occupational Specialty: Infantry
-Assignment:                      1st Recon 
+Assignment: 1st Recon 
 
-Exposures:                       In Iraq, exposed to burning chemicals 
+Exposures: In Iraq, exposed to burning chemicals 
 
-Military Service Description:    Unit was in charge of security 
+Military Service Description: Unit was in charge of security 
 
 
 

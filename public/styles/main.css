@@ -30,6 +30,9 @@
 	color: #3498db;
 	opacity: 0.6;
 }
+.fa-long-arrow{
+	font-size: 55px;
+}
 
 .fa-bullseye, .fa-arrow-up {
 	color: #2980b9;
@@ -59,14 +62,68 @@
 	margin: 10px;
 }
 
-#medList {
-	background: #bdc3c7;
+.greeting{
+	font-family: 'Raleway', serif;
+	font-weight: 100;
+	padding-bottom: 30px;
 }
 
 #schedule {
-	background: #bdc3c7;
+	background: white;
 }
 
 .show {
 	display: none;
+}
+
+.med-instructions{
+	font-family: 'Nixie One', serif;
+}
+.med-title{
+	font-weight: 400;
+}
+
+.space{
+	height:900px;
+}
+.container.main{
+	margin-top: 5%;
+}
+.margin-zero{
+	margin: 0px;
+}
+.space{
+	text-align: center;
+	padding-top: 126px;
+}
+
+#drop-icon{
+	-moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    font-size: 50px;
+}
+.border{
+	border: 1px black solid;
+	padding: 10px;
+}
+
+.raleway{
+	font-family: 'Raleway', serif;
+}
+
+.fa-download{
+	padding-top: 15px;
+}
+.row {
+	height: 400px;
+}
+#morning-title{
+	background-color: rgb(255, 240, 244);
+}
+#afternoon-title{
+	background-color: rgba(255, 165, 0,0.14);
+}
+#evening-title{
+	background-color: rgba(0,0,255,0.09);
 }
