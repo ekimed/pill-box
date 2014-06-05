@@ -19,7 +19,7 @@ angular.module('pillboxApp', ['angularFileUpload', 'pillboxApp.service', 'pillbo
 			.when('/schedule', {
 				templateUrl: 'partials/schedule.jade'
 			})
-			otherwise({
+			.otherwise({
         		redirectTo: '/welcome'
       		});
 
