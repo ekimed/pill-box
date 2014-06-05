@@ -20,7 +20,7 @@ angular.module('pillboxApp', ['angularFileUpload', 'pillboxApp.service', 'pillbo
 				templateUrl: 'partials/schedule.jade'
 			})
 			otherwise({
-        		redirectTo: 'partials/main.jade'
+        		redirectTo: '/welcome'
       		});
 
 
