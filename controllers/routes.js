@@ -21,9 +21,9 @@ module.exports = {
 	upload: function(req, res) {
 		fs.readFile(req.files.file.path, function(err, data) {
 			var d = data.toString();
-			// var titlesArray = parse.parseSection(d);
 
 			var data = parse.splitToSectionTitle(d)
+
 			var personalInfoSection = data['MY HEALTHEVET PERSONAL INFORMATION REPORT'];
 
 			var firstName = parse.getFirstName(personalInfoSection);
@@ -45,27 +45,8 @@ module.exports = {
 			medicationsObj = medicationsObj.filter(function(d){
 				return d['Status'] === ' Active';
 			})
-
-			// medicationsObj.forEach(function(d){
-			// 	var test = d['Medication'].split(/[\s\/]+/);
-			// 	test = _.without(test, '');
-			// 	for(var i = 0; i<test.length; i++){
-			// 		var isMgTrue = test[i].indexOf('MG');
-			// 		if ( isMgTrue > -1) {
-			// 			test[i] = test[i].slice(0,isMgTrue);
-			// 		}
-
-			// 		// searchFullName(test, d['Medication'], function(data){
-			// 		// 	console.log('searchFullName',data);
-			// 		// })
-			// 	}
-			// 	searchFullName(test, d['Medication'], function(data){
-			// 		console.log('searchFullName',data);
-			// 	})
-			// 	// data.push(test);
-
-			// })
-
+			// an array of arrays that hold words
+			var lines = [];
 			for(var i = 0; i < medicationsObj.length; i ++) {
 				var test = medicationsObj[i]['Medication'].split(/[\s\/]+/);
 				test = _.without(test, '');
@@ -75,19 +56,65 @@ module.exports = {
 						test[j] = test[j].slice(0,isMgTrue);
 					}
 				}
-				searchFullName(test, medicationsObj[i]['Medication'], function(data){
-					console.log('data',data)
-				})
-			}
+				lines.push(test);
+			};
 
-			
+			function getFullName (arrayOfObjects, line, word){
+				for(var i = 0; i < arrayOfObjects.length; i++){
+					var fullName = JSON.stringify(arrayOfObjects[i]);
+					var wordsToCheck = _.without(line, word);
+					var re = wordsToCheck.join('[\\/\\sa-z\\.]+');
+					re = new RegExp('('+re+')', 'img');
 
+					if(fullName.search(re) != -1){
+						return fullName;
+					}
+					else{
+						continue;
+					}
+				}
+					
+			};
 
-			// searchFullName(data, function(fullname, abbreviation){
-			// 	console.log(fullname, abbreviation);
-			// })
+			var lineFns = lines.map(function(line){
+				return function(cbLines){
+					var wordFns = line.map(function(word){
+						return function(cbWords){
+							model.find({DISPLAY_NAME_SYNONYM: word}, function(err, docs){
+								if(docs.length === 0){
+									// null for error and null for value because no match found
+									cbWords(null, null);
+								}
+								else{
+									var match = getFullName(docs, line, word);
+									// return all the documents with synonym
+									cbWords(null, match);
+								}
+							});
+						};
+					});
+					// run the word functions and pass it to cbLines
+					async.parallel(wordFns, cbLines);
+				};
+			});
 
-			res.send({data:medicationsObj, firstName: firstName});			
+			async.parallel(lineFns, function(err, results){
+				for(var i = 0; i < results.length; i++){
+					var result = _.without(results[i], null);
+					// There should only be one match
+					// Index of match should therefore be 0
+					if (result.length){
+						var match = JSON.parse(result[0]);
+
+						medicationsObj[i]['Medication'] = match['FULL_NAME'].toUpperCase();
+
+					}
+
+				}
+				res.send({data:medicationsObj, firstName: firstName});
+			});
+
+						
 		});
 	}
 }

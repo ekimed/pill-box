@@ -143,9 +143,9 @@ var getFullName = function(data, original, cb) {
 		}
 	}
 		
-getFullName(data, 'HCTZ 25/ TRIAMTERENE 37.5MG TAB', function(d){
-	console.log(d);
-})
+// getFullName(data, 'HCTZ 25/ TRIAMTERENE 37.5MG TAB', function(d){
+// 	console.log(d);
+// })
 
 
 module.exports = getFullName;
