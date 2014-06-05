@@ -5,6 +5,7 @@ var mongoose = require('mongoose');
 var model = require('../models/mongooseQuery.js');
 var async = require('async');
 var searchFullName = require('../fullNameSearch.js');
+var ScheduleModel = require('../models/scheduleModel.js');
 
 
 module.exports = {
@@ -20,6 +21,13 @@ module.exports = {
 
 	upload: function(req, res) {
 		fs.readFile(req.files.file.path, function(err, data) {
+			function generateUIDNotMoreThan1million() {
+    			return ("0000" + (Math.random()*Math.pow(36,4) << 0).toString(36)).slice(-4);
+    		}
+
+    		var uid = generateUIDNotMoreThan1million();
+    		var schedule = new ScheduleModel({UID: uid});
+
 			var d = data.toString();
 
 			var data = parse.splitToSectionTitle(d)
@@ -125,7 +133,7 @@ module.exports = {
 
 				}
 
-				res.send({data:medicationsObj, firstName: firstName});
+				res.send({data:medicationsObj, firstName: firstName, schedule: schedule});
 			});
 
 						

@@ -66,6 +66,23 @@ angular.module('pillboxApp')
 		$scope.list = [];
 	})
 
+angular.module('pillboxApp')
+	.controller('MorningCtrl', function($scope, $location, $routeParams, Data) {
+		$scope.morning = Data.getData().schedule.morningList;
+		console.log($scope.morning);
+	})
+angular.module('pillboxApp')
+	.controller('AfternoonCtrl', function($scope, Data) {
+		$scope.afternoon = Data.getData().schedule.afternoonList;
+		console.log($scope.afternoon);
+
+	})
+angular.module('pillboxApp')
+	.controller('EveningCtrl', function($scope, Data) {
+		$scope.evening = Data.getData().schedule.eveningList;
+		console.log($scope.evening);
+	})
+
 
 
 
