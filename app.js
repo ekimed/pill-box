@@ -13,7 +13,7 @@ app.use(bodyParser());
 app.use(multipart());
 
 // connect to a database with a connection string
-mongoose.connect('mongodb://localhost/RxTerms');
+mongoose.connect(process.env.MONGOHQ_URL||'mongodb://localhost/RxTerms');
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));

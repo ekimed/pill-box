@@ -3,7 +3,7 @@ var model = require('./models/mongooseQuery.js');
 var _ = require('underscore');
 var async = require('async');
 
-mongoose.connect('mongodb://localhost/RxTerms');
+// mongoose.connect('mongodb://localhost/RxTerms');
 // var getFullName = function(data, cb) {
 // 	for(var i = 0; i < data.length; i++) {
 // 	for (var j = 0; j < data[i].length; j++){
