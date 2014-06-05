@@ -107,10 +107,24 @@ module.exports = {
 						var match = JSON.parse(result[0]);
 
 						medicationsObj[i]['Medication'] = match['FULL_NAME'].toUpperCase();
+						medicationsObj[i]['Instructions'] = medicationsObj[i]['Instructions'].toLowerCase();
 
+					}
+					else{
+						// check to see if CAP is abbreviated and if found change to capsule
+						if(medicationsObj[i]['Medication'].search(/CAP/m) != -1){
+
+							medicationsObj[i]['Medication'] = medicationsObj[i]['Medication'].replace(/CAP/, 'CAPSULE');
+						}
+						// check to see if TAB is abbreviated and if found change to tablet
+						else if(medicationsObj[i]['Medication'].search(/TAB/m) != -1){
+							medicationsObj[i]['Medication'] = medicationsObj[i]['Medication'].replace(/TAB/, 'TABLET');
+						}
+						medicationsObj[i]['Instructions'] = medicationsObj[i]['Instructions'].toLowerCase();
 					}
 
 				}
+
 				res.send({data:medicationsObj, firstName: firstName});
 			});
 

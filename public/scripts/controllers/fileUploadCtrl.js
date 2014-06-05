@@ -58,8 +58,6 @@ angular.module('pillboxApp')
 	.controller('MedListCtrl', function($scope, Data) {
 		$scope.data = Data.getData().data;
 		$scope.name = Data.getData().firstName;
-		console.log($scope.data);
-		// console.log($scope.name);
 
 	})
 
@@ -67,6 +65,7 @@ angular.module('pillboxApp')
 	.controller('ListCtrl', function($scope) {
 		$scope.list = [];
 	})
+
 
 
 
