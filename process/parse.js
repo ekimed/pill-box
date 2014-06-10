@@ -1,6 +1,3 @@
-// use streams to make sure that only a small buffer is kept in memory at any given time
-
-// Transform stream: streams that read input, process data, output new data
 var fs = require('fs');
 var _ = require('underscore');
 module.exports = {

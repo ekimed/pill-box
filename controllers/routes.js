@@ -4,7 +4,7 @@ var _ = require('underscore');
 var mongoose = require('mongoose');
 var model = require('../models/mongooseQuery.js');
 var async = require('async');
-var searchFullName = require('../fullNameSearch.js');
+
 
 
 module.exports = {
