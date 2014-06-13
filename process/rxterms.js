@@ -24,7 +24,6 @@ function text2json (input, output) {
 
 		//replace last element with cleaned up version
 		headers = removeCharFromLastElement('\r', headers);
-		console.log(headers);
 
 		//temp array to hold objects
 		var tempArray = [];

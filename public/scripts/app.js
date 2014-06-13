@@ -12,7 +12,7 @@ angular.module('pillboxApp', ['angularFileUpload', 'pillboxApp.service', 'pillbo
 			.when('/index', {
 				templateUrl: 'partials/main.jade'
 			})
-			.when('/list', {
+			.when('/list/:id', {
 				templateUrl: 'partials/list.jade',
 				controller: 'MedListCtrl'
 			})
