@@ -4,7 +4,8 @@ var scheduleSchema = new mongoose.Schema({
 		UID: String,
 		morningList: Array,
 		afternoonList: Array,
-		eveningList: Array
+		eveningList: Array,
+		trashList: Array
 	});
 
 var scheduleData = module.exports = mongoose.model('schedList', scheduleSchema);

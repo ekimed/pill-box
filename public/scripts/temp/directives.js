@@ -41,9 +41,19 @@ angular.module('pillboxApp.directive').directive('isDraggable', [
         // stores scope data as json string format to send
         element.bind('dragstart', function (e) {
           if (scope.med.id) {
-            scope.$parent.list = scope.$parent.list.filter(function (d) {
-              return d.id !== scope.med.id;
-            });
+            if (scope.$parent.morning) {
+              scope.$parent.morning = scope.$parent.morning.filter(function (d) {
+                return d.id !== scope.med.id;
+              });
+            } else if (scope.$parent.afternoon) {
+              scope.$parent.afternoon = scope.$parent.afternoon.filter(function (d) {
+                return d.id !== scope.med.id;
+              });
+            } else {
+              scope.$parent.evening = scope.$parent.evening.filter(function (d) {
+                return d.id !== scope.med.id;
+              });
+            }
           }
           ;
           var id = angular.element(e.currentTarget).attr('id');
