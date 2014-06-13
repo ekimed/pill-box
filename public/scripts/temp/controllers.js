@@ -56,7 +56,7 @@ angular.module('pillboxApp').controller('MedListCtrl', [
     $scope.name = Data.getData().firstName;
   }
 ]);
-angular.module('pillboxApp').controller('ListCtrl', [
+angular.module('pillboxApp').controller('DropDeleteCtrl', [
   '$scope',
   function ($scope) {
     $scope.list = [];
@@ -64,12 +64,12 @@ angular.module('pillboxApp').controller('ListCtrl', [
 ]);
 angular.module('pillboxApp').controller('MorningCtrl', [
   '$scope',
-  '$location',
-  '$routeParams',
   'Data',
-  function ($scope, $location, $routeParams, Data) {
+  function ($scope, Data) {
     $scope.morning = Data.getData().schedule.morningList;
-    console.log($scope.morning);
+    $scope.$watch(function () {
+      console.log('morning', $scope.morning);
+    });
   }
 ]);
 angular.module('pillboxApp').controller('AfternoonCtrl', [
@@ -77,7 +77,7 @@ angular.module('pillboxApp').controller('AfternoonCtrl', [
   'Data',
   function ($scope, Data) {
     $scope.afternoon = Data.getData().schedule.afternoonList;
-    console.log($scope.afternoon);
+    console.log('afternoon', $scope.afternoon);
   }
 ]);
 angular.module('pillboxApp').controller('EveningCtrl', [
@@ -85,6 +85,6 @@ angular.module('pillboxApp').controller('EveningCtrl', [
   'Data',
   function ($scope, Data) {
     $scope.evening = Data.getData().schedule.eveningList;
-    console.log($scope.evening);
+    console.log('evening', $scope.evening);
   }
 ]);
