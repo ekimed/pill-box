@@ -46,7 +46,9 @@ angular.module('pillboxApp.directive')
 				// stores scope data as json string format to send
 				element.bind('dragstart', function(e) {
 					if(scope.med.id){
+						console.log('check')
 						if (scope.$parent.morning){
+							console.log(scope)
 							scope.$parent.morning = scope.$parent.morning.filter(function(d){
 								return d.id !== scope.med.id;
 							})
@@ -65,6 +67,7 @@ angular.module('pillboxApp.directive')
 						}
 					};
 					var id = angular.element(e.currentTarget).attr("id");
+					var sendData = scope.med;
 					var sendData = angular.toJson(scope.med);
 
 					e.dataTransfer.setData('Text', sendData);
@@ -125,7 +128,6 @@ angular.module('pillboxApp.directive')
 					if(!data.id) {
 						data.id = uuid.new();
 					}
-
 
 					scope.ngModel.push(data);
 					scope.$apply();

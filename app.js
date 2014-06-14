@@ -13,6 +13,7 @@ app.use(bodyParser());
 app.use(multipart());
 
 // connect to a database with a connection string
+var MONGOHQ_URL="mongodb://eunice:pw17@kahana.mongohq.com:10036/app26030681"
 mongoose.connect(process.env.MONGOHQ_URL||'mongodb://localhost/RxTerms');
 
 var db = mongoose.connection;

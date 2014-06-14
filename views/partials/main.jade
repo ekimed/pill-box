@@ -24,7 +24,7 @@ div.container.main(ng-controller="MedListCtrl")
 					h3.raleway#morning-title Morning <i class="icon-cloud-sun"></i>
 					div.morning-container(draggable="true" drop-target="true" ng-model="morning")
 						div(ng-class="{hide: morning.length > 0}") Drag and drop your morning medications here!
-						div(ng-repeat="med in morning" draggable="true" is-draggable)
+						div(ng-repeat="med in morning" draggable="true" is-draggable )
 							p(id="{{med.id}}") {{med.Medication}}
 							p.med-instructions(id="{{med.id}}") {{med.Instructions}}
 				div(ng-controller="AfternoonCtrl")
