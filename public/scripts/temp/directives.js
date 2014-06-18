@@ -41,7 +41,6 @@ angular.module('pillboxApp.directive').directive('isDraggable', [
         // stores scope data as json string format to send
         element.bind('dragstart', function (e) {
           if (scope.med.id) {
-            console.log('med id', scope.med.id);
             scope.$parent.schedule.morningList = scope.$parent.schedule.morningList.filter(function (d) {
               return d.id !== scope.med.id;
             });

@@ -46,7 +46,7 @@ angular.module('pillboxApp.directive')
 				// stores scope data as json string format to send
 				element.bind('dragstart', function(e) {
 					if(scope.med.id){
-						console.log('med id', scope.med.id);
+
 						scope.$parent.schedule.morningList = scope.$parent.schedule.morningList.filter(function(d){
 							return d.id !== scope.med.id;
 						})
@@ -58,9 +58,6 @@ angular.module('pillboxApp.directive')
 						scope.$parent.schedule.eveningList = scope.$parent.schedule.eveningList.filter(function(d){
 							return d.id !== scope.med.id;
 						})
-
-
-
 					}
 					var id = angular.element(e.currentTarget).attr("id");
 					var sendData = scope.med;
