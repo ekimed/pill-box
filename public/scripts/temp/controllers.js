@@ -38,10 +38,12 @@ angular.module('pillboxApp').controller('FileController', [
     };
     $scope.onhover = false;
     $scope.nothover = true;
+    // Change class to hover
     $scope.onHover = function (event) {
       $scope.nothover = false;
       $scope.onhover = true;
     };
+    // Change class to not hover
     $scope.notHover = function () {
       $scope.hover = false;
       $scope.nothover = true;
@@ -62,24 +64,11 @@ angular.module('pillboxApp').controller('DropDeleteCtrl', [
     $scope.list = [];
   }
 ]);
-angular.module('pillboxApp').controller('MorningCtrl', [
+angular.module('pillboxApp').controller('ScheduleCtrl', [
   '$scope',
   'Data',
   function ($scope, Data) {
-    $scope.morning = Data.getData().schedule.morningList;
-  }
-]);
-angular.module('pillboxApp').controller('AfternoonCtrl', [
-  '$scope',
-  'Data',
-  function ($scope, Data) {
-    $scope.afternoon = Data.getData().schedule.afternoonList;
-  }
-]);
-angular.module('pillboxApp').controller('EveningCtrl', [
-  '$scope',
-  'Data',
-  function ($scope, Data) {
-    $scope.evening = Data.getData().schedule.eveningList;
+    $scope.schedule = Data.getData().schedule;
+    console.log($scope.schedule);
   }
 ]);

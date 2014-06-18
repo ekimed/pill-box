@@ -41,11 +41,13 @@ angular.module('pillboxApp')
 		$scope.onhover = false;
 		$scope.nothover = true;
 
+		// Change class to hover
 		$scope.onHover = function(event) {
 			$scope.nothover = false;
 			$scope.onhover = true;
 		}
 
+		// Change class to not hover
 		$scope.notHover = function() {
 			$scope.hover = false
 			$scope.nothover = true;
@@ -67,19 +69,12 @@ angular.module('pillboxApp')
 	})
 
 angular.module('pillboxApp')
-	.controller('MorningCtrl', function($scope, Data) {
-		$scope.morning = Data.getData().schedule.morningList;
+	.controller('ScheduleCtrl', function($scope, Data) {
+		$scope.schedule = Data.getData().schedule;
+		console.log($scope.schedule)
 		
 	})
-angular.module('pillboxApp')
-	.controller('AfternoonCtrl', function($scope, Data) {
-		$scope.afternoon = Data.getData().schedule.afternoonList;
 
-	})
-angular.module('pillboxApp')
-	.controller('EveningCtrl', function($scope, Data) {
-		$scope.evening = Data.getData().schedule.eveningList;
-	})
 
 
 

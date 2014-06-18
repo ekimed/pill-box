@@ -12,7 +12,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser());
 app.use(multipart());
 
-// connect to a database with a connection string
+// Connect to database
 mongoose.connect(process.env.MONGOHQ_URL||'mongodb://localhost/RxTerms');
 
 var db = mongoose.connection;

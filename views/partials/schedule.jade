@@ -1,24 +1,24 @@
 div.container
 	div.col-md-4#schedule
-				div.row.border
-					div(ng-controller="MorningCtrl")
+				div.row.border(ng-controller="ScheduleCtrl")
+					div
 						h3.raleway#morning-title Morning <i class="icon-cloud-sun"></i>
-						div.morning-container(draggable="true" drop-target="true" ng-model="morning")
-							div(ng-class="{hide: morning.length > 0}") Drag and drop your morning medications here!
-							div(ng-repeat="med in morning" draggable="true" is-draggable)
+						div.morning-container(draggable="true" drop-target="true" ng-model="schedule.morningList")
+							div(ng-class="{hide: schedule.morningList.length > 0}") Drag and drop your morning medications here!
+							div(ng-repeat="med in schedule.morningList" draggable="true" is-draggable)
 								p(id="{{med.id}}") {{med.Medication}}
 								p.med-instructions(id="{{med.id}}") {{med.Instructions}}
-					div(ng-controller="AfternoonCtrl")
+					div
 						h3.raleway#afternoon-title Afternoon <i class="icon-sun"></i>
-						div.afternoon-container(draggable="true" drop-target="true" ng-model="afternoon")
-							div(ng-class="{hide: afternoon.length > 0}") Drag and drop your afternoon medications here!
-							div(ng-repeat="med in afternoon" draggable="true" is-draggable)
+						div.afternoon-container(draggable="true" drop-target="true" ng-model="schedule.afternoonList")
+							div(ng-class="{hide: schedule.afternoonList.length > 0}") Drag and drop your afternoon medications here!
+							div(ng-repeat="med in schedule.afternoonList" draggable="true" is-draggable)
 								p(id="{{med.id}}") {{med.Medication}}
 								p.med-instructions(id="{{med.id}}") {{med.Instructions}}
-					div(ng-controller="EveningCtrl")
+					div
 						h3.raleway#evening-title Evening <i class="icon-moon"></i>
-						div.evening-container(draggable="true" drop-target="true" ng-model="evening")
-							div(ng-class="{hide: evening.length > 0}") Drag and drop your evening medications here!
-							div(ng-repeat="med in evening" draggable="true" is-draggable)
+						div.evening-container(draggable="true" drop-target="true" ng-model="schedule.eveningList")
+							div(ng-class="{hide: schedule.eveningList.length > 0}") Drag and drop your evening medications here!
+							div(ng-repeat="med in schedule.eveningList" draggable="true" is-draggable)
 								p(id="{{med.id}}") {{med.Medication}}
 								p.med-instructions(id="{{med.id}}") {{med.Instructions}}

@@ -17,5 +17,7 @@ angular.module('pillboxApp.service')
 				console.error('Error! Something went wrong when sending data to server!', error)
 			});
 		}
-	}])
+	}]);
+
+
 

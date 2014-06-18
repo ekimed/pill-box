@@ -25,7 +25,6 @@ module.exports = {
     		}
 
     		var uid = generateUIDNotMoreThan1million();
-    		var schedule = new ScheduleModel({UID: uid});
 
 			var d = data.toString();
 
@@ -48,10 +47,12 @@ module.exports = {
 			// split on spaces and '/'
 			// each medication is split into an array
 			var data = [];
+
 			// only show active medications
 			medicationsObj = medicationsObj.filter(function(d){
 				return d['Status'] === ' Active';
 			})
+
 			// an array of arrays that hold words
 			var lines = [];
 			for(var i = 0; i < medicationsObj.length; i ++) {
@@ -66,6 +67,7 @@ module.exports = {
 				lines.push(test);
 			};
 
+			// Get the full name of the medication without acroynyms or abbreviations
 			function getFullName (arrayOfObjects, line, word){
 				for(var i = 0; i < arrayOfObjects.length; i++){
 					var fullName = JSON.stringify(arrayOfObjects[i]);
@@ -132,7 +134,21 @@ module.exports = {
 
 				}
 
-				res.send({data:medicationsObj, firstName: firstName, schedule: schedule});
+				// Create new schedule object
+				var newSchedule = new ScheduleModel.Schedule();
+
+				// Save new schedule object
+				ScheduleModel.create(newSchedule, uid, function(err, schedule){
+					if(err) console.log('error when creating new schedule object', err)
+
+					else{
+						console.log('Success! New schedule was added to database', schedule);
+						res.send({data:medicationsObj, firstName: firstName, schedule: schedule});
+					}
+
+				})
+
+				
 			});
 
 						
