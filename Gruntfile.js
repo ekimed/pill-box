@@ -42,7 +42,19 @@ module.exports = function(grunt){
 				files: ['public/scripts/**/*.js', '!public/scripts/temp/**/*.js', '!public/scripts/min/**/*.js'],
 				tasks: ['dev']
 			}
-		}
+		},
+        // read-only task, single src property is needed
+        jshint: {
+            controllers: {
+                src: ['public/scripts/controllers/*.js']
+            },
+            directives: {
+                src: ['public/scripts/directives/*.js']
+            },
+            services: {
+                src: ['public/scripts/services/*.js']
+            }
+        }
 
 
 
@@ -58,6 +70,7 @@ grunt.registerTask('dev', [ 'ngmin:controllers', 'ngmin:directives', 'ngmin:serv
 
 // Load tasks (plugins) installed via npm so that grunt
 // can access and use them
+grunt.loadNpmTasks('grunt-contrib-jshint');
 grunt.loadNpmTasks('grunt-contrib-clean');
 grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-ngmin');

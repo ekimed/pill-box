@@ -10,12 +10,12 @@ angular.module('pillboxApp')
 
 		factory.getData = function() {
 			return data;
-		}
+		};
 
 		return factory;
 
 
-	})
+	});
 
 angular.module('pillboxApp')
 	.controller('FileController', function($scope, $upload, $location, fileUpload, Data) {
@@ -33,10 +33,10 @@ angular.module('pillboxApp')
 	    		Data.setData(data);
 	    		$location.path('/index');
 	  		});
-		}
+		};
 		$scope.clickInput = function(){
 			$('.fileupload').click();
-		}
+		};
 
 		$scope.onhover = false;
 		$scope.nothover = true;
@@ -45,13 +45,13 @@ angular.module('pillboxApp')
 		$scope.onHover = function(event) {
 			$scope.nothover = false;
 			$scope.onhover = true;
-		}
+		};
 
 		// Change class to not hover
 		$scope.notHover = function() {
-			$scope.hover = false
+			$scope.hover = false;
 			$scope.nothover = true;
-		}
+		};
 
 			
 	});
@@ -61,19 +61,19 @@ angular.module('pillboxApp')
 		$scope.data = Data.getData().data;
 		$scope.name = Data.getData().firstName;
 
-	})
+	});
 
 angular.module('pillboxApp')
 	.controller('DropDeleteCtrl', function($scope) {
 		$scope.list = [];
-	})
+	});
 
 angular.module('pillboxApp')
 	.controller('ScheduleCtrl', function($scope, Data) {
 		$scope.schedule = Data.getData().schedule;
-		console.log($scope.schedule)
+		console.log($scope.schedule);
 		
-	})
+	});
 
 
 
