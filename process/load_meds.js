@@ -44,15 +44,15 @@ function makeRequest (bulkRequest, cb) {
 }
 
 createDoc(function (err, doc) {
-    if (err) console.error(err);
+    if (err) return err;
 
-    makeRequest(doc.slice(0,1000), function (err, res) {
+    makeRequest(doc.slice(0,1000), function lambda(err, res) {
         if (err) throw err;
 
         doc = doc.slice(1000);
 
         if (doc.length > 0) {
-            setTimeout(createDoc, 10);
+            setTimeout(makeRequest(doc.slice(0,1000), lambda), 10);
         } else {
             console.log('Inserted all records.');
         }
