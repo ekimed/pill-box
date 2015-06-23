@@ -55,6 +55,7 @@ createDoc(function (err, doc) {
             setTimeout(makeRequest(doc.slice(0,1000), lambda), 10);
         } else {
             console.log('Inserted all records.');
+            return;
         }
     });
 });
