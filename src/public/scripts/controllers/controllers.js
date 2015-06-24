@@ -75,9 +75,22 @@
     'use strict';
     angular.module('pillboxApp')
         .controller('SearchMedListCtrl', function ($scope, esService, esFactory) {
+            var query = {
+                "size": 5,
+                "body": {
+                    "query": {
+                        "multi_match": {
+                            "query": $scope.searchTerm,
+                            "type": "phrase_prefix",
+                            "fields": ["FULL_NAME", "FULL_GENERIC_NAME", "BRAND_NAME", "DISPLAY_NAME", "DISPLAY_NAME_SYNONYM"]
+                        }
+                    }
 
+                }
+            };
             $scope.esResults = [];
             $scope.isResults = false;
+
 
             // check the health of the elasticsearch connection
             esService.cluster.state({
@@ -102,20 +115,9 @@
 
             $scope.esQuery = function () {
                 if ($scope.searchTerm.length > 2) {
-                    esService.search({
-                        "size": 50,
-                        "body": {
-                            "query": {
-                                "match_phrase_prefix": {
-                                    "DISPLAY_NAME": $scope.searchTerm
-                                }
-                            }
+                    esService.search(query, function (err, res) {
+                        if (err) throw (err);
 
-                        }
-                    }, function (err, res) {
-                        if (err) console.log(err);
-
-                        // search results hits > hits (array) > object > DISPLAY_NAME
                         $scope.esResults = res.hits.hits.map(function (i) {
                             return i._source;
                         });
@@ -125,7 +127,12 @@
                         } else {
                             $scope.isResults = false;
                         }
+
+                        return;
                     });
+                } else { // hide the drop down
+                    $scope.isResults = false;
+                    return;
                 }
             };
         });
