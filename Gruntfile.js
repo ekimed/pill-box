@@ -3,24 +3,25 @@
 module.exports = function(grunt){
 	// Initialize the grunt configurations
 	grunt.initConfig({
-		// Configure the uglify task (grunt uglify)
-		ngmin: {
-			controllers: {
-				src: ['src/public/scripts/controllers/*.js'],
-				dest: 'src/public/scripts/temp/controllers.js'
-			},
+        ngmin: {
+            controllers: {
+                files: [
+                    {src: ['src/public/scripts/controllers/*.js'], dest: 'src/public/scripts/temp/controllers.js'},
+                ]
+            },
 
-			directives: {
-				src: ['src/public/scripts/directives/*.js'],
-				dest: 'src/public/scripts/temp/directives.js'
+            directives: {
+                files: [
+                    {src: ['src/public/scripts/directives/*.js'], dest: 'src/public/scripts/temp/directives.js'}
+                ]
+            },
 
-			},
-
-			services: {
-				src: ['src/public/scripts/services/*.js'],
-				dest: 'src/public/scripts/temp/services.js'
-			}
-		},
+            services: {
+                files: [
+                    {src: ['src/public/scripts/services/*.js'], dest: 'src/public/scripts/temp/services.js'}
+                ]
+            }
+        },
 
 		uglify: {
 			development: {
@@ -55,18 +56,12 @@ module.exports = function(grunt){
                 src: ['src/public/scripts/services/*.js']
             }
         }
-
-
-
-
-
-
 	});
 
 
 
 // Register a default task that will run on 'grunt'
-grunt.registerTask('dev', [ 'ngmin:controllers', 'ngmin:directives', 'ngmin:services', 'uglify:development'])
+grunt.registerTask('dev', [ 'ngmin:controllers', 'ngmin:directives', 'ngmin:services', 'uglify:development']);
 
 // Load tasks (plugins) installed via npm so that grunt
 // can access and use them
