@@ -6,28 +6,28 @@ module.exports = function(grunt){
 		// Configure the uglify task (grunt uglify)
 		ngmin: {
 			controllers: {
-				src: ['public/scripts/controllers/*.js'],
-				dest: 'public/scripts/temp/controllers.js'
+				src: ['src/public/scripts/controllers/*.js'],
+				dest: 'src/public/scripts/temp/controllers.js'
 			},
 
 			directives: {
-				src: ['public/scripts/directives/*.js'],
-				dest: 'public/scripts/temp/directives.js'
+				src: ['src/public/scripts/directives/*.js'],
+				dest: 'src/public/scripts/temp/directives.js'
 
 			},
 
 			services: {
-				src: ['public/scripts/services/*.js'],
-				dest: 'public/scripts/temp/services.js'
+				src: ['src/public/scripts/services/*.js'],
+				dest: 'src/public/scripts/temp/services.js'
 			}
 		},
 
 		uglify: {
 			development: {
 				files: [{
-					'public/scripts/min/controllers.min.js': ['public/scripts/temp/controllers.js'],
-					'public/scripts/min/directives.min.js': ['public/scripts/temp/directives.js'],
-					'public/scripts/min/services.min.js': ['public/scripts/temp/services.js']
+					'src/public/scripts/min/controllers.min.js': ['src/public/scripts/temp/controllers.js'],
+					'src/public/scripts/min/directives.min.js': ['src/public/scripts/temp/directives.js'],
+					'src/public/scripts/min/services.min.js': ['src/public/scripts/temp/services.js']
 				}],
 
 				options: {
@@ -39,20 +39,20 @@ module.exports = function(grunt){
 
 		watch: {
 			js: {
-				files: ['public/scripts/**/*.js', '!public/scripts/temp/**/*.js', '!public/scripts/min/**/*.js'],
+				files: ['src/public/scripts/**/*.js', '!src/public/scripts/temp/**/*.js', '!src/public/scripts/min/**/*.js'],
 				tasks: ['dev']
 			}
 		},
         // read-only task, single src property is needed
         jshint: {
             controllers: {
-                src: ['public/scripts/controllers/*.js']
+                src: ['src/public/scripts/controllers/*.js']
             },
             directives: {
-                src: ['public/scripts/directives/*.js']
+                src: ['src/public/scripts/directives/*.js']
             },
             services: {
-                src: ['public/scripts/services/*.js']
+                src: ['src/public/scripts/services/*.js']
             }
         }
 

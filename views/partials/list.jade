@@ -1,8 +1,0 @@
-div.container.main
-	div.med-list-container(ng-model="data")
-		h1.greeting {{name}}, these are your current medications:
-		div.col-md-5.border#medList
-			div.single-med(ng-repeat="med in data")
-				div.med-container(draggable="true" is-draggable med="med")
-					h4.med.med-title {{med.Medication}}
-					h6.med.med-instructions {{med.Instructions}}
