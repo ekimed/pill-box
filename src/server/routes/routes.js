@@ -53,10 +53,6 @@ module.exports = {
 
 			var medicationsObj = parse.medListToJsonFormat(medicationsArrObj);
 
-			// split on spaces and '/'
-			// each medication is split into an array
-			var data = [];
-
 			// only show active medications
 			medicationsObj = medicationsObj.filter(function(d){
 				return d['Status'] === ' Active';
@@ -74,7 +70,7 @@ module.exports = {
 					}
 				}
 				lines.push(test);
-			};
+			}
 
 			// Get the full name of the medication without acroynyms or abbreviations
 			function getFullName (arrayOfObjects, line, word){
@@ -92,10 +88,10 @@ module.exports = {
 					}
 				}
 					
-			};
+			}
 
 			var lineFns = lines.map(function(line){
-				return function(cbLines){
+				return function (cbLines) {
 					var wordFns = line.map(function(word){
 						return function(cbWords){
 							model.find({DISPLAY_NAME_SYNONYM: word}, function(err, docs){
@@ -116,34 +112,37 @@ module.exports = {
 				};
 			});
 
+
 			async.parallel(lineFns, function(err, results){
 				for(var i = 0; i < results.length; i++){
 					var result = _.without(results[i], null);
 					// There should only be one match
 					// Index of match should therefore be 0
+
+                    var med = medicationsObj[i];
+
 					if (result.length){
 						var match = JSON.parse(result[0]);
 
-						medicationsObj[i]['Medication'] = match['FULL_NAME'].toUpperCase();
-						medicationsObj[i]['Instructions'] = medicationsObj[i]['Instructions'].toLowerCase();
+						med.Medication = match['FULL_NAME'].toUpperCase();
+						med.Instructions = med.Instructions.toLowerCase();
 
 					}
 					else{
 						// need to put a space before 'mg' for rxnorm data matching purposes;
-                        if (medicationsObj[i]['Medication'].search(/(?:\d)([a-zA-Z]{2,3})/) != -1) {
-                            var idx = medicationsObj[i]['Medication'].search(/(?:\d)([a-zA-Z]{2,3})/) + 1;
-                            medicationsObj[i]['Medication'] = medicationsObj[i]['Medication'].slice(0, idx) + ' ' + medicationsObj[i]['Medication'].slice(idx);
+                        if (med.Medication.search(/(?:\d)([a-zA-Z]{2,3})/) != -1) {
+                            var idx = med.Medication.search(/(?:\d)([a-zA-Z]{2,3})/) + 1;
+                            med.Medication = med.Medication.slice(0, idx) + ' ' + med.Medication.slice(idx);
                         }
 
-						if(medicationsObj[i]['Medication'].search(/CAP/m) != -1){ // check to see if CAP is abbreviated and if found change to capsule
-							medicationsObj[i]['Medication'] = medicationsObj[i]['Medication'].replace(/CAP/, 'CAPSULE');
-						} else if(medicationsObj[i]['Medication'].search(/TAB/m) != -1){ // check to see if TAB is abbreviated and if found change to tablet
-							medicationsObj[i]['Medication'] = medicationsObj[i]['Medication'].replace(/TAB/, 'TABLET');
+						if(med.Medication.search(/CAP/m) != -1){ // check to see if CAP is abbreviated and if found change to capsule
+							med.Medication = med.Medication.replace(/CAP/, 'CAPSULE');
+						} else if (med.Medication.search(/TAB/m) != -1){ // check to see if TAB is abbreviated and if found change to tablet
+							med.Medication = med.Medication.replace(/TAB/, 'TABLET');
 						}
 
-						medicationsObj[i]['Instructions'] = medicationsObj[i]['Instructions'].toLowerCase();
+						med.Instructions = med.Instructions.toLowerCase();
 					}
-
 				}
 
 				// Create new schedule object
@@ -157,10 +156,7 @@ module.exports = {
 						console.log('Success! New schedule was added to database', schedule);
 						res.send({data:medicationsObj, firstName: firstName, schedule: schedule});
 					}
-
 				});
-
-				
 			});
 
 						
