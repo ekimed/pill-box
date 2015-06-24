@@ -1,0 +1,206 @@
+-------------------------- VA MEDICATION HISTORY ----------------------
+
+Source: VA
+Last Updated: 28 Aug 2013 @ 0958
+
+Sorted By: Last Filled On (Descending)
+
+Remember to share all information about your medications or updates with 
+your VA health care team. Also, check information in your VA Allergies 
+and your Self Reported Allergies. This may let you know if you had a 
+reaction to a medication you received. If you have any questions about 
+your information please visit the FAQs or contact your VA health care 
+team. 
+
+Medication: HCTZ 25/TRIAMTERENE 37.5MG TAB 
+Instructions: TAKE ONE-HALF TABLET (12.5/18.75 MG) BY MOUTH EVERY DAY 
+Status: Active
+Refills Remaining: 3
+Last Filled On: 11 Dec 2012
+Initially Ordered On: 10 Dec 2012
+Quantity: 45
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11532051
+
+Medication: FLUOXETINE HCL 10MG CAP 
+Instructions: TAKE ONE CAPSULE BY MOUTH EVERY MORNING 
+Status: Active
+Refills Remaining: 3
+Last Filled On: 11 Dec 2012
+Initially Ordered On: 10 Dec 2012
+Quantity: 90
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11532050
+
+Medication: AMLODIPINE BESYLATE 5MG TAB 
+Instructions: TAKE ONE-HALF TABLET BY MOUTH EVERY DAY FOR BLOOD PRESSURE 
+Status: Refill in Process
+Refills Remaining: 2
+Last Filled On: 01 Mar 2013
+Initially Ordered On: 10 Dec 2012
+Quantity: 45
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11532047
+
+Medication: DONEPEZIL HCL 5MG TAB 
+Instructions: TAKE ONE TABLET BY MOUTH EVERY MORNING 
+Status: Refill in Process
+Refills Remaining: 10
+Last Filled On: 16 Feb 2013
+Initially Ordered On: 10 Dec 2012
+Quantity: 30
+Days Supply: 30
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 11532048
+
+------------------- SELF REPORTED MEDICATIONS AND SUPPLEMENTS ---------------
+
+Source: Self-Entered
+No information was available that matched your selection.
+
+----------------------------- VA ALLERGIES ------------------------------
+
+Source: VA
+Last Updated: 09 Sep 2013 @ 0602
+
+Remember to share all information about your allergies with your health care 
+team.  If you have any questions about your information please visit the FAQs 
+or contact your VA health care team. 
+
+
+Allergy Name:        IMIPRAMINE
+Location:            PORTLAND, OREGON VA MEDICAL CENTER
+Date Entered:        07 Dec 2012
+Reaction:            ANAPHYLAXIS 
+Allergy Type:        DRUG 
+VA Drug Class:       TRICYCLIC ANTIDEPRESSANTS 
+Observed/Historical: OBSERVED
+Comments:            severe 
+
+Allergy Name:        TRIMETHOPRIM
+Location:            PORTLAND, OREGON VA MEDICAL CENTER
+Date Entered:        03 Jun 2011
+Reaction:            -- 
+Allergy Type:        DRUG 
+VA Drug Class:       ANTI-INFECTIVES,OTHER 
+Observed/Historical: HISTORICAL
+Comments:            the reaction to this allergy was MILD (NO SQUELAE) 
+
+Allergy Name:        TRAMADOL
+Location:            PORTLAND, OREGON VA MEDICAL CENTER
+Date Entered:        03 Jun 2011
+Reaction:            RETENTION OF URINE 
+Allergy Type:        DRUG 
+VA Drug Class:       NON-OPIOID ANALGESICS 
+Observed/Historical: HISTORICAL
+Comments:            gradually worsening difficulty emptying bladder -- 
+                     might
+                     try tramadol again cautiously because pt. reported 
+                     pain
+                     relief 
+
+Allergy Name:        TERAZOSIN
+Location:            PORTLAND, OREGON VA MEDICAL CENTER
+Date Entered:        03 Jun 2011
+Reaction:            DIZZINESS 
+Allergy Type:        DRUG 
+VA Drug Class:       ALPHA BLOCKERS/RELATED 
+Observed/Historical: HISTORICAL
+Comments:            -- 
+
+Allergy Name:        BACTRIM
+Location:            PORTLAND, OREGON VA MEDICAL CENTER
+Date Entered:        03 Jun 2011
+Reaction:            -- 
+Allergy Type:        DRUG 
+VA Drug Class:       SULFONAMIDE/RELATED ANTIMICROBIALS 
+Observed/Historical: HISTORICAL
+Comments:            Causes Swelling of the Extremities 
+
+Allergy Name:        METHOCARBAMOL
+Location:            PORTLAND, OREGON VA MEDICAL CENTER
+Date Entered:        03 Jun 2011
+Reaction:            DELIRIUM, DROWSY 
+Allergy Type:        DRUG 
+VA Drug Class:       SKELETAL MUSCLE RELAXANTS 
+Observed/Historical: OBSERVED
+Comments:            Drowsiness and hallucinations while on methocarbamol 
+                     plus
+                     carbamazepine and other sedatives 
+
+
+Remember to share all information about your allergies with your health 
+care team.  If you have any questions about your information please visit 
+the FAQs or contact your VA health care team. 
+Allergy information.
+
+
+
+---------------------------- SELF REPORTED ALLERGIES -----------------------
+
+Source: Self-Entered
+
+Allergy Name: Diovan
+Date:         07 Jan 2013
+Severity:     Mild
+Diagnosed:    No
+
+Reaction: Dry cough 
+
+Comments: I called my provider and told him the reaction I had. He is calling 
+in a new Rx for my HTN 
+
+---------------------------- VA PROBLEM LIST ----------------------------
+
+Source: VA
+Last Updated: 
+
+Sorted By: Date/Time Entered (Descending) then alphabetically by Problem
+
+Your VA Problem List contains active health problems your VA providers 
+are helping you to manage.  This information is available 3 calendar days 
+after it has been entered.  It may not contain active problems managed by 
+non-VA health care providers.  If you have any questions about your 
+information, visit the FAQs or contact your VA health care team. 
+
+
+Problem:            Posttraumatic Stress Disorder
+Date/Time Entered:  11 Feb 2013 @ 1200
+Location:           PORTLAND, OREGON VA MEDICAL CENTER
+Status:             ACTIVE
+Provider:           PROVIDER, ONE A
+Comments:           AWAITING A COMP AND PEN EXAM                                        comment #1                                         
+Comment #2                                        comment #3                                         
+
+Problem:            MILD COGNITIVE IMPAIRMENT
+Date/Time Entered:  16 Jan 2013 @ 1200
+Location:           PORTLAND, OREGON VA MEDICAL CENTER
+Status:             ACTIVE
+Provider:           PROVIDER, ONE A
+Comments:           this is only a test                                        INDEPENDENT IN ADLs AND IADLs                                   
+       
+
+Problem:            Diabetes with neurological Manifestations, type i [Juvenile type], not stated as
+Date/Time Entered:  07 Dec 2012 @ 1200
+Location:           PORTLAND, OREGON VA MEDICAL CENTER
+Status:             ACTIVE
+Provider:           PROVIDER, ONE A
+Comments:           -- 
+
+Problem:            Hyperlipidemia
+Date/Time Entered:  07 Dec 2012 @ 1200
+Location:           PORTLAND, OREGON VA MEDICAL CENTER
+Status:             ACTIVE
+Provider:           PROVIDER, ONE A
+Comments:           -- 
+
+Problem:            TRAUMATIC BRAIN INJURY
+Date/Time Entered:  07 Dec 2012 @ 1200
+Location:           PORTLAND, OREGON VA MEDICAL CENTER
+Status:             ACTIVE
+Provider:           PROVIDER, ONE A
+Comments:           -- 
+

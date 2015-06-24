@@ -1,0 +1,16 @@
+// Created by eunicekim on 6/18/15.
+
+div.container#search(ng-controller="SearchMedListCtrl")
+    h1 Search
+    form.container.search-container(ng-submit="search()")
+        div.row
+            div.col-xs-3.col-xs-offset-4.search-box-div
+                input.search-input(type="text" ng-model="searchTerm" ng-change="esQuery()")
+            div.col-xs-3.search-btn-div
+                input.btn.btn-default(type="submit" value="Search")
+        div.row
+            div.col-xs-3.col-xs-offset-4
+                ul.drop-down(ng-show="isResults")
+                    li.dd-li(ng-repeat="drug in esResults") {{drug.DISPLAY_NAME}}
+
+
