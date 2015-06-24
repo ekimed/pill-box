@@ -24,6 +24,10 @@ input.search {
     width: 100%;
 }
 
+.dd-li:hover {
+    background-color: aliceblue;
+}
+
 .search-container .row {
     min-height: 0;
 }
