@@ -384,3 +384,4 @@
 #
 #http.jsonp.enable: true
 http.cors.enabled: true
+script.disable_dynamic: false
