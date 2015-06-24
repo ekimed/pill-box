@@ -1,0 +1,187 @@
+/*css styling for search component*/
+input.search {
+    margin: 5px;
+}
+
+.drop-down {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+}
+
+.dd-li {
+    width: 100%;
+}
+
+.search-container .row {
+    min-height: 0;
+}
+
+.search-box-div {
+    text-align: right;
+    height: 35px;
+}
+.search-btn-div {
+    text-align: left;
+}
+/*end css styling for search component*/
+
+/*css styling for schedule component*/
+.fileupload {
+	visibility: hidden !important;
+	width: 0;
+	height: 0;
+}
+
+.login-container, #search {
+	text-align: center;
+}
+
+.fileupload-box {
+	height: 200px;
+	width: 500px;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 150px;
+}
+
+.login-title, .emphasize {
+	font-family: 'Raleway Dots', serif;
+	font-size: 60px;
+	color: #2980b9;
+}
+.drag-instructions{
+	color: #7f8c8d;
+	font-family: 'Nixie One', serif;
+}
+
+.emphasize {
+	font-size: 90px;
+	margin-top: 0px;
+}
+.fa-circle-thin {
+	color: #3498db;
+	opacity: 0.6;
+}
+.fa-long-arrow-right{
+	font-size: 50px;
+	color: #7f8c8d;
+}
+
+.fa-bullseye, .fa-arrow-up {
+	color: #2980b9;
+	opacity: 0.8;
+}
+
+.line-height-zero {
+	line-height: 0;
+}
+
+.bounce {
+	-webkit-animation-duration: 2s;
+	-moz-animmation-duration: 3s;
+	-moz-animation-delay: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-mox-animation-iteration-count: infinite;
+}
+
+.orange-font {
+	color: #f39c12;
+	opacity: 1.0;
+	font-weight: 100;
+	letter-spacing: 4px;
+}
+
+.btn-container {
+	margin: 10px;
+}
+
+.greeting{
+	font-family: 'Raleway', serif;
+	font-weight: 100;
+	padding-bottom: 30px;
+}
+
+#schedule {
+	background: white;
+}
+
+.show {
+	display: none;
+}
+
+.med-instructions{
+	font-family: 'Lora', serif;
+	padding: 10px 5px 10px 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: rgba(189, 195, 199, 0.21);
+}
+.med-title{
+	font-weight: 400;
+}
+
+.space{
+	height:900px;
+}
+.container.main{
+	margin-top: 5%;
+}
+.margin-zero{
+	margin: 0px;
+}
+.space{
+	text-align: center;
+	padding-top: 126px;
+}
+
+#drop-icon{
+	-moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    font-size: 50px;
+    color: #7f8c8d;
+}
+.border{
+	border: 1px #bdc3c7 solid;
+	padding: 10px;
+}
+
+.raleway, span{
+	font-family: 'Raleway', serif;
+}
+
+span{
+	padding-left: 10px;
+}
+
+.fa-smile-o{
+	padding-top: 15px;
+	opacity: 0.8;
+}
+.row {
+	min-height: 500px;
+}
+#morning-title{
+	background-color: rgb(255, 240, 244);
+}
+#afternoon-title{
+	background-color: rgba(255, 165, 0,0.14);
+}
+#evening-title{
+	background-color: rgba(0,0,255,0.09);
+}
+.icon{
+	text-align: center;
+}
