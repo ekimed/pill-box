@@ -24,7 +24,7 @@ input.search {
     width: 100%;
 }
 
-.dd-li:hover {
+.dd-li:hover, .highlight {
     background-color: aliceblue;
 }
 
