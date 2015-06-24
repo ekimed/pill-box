@@ -5,12 +5,12 @@ div.container#search(ng-controller="SearchMedListCtrl")
     form.container.search-container(ng-submit="search()")
         div.row
             div.col-xs-3.col-xs-offset-4.search-box-div
-                input.search-input(type="text" ng-model="searchTerm" ng-change="esQuery()")
+                input.search-input(type="text" ng-model="searchTerm" ng-change="esQuery()" ng-keyup="checkKeyDown($event)")
             div.col-xs-3.search-btn-div
                 input.btn.btn-default(type="submit" value="Search")
         div.row
             div.col-xs-3.col-xs-offset-4
                 ul.drop-down(ng-show="isResults")
-                    li.dd-li(ng-repeat="drug in esResults") {{drug.DISPLAY_NAME}}
+                    li.dd-li(ng-repeat="drug in esResults" ng-mouseover="getIndex($index)" ng-class="{highlight: $index==selected_idx}") {{drug.DISPLAY_NAME}}
 
 
