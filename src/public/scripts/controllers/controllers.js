@@ -113,9 +113,23 @@
                 }
             });
 
+            console.log($scope);
+
             $scope.esQuery = function () {
                 if ($scope.searchTerm.length > 2) {
-                    esService.search(query, function (err, res) {
+                    esService.search({
+                        "size": 5,
+                        "body": {
+                            "query": {
+                                "multi_match": {
+                                    "query": $scope.searchTerm,
+                                    "type": "phrase_prefix",
+                                    "fields": ["FULL_NAME", "FULL_GENERIC_NAME", "BRAND_NAME", "DISPLAY_NAME", "DISPLAY_NAME_SYNONYM"]
+                                }
+                            }
+
+                        }
+                    }, function (err, res) {
                         if (err) throw (err);
 
                         $scope.esResults = res.hits.hits.map(function (i) {
