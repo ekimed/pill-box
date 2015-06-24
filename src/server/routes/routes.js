@@ -129,15 +129,18 @@ module.exports = {
 
 					}
 					else{
-						// check to see if CAP is abbreviated and if found change to capsule
-						if(medicationsObj[i]['Medication'].search(/CAP/m) != -1){
+						// need to put a space before 'mg' for rxnorm data matching purposes;
+                        if (medicationsObj[i]['Medication'].search(/(?:\d)([a-zA-Z]{2,3})/) != -1) {
+                            var idx = medicationsObj[i]['Medication'].search(/(?:\d)([a-zA-Z]{2,3})/) + 1;
+                            medicationsObj[i]['Medication'] = medicationsObj[i]['Medication'].slice(0, idx) + ' ' + medicationsObj[i]['Medication'].slice(idx);
+                        }
 
+						if(medicationsObj[i]['Medication'].search(/CAP/m) != -1){ // check to see if CAP is abbreviated and if found change to capsule
 							medicationsObj[i]['Medication'] = medicationsObj[i]['Medication'].replace(/CAP/, 'CAPSULE');
-						}
-						// check to see if TAB is abbreviated and if found change to tablet
-						else if(medicationsObj[i]['Medication'].search(/TAB/m) != -1){
+						} else if(medicationsObj[i]['Medication'].search(/TAB/m) != -1){ // check to see if TAB is abbreviated and if found change to tablet
 							medicationsObj[i]['Medication'] = medicationsObj[i]['Medication'].replace(/TAB/, 'TABLET');
 						}
+
 						medicationsObj[i]['Instructions'] = medicationsObj[i]['Instructions'].toLowerCase();
 					}
 
@@ -155,7 +158,7 @@ module.exports = {
 						res.send({data:medicationsObj, firstName: firstName, schedule: schedule});
 					}
 
-				})
+				});
 
 				
 			});
