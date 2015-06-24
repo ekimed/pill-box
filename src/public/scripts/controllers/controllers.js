@@ -75,22 +75,28 @@
     'use strict';
     angular.module('pillboxApp')
         .controller('SearchMedListCtrl', function ($scope, esService, esFactory) {
-            var query = {
-                "size": 5,
-                "body": {
-                    "query": {
-                        "multi_match": {
-                            "query": $scope.searchTerm,
-                            "type": "phrase_prefix",
-                            "fields": ["FULL_NAME", "FULL_GENERIC_NAME", "BRAND_NAME", "DISPLAY_NAME", "DISPLAY_NAME_SYNONYM"]
-                        }
-                    }
-
-                }
-            };
             $scope.esResults = [];
             $scope.isResults = false;
+            $scope.selected_idx = 0;
 
+            // query constructor for partial matching on multiple fields
+            var createQuery = function (queryString) {
+                var q_obj = {
+                    "size": 5,
+                    "body": {
+                        "query": {
+                            "multi_match": {
+                                "query": queryString,
+                                "type": "phrase_prefix",
+                                "fields": ["FULL_NAME", "FULL_GENERIC_NAME", "BRAND_NAME", "DISPLAY_NAME", "DISPLAY_NAME_SYNONYM"]
+                            }
+                        }
+
+                    }
+                };
+
+                return q_obj;
+            };
 
             // check the health of the elasticsearch connection
             esService.cluster.state({
@@ -113,10 +119,35 @@
                 }
             });
 
-            console.log($scope);
+            $scope.getIndex = function (idx) {
+                // update the selected_idx
+                $scope.selected_idx = idx;
+                return idx;
+            };
 
+            $scope.checkKeyDown = function (event) {
+                if (event.keyCode === 40 && $scope.esResults.length) {
+                    if ($scope.selected_idx < $scope.esResults.length) {
+                        $scope.selected_idx += 1;
+                    } else {
+                        $scope.selected_idx = 0;
+                    }
+
+                } else if (event.keyCode === 38 && $scope.esResults.length) {
+                    if ($scope.selected_idx > 0) {
+                        $scope.selected_idx -= 1;
+                    } else {
+                        $scope.selected_idx = 0;
+                    }
+                }
+            };
+
+
+
+            // performs elasticsearch partial match on multiple fields on rxterms index
             $scope.esQuery = function () {
                 if ($scope.searchTerm.length > 2) {
+                    var query = createQuery($scope.searchTerm);
                     esService.search(query, function (err, res) {
                         if (err) throw (err);
 
@@ -124,11 +155,7 @@
                             return i._source;
                         });
 
-                        if ($scope.esResults.length) {
-                            $scope.isResults = true;
-                        } else {
-                            $scope.isResults = false;
-                        }
+                        $scope.isResults = $scope.esResults.length ? true : false;
 
                         return;
                     });
