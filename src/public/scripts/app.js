@@ -1,4 +1,4 @@
-angular.module('pillboxApp', ['angularFileUpload', 'pillboxApp.service', 'pillboxApp.directive','ngResource', 'ngRoute', 'elasticsearch'])
+angular.module('pillboxApp', ['angularFileUpload', 'pillboxApp.service', 'pillboxApp.factory', 'pillboxApp.directive','ngResource', 'ngRoute', 'elasticsearch'])
 	.config(function($routeProvider, $locationProvider) {
 		$locationProvider.html5Mode(true);
 		$routeProvider
