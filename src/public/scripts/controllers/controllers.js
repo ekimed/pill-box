@@ -42,7 +42,7 @@
 
 (function () {
     angular.module('pillboxApp')
-        .controller('MedListCtrl', function($scope, $q, $timeout, Data, esService) {
+        .controller('MedListCtrl', function($scope, $q, $timeout, Data, esService, InteractionAPI) {
             var esData = $scope.esData = [];
 
             // creates a query object for elasticsearch
@@ -102,8 +102,17 @@
                 });
 
                 $timeout(function () {
-                   // angular $timeout will run $apply() after, thus updating the scope
-                   $scope.esData = esData;
+                    // angular $timeout will run $apply() after, thus updating the scope
+                    $scope.esData = esData;
+
+                    InteractionAPI.getInteractions(esData)
+                        .success(function (data) {
+                            console.log(data);
+                        })
+                        .error(function(data, status) {
+                            console.log('err_data:', data);
+                            console.log('err_status:', status);
+                        });
                 });
             });
         });
