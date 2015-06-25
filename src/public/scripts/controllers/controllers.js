@@ -42,9 +42,10 @@
 
 (function () {
     angular.module('pillboxApp')
-        .controller('MedListCtrl', function($scope, $q, Data, esService) {
-            // creates a query object for elasticsearch
+        .controller('MedListCtrl', function($scope, $q, $timeout, Data, esService) {
             var esData = $scope.esData = [];
+
+            // creates a query object for elasticsearch
             var createQuery = function (queryStr, type) {
                 var query_type = {
                     PARTIAL: "phrase_prefix",
@@ -67,6 +68,7 @@
                 return query;
             };
 
+            // search through an array of hits and return the doc with the highest relevancy score
             var getHighScoreDoc = function (arr) {
                 var maxVal = 0,
                     highScore_doc = null,
@@ -84,20 +86,25 @@
                 return highScore_doc;
             };
 
+            // get the data from parsed VA medication text file
             $scope.data = Data.getData().data;
             $scope.name = Data.getData().firstName;
 
             // find the doc in rxterms with the highest relevancy
             var promises = $scope.data.map(function (k) {
-                return esService.search(createQuery(k.Medication));
+                return esService.search(createQuery(k.Medication, 'DEFAULT'));
             });
 
             $q.all(promises).then(function (res) {
-                esData = res.forEach(function(doc) {
-                    return getHighScoreDoc(res);
+                console.log(res)
+                esData = res.map(function(doc) {
+                    return getHighScoreDoc(doc.hits.hits);
                 });
 
-                $scope.apply(); // end of async, update the scope!
+                $timeout(function () {
+                   // angular $timeout will run $apply() after, thus updating the scope
+                   $scope.esData = esData;
+                });
             });
         });
 })();
