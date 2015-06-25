@@ -42,10 +42,63 @@
 
 (function () {
     angular.module('pillboxApp')
-        .controller('MedListCtrl', function($scope, Data) {
+        .controller('MedListCtrl', function($scope, $q, Data, esService) {
+            // creates a query object for elasticsearch
+            var esData = $scope.esData = [];
+            var createQuery = function (queryStr, type) {
+                var query_type = {
+                    PARTIAL: "phrase_prefix",
+                    DEFAULT: "best_fields"
+                };
+
+                var query = {
+                    "size": 5,
+                    "body": {
+                        "query": {
+                            "multi_match": {
+                                "query": queryStr,
+                                "type": query_type[type],
+                                "fields": ["FULL_NAME", "FULL_GENERIC_NAME", "BRAND_NAME", "DISPLAY_NAME", "DISPLAY_NAME_SYNONYM"]
+                            }
+                        }
+                    }
+                };
+
+                return query;
+            };
+
+            var getHighScoreDoc = function (arr) {
+                var maxVal = 0,
+                    highScore_doc = null,
+                    doc,
+                    i;
+
+                for (i = 0; i < arr.length; i++) {
+                    doc = arr[i];
+                    if (doc['_score'] > maxVal) {
+                        maxVal = arr['_score'];
+                        highScore_doc = doc;
+                    }
+                }
+
+                return highScore_doc;
+            };
+
             $scope.data = Data.getData().data;
             $scope.name = Data.getData().firstName;
 
+            // find the doc in rxterms with the highest relevancy
+            var promises = $scope.data.map(function (k) {
+                return esService.search(createQuery(k.Medication));
+            });
+
+            $q.all(promises).then(function (res) {
+                esData = res.forEach(function(doc) {
+                    return getHighScoreDoc(res);
+                });
+
+                $scope.apply(); // end of async, update the scope!
+            });
         });
 })();
 
@@ -79,7 +132,7 @@
             $scope.isResults = false;
             $scope.selected_idx = 0;
 
-            // query constructor for partial matching on multiple fields
+            // query creator for partial matching on multiple fields
             var createQuery = function (queryString) {
                 var q_obj = {
                     "size": 5,
@@ -141,8 +194,6 @@
                     }
                 }
             };
-
-
 
             // performs elasticsearch partial match on multiple fields on rxterms index
             $scope.esQuery = function () {
