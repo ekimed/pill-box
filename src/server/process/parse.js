@@ -74,7 +74,7 @@ module.exports = {
 	},
 
 	getFirstName: function(string) {
-		var keyPattern = /Name:[A-Z ,-]+,\s([A-Z]+)/
+		var keyPattern = /Name:[A-Z ,-]+,\s([A-Z]+)/;
 		var match = string.match(keyPattern);
 		return match[1]
 	}
