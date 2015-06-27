@@ -70,6 +70,50 @@ span{
     min-height: 500px;
 }
 
+.pb-tooltip {
+    position: absolute;
+    padding-right: 5px;
+    top: 10px;
+    left: 55px;
+    pointer-events: none;
+    border: 2px solid #c2e1f5;
+    -webkit-transition:
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    -moz-transition:
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    transition:
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+}
+.pb-tooltip:before {
+    right: 100.3%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.pb-tooltip:before {
+    border-color:rgba(194, 225, 245, 0);
+    border-right-color: #c2e1f5;
+    border-width: 12px;
+    margin-top: -12px;
+}
+
+/*.pb-tooltip:after {*/
+    /*border-color: rgba(219, 138, 141, 0);*/
+    /*border-right-color: #db8a8d;*/
+    /*border-width: 30px;*/
+    /*margin-top: -30px;*/
+/*}*/
+
 /*css styling for medList*/
 .greeting {
     font-family: 'Raleway', serif;
