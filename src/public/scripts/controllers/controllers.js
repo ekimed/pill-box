@@ -44,6 +44,7 @@
     angular.module('pillboxApp')
         .controller('MedListCtrl', function($scope, $q, $timeout, Data, esService, InteractionAPI) {
             var esData = $scope.esData = [];
+            $scope.tooltipMsg = 'Drug interactions between your medications were detected. Click to view.';
 
             // creates a query object for elasticsearch
             var createQuery = function (queryStr, type) {
@@ -87,34 +88,40 @@
             };
 
             // get the data from parsed VA medication text file
-            $scope.data = Data.getData().data;
-            $scope.name = Data.getData().firstName;
+            var data = Data.getData();
+            $scope.data = data ? Data.getData().data : [];
+            $scope.name = data ? Data.getData().firstName : 'Hello';
 
             // find the doc in rxterms with the highest relevancy
-            var promises = $scope.data.map(function (k) {
-                return esService.search(createQuery(k.Medication, 'DEFAULT'));
-            });
-
-            $q.all(promises).then(function (res) {
-                console.log(res)
-                esData = res.map(function(doc) {
-                    return getHighScoreDoc(doc.hits.hits);
+            if ($scope.data.length) {
+                var promises = $scope.data.map(function (k) {
+                    return esService.search(createQuery(k.Medication, 'DEFAULT'));
                 });
 
-                $timeout(function () {
-                    // angular $timeout will run $apply() after, thus updating the scope
-                    $scope.esData = esData;
+                $q.all(promises).then(function (res) {
+                    console.log(res);
+                    esData = res.map(function(doc) {
+                        return getHighScoreDoc(doc.hits.hits);
+                    });
 
-                    InteractionAPI.getInteractions(esData)
-                        .success(function (data) {
-                            console.log(data);
-                        })
-                        .error(function(data, status) {
-                            console.log('err_data:', data);
-                            console.log('err_status:', status);
-                        });
+                    $timeout(function () {
+                        // angular $timeout will run $apply() after, thus updating the scope
+                        $scope.esData = esData;
+
+                        InteractionAPI.getInteractions(esData)
+                            .success(function (data) {
+                                console.log(data);
+                            })
+                            .error(function(data, status) {
+                                console.log('err_data:', data);
+                                console.log('err_status:', status);
+                            });
+                    });
                 });
-            });
+            }
+
+
+
         });
 })();
 
@@ -130,7 +137,8 @@
     'use strict';
      angular.module('pillboxApp')
         .controller('ScheduleCtrl', function($scope, Data) {
-            $scope.schedule = Data.getData().schedule;
+            var data = Data.getData();
+            $scope.schedule = data ? data.schedule : [];
         });
 })();
 
