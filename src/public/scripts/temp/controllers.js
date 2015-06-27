@@ -42,10 +42,78 @@
 (function () {
   angular.module('pillboxApp').controller('MedListCtrl', [
     '$scope',
+    '$q',
+    '$timeout',
     'Data',
-    function ($scope, Data) {
-      $scope.data = Data.getData().data;
-      $scope.name = Data.getData().firstName;
+    'esService',
+    'InteractionAPI',
+    function ($scope, $q, $timeout, Data, esService, InteractionAPI) {
+      var esData = $scope.esData = [];
+      $scope.tooltipMsg = 'Drug interactions between your medications were detected. Click to view.';
+      // creates a query object for elasticsearch
+      var createQuery = function (queryStr, type) {
+        var query_type = {
+            PARTIAL: 'phrase_prefix',
+            DEFAULT: 'best_fields'
+          };
+        var query = {
+            'size': 5,
+            'body': {
+              'query': {
+                'multi_match': {
+                  'query': queryStr,
+                  'type': query_type[type],
+                  'fields': [
+                    'FULL_NAME',
+                    'FULL_GENERIC_NAME',
+                    'BRAND_NAME',
+                    'DISPLAY_NAME',
+                    'DISPLAY_NAME_SYNONYM'
+                  ]
+                }
+              }
+            }
+          };
+        return query;
+      };
+      // search through an array of hits and return the doc with the highest relevancy score
+      var getHighScoreDoc = function (arr) {
+        var maxVal = 0, highScore_doc = null, doc, i;
+        for (i = 0; i < arr.length; i++) {
+          doc = arr[i];
+          if (doc['_score'] > maxVal) {
+            maxVal = arr['_score'];
+            highScore_doc = doc;
+          }
+        }
+        return highScore_doc;
+      };
+      // get the data from parsed VA medication text file
+      var data = Data.getData();
+      $scope.data = data ? Data.getData().data : [];
+      $scope.name = data ? Data.getData().firstName : 'Hello';
+      // find the doc in rxterms with the highest relevancy
+      if ($scope.data.length) {
+        var promises = $scope.data.map(function (k) {
+            return esService.search(createQuery(k.Medication, 'DEFAULT'));
+          });
+        $q.all(promises).then(function (res) {
+          console.log(res);
+          esData = res.map(function (doc) {
+            return getHighScoreDoc(doc.hits.hits);
+          });
+          $timeout(function () {
+            // angular $timeout will run $apply() after, thus updating the scope
+            $scope.esData = esData;
+            InteractionAPI.getInteractions(esData).success(function (data) {
+              console.log(data);
+            }).error(function (data, status) {
+              console.log('err_data:', data);
+              console.log('err_status:', status);
+            });
+          });
+        });
+      }
     }
   ]);
 }());
@@ -64,7 +132,8 @@
     '$scope',
     'Data',
     function ($scope, Data) {
-      $scope.schedule = Data.getData().schedule;
+      var data = Data.getData();
+      $scope.schedule = data ? data.schedule : [];
     }
   ]);
 }());
@@ -83,7 +152,7 @@
       $scope.esResults = [];
       $scope.isResults = false;
       $scope.selected_idx = 0;
-      // query constructor for partial matching on multiple fields
+      // query creator for partial matching on multiple fields
       var createQuery = function (queryString) {
         var q_obj = {
             'size': 5,

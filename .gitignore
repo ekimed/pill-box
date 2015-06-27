@@ -1,1 +1,4 @@
 node_modules
+elasticsearch*.log
+.DS_Store
+src/_elasticsearch*
