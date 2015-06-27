@@ -1,8 +1,11 @@
 div.container.main(ng-controller="MedListCtrl")
-	div.med-list-container(ng-model="data")
-		h1.greeting {{name}}, these are your current medications:
+	div.med-list-container
+		h1.greeting(ng-model="data") {{name}}, these are your current medications:
+		div.row.ddi-container
+			pb-tooltip(tooltip-msg="tooltipMsg")
+				i.fa.fa-2x.fa-exclamation-circle.dfa-2x.ddi-icon.bounce.bounce-q3.animated.tooltip-target
 		div.col-md-4#medList
-			div.row.border
+			div.row.border(ng-model="data")
 				div.single-med(ng-repeat="med in data")
 					div.med-container(draggable="true" is-draggable med="med")
 						h4.med.med-title {{med.Medication}}
