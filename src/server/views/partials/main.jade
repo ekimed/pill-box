@@ -1,7 +1,7 @@
 div.container.main(ng-controller="MedListCtrl")
 	div.med-list-container
 		h1.greeting(ng-model="data") {{name}}, these are your current medications:
-		div.row.ddi-container
+		div.row.ddi-container(ng-show="ddiDetected")
 			pb-tooltip(tooltip-msg="tooltipMsg")
 				i.fa.fa-2x.fa-exclamation-circle.dfa-2x.ddi-icon.bounce.bounce-q3.animated.tooltip-target
 		div.col-md-4#medList

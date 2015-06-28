@@ -2,149 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e65bb5c-2ddf-446b-b250-7f1cf91d8e57" name="Default" comment="carousel dropdown highlighting added">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/_state/global-2.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/_state/global-6.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/_state/state-2.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8.fdt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8.fdx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8.fnm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8.nvd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8.nvm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8_Lucene410_0.dvd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8_Lucene410_0.dvm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8_Lucene41_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8_Lucene41_0.pos" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8_Lucene41_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h8_Lucene41_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h9.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h9.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_h9.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_ha.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_ha.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_ha.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi.fdt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi.fdx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi.fnm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi.nvd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi.nvm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi_Lucene410_0.dvd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi_Lucene410_0.dvm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi_Lucene41_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi_Lucene41_0.pos" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi_Lucene41_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mi_Lucene41_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mj.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mj.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mj.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mk.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mk.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/_mk.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/translog/translog-1435127484946" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/0/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/0/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/0/index/segments_3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/0/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/1/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/1/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/1/index/segments_2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/1/index/segments_5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/2/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/2/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/2/index/segments_2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/2/index/segments_5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/3/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/3/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/3/index/segments_2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/3/index/segments_5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/4/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/4/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/4/index/segments_2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/4/index/segments_5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/0/_state/state-2.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/0/_state/state-5.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/0/index/segments_4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/0/index/segments_7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/1/_state/state-2.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/1/_state/state-5.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/1/index/segments_4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/1/index/segments_7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/2/_state/state-2.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/2/_state/state-5.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/2/index/segments_4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/2/index/segments_7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/3/_state/state-2.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/3/_state/state-5.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/3/index/segments_4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/3/index/segments_7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/4/_state/state-2.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/4/_state/state-5.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/4/index/segments_4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/4/index/segments_7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/0/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/0/_state/state-1.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/0/index/segments_3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/0/translog/translog-1435133363518" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/1/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/1/_state/state-1.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/1/index/segments_3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/1/translog/translog-1435133363525" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/2/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/2/_state/state-1.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/2/index/segments_3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/2/translog/translog-1435133363529" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/3/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/3/_state/state-1.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/3/index/segments_3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/3/translog/translog-1435133363521" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/4/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/4/_state/state-1.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/4/index/segments_3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/4/translog/translog-1435133363539" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/0/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/0/index/segments_2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/1/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/1/index/segments_2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/2/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/2/index/segments_2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/3/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/3/index/segments_2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/4/_state/state-0.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/4/index/segments_2" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.24/0/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/0/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/0/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/1/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/1/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/2/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/2/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/3/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/3/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/4/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-kibana/4/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/0/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/0/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/1/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/1/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/2/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/2/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/3/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/3/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/4/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/customer/4/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/0/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/0/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/1/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/1/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/2/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/2/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/3/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/3/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/4/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms/4/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/0/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/0/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/1/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/1/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/2/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/2/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/3/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/3/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/4/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/rxterms_1/4/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk.fdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk.fdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk.fnm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk.nvd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk.nvm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk_Lucene410_0.dvd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk_Lucene410_0.dvm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk_Lucene41_0.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk_Lucene41_0.pos" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk_Lucene41_0.tim" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_1vk_Lucene41_0.tip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k.fdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k.fdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k.fnm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k.nvd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k.nvm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k_Lucene410_0.dvd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k_Lucene410_0.dvm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k_Lucene41_0.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k_Lucene41_0.pos" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k_Lucene41_0.tim" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_25k_Lucene41_0.tip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296.fdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296.fdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296.fnm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296.nvd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296.nvm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296_Lucene410_0.dvd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296_Lucene410_0.dvm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296_Lucene41_0.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296_Lucene41_0.pos" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296_Lucene41_0.tim" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_296_Lucene41_0.tip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_297.cfe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_297.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_297.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_298.cfe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_298.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_298.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_299.cfe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_299.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_299.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_29a.cfe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_29a.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_29a.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_29b.cfe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_29b.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_29b.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_29c.cfe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_29c.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/_29c.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/segments_f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/translog/translog-1435380539624" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/segments.gen" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/temp/controllers.js" afterPath="$PROJECT_DIR$/src/public/scripts/temp/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/controllers.min.js" afterPath="$PROJECT_DIR$/src/public/scripts/min/controllers.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/controllers.min.map" afterPath="$PROJECT_DIR$/src/public/scripts/min/controllers.min.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/temp/directives.js" afterPath="$PROJECT_DIR$/src/public/scripts/temp/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/directives.min.js" afterPath="$PROJECT_DIR$/src/public/scripts/min/directives.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/directives.min.map" afterPath="$PROJECT_DIR$/src/public/scripts/min/directives.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/logs/elasticsearch.log" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/logs/elasticsearch.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/temp/services.js" afterPath="$PROJECT_DIR$/src/public/scripts/temp/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/services.min.js" afterPath="$PROJECT_DIR$/src/public/scripts/min/services.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/services.min.map" afterPath="$PROJECT_DIR$/src/public/scripts/min/services.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/views/partials/main.jade" afterPath="$PROJECT_DIR$/src/server/views/partials/main.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pill-box.iws" />
@@ -181,31 +101,31 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/public/scripts/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2692308" vertical-offset="541" max-vertical-offset="3870">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state vertical-scroll-proportion="-13.692307" vertical-offset="1549" max-vertical-offset="3945">
+              <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tooltip.directive.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="factory.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/public/scripts/services/factory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="1290">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tooltip.directive.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/public/scripts/directives/tooltip.directive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="1155">
-              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.58939093" vertical-offset="0" max-vertical-offset="840">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.jade" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/server/views/partials/main.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04398827" vertical-offset="0" max-vertical-offset="870">
-              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -246,12 +166,12 @@
         <option value="$PROJECT_DIR$/src/server/views/partials/list.jade" />
         <option value="$PROJECT_DIR$/src/server/views/partials/welcome.jade" />
         <option value="$PROJECT_DIR$/src/public/scripts/directives/pb-tooltip.html" />
-        <option value="$PROJECT_DIR$/src/server/views/partials/main.jade" />
         <option value="$PROJECT_DIR$/src/public/scripts/services/factory.js" />
         <option value="$PROJECT_DIR$/src/public/scripts/app.js" />
-        <option value="$PROJECT_DIR$/src/public/scripts/controllers/controllers.js" />
-        <option value="$PROJECT_DIR$/src/public/scripts/directives/tooltip.directive.js" />
         <option value="$PROJECT_DIR$/src/public/styles/main.css" />
+        <option value="$PROJECT_DIR$/src/public/scripts/directives/tooltip.directive.js" />
+        <option value="$PROJECT_DIR$/src/server/views/partials/main.jade" />
+        <option value="$PROJECT_DIR$/src/public/scripts/controllers/controllers.js" />
       </list>
     </option>
   </component>
@@ -264,10 +184,10 @@
     <initial>false</initial>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="232" />
-    <option name="y" value="23" />
-    <option name="width" value="931" />
-    <option name="height" value="815" />
+    <option name="x" value="112" />
+    <option name="y" value="42" />
+    <option name="width" value="978" />
+    <option name="height" value="642" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -834,12 +754,20 @@
       <created>1435445029149</created>
       <updated>1435445029149</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Only show ddi icon when ddi result is returned">
+      <created>1435451253590</created>
+      <updated>1435451253590</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Removed comment">
+      <created>1435451285688</created>
+      <updated>1435451285688</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="232" y="23" width="931" height="815" extended-state="0" />
-    <editor active="false" />
+    <frame x="112" y="42" width="978" height="642" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3301738" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -852,7 +780,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13744076" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25384617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2413793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -898,8 +826,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Added elasticsearch and factory.js" />
-    <MESSAGE value="Added new route for rxterms&#10;" />
     <MESSAGE value="Fixed callback error" />
     <MESSAGE value="elasticsearch config change, enable CORS" />
     <MESSAGE value="missing return" />
@@ -923,7 +849,9 @@
     <MESSAGE value="added ddi icon w/ tooltip" />
     <MESSAGE value="changed bounce css" />
     <MESSAGE value="updated font awesome version" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated font awesome version" />
+    <MESSAGE value="Only show ddi icon when ddi result is returned" />
+    <MESSAGE value="Removed comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1127,44 +1055,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/scripts/services/factory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1290">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/public/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="3750">
           <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/scripts/controllers/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2692308" vertical-offset="541" max-vertical-offset="3870">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/scripts/directives/tooltip.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="1155">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/views/partials/main.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04398827" vertical-offset="0" max-vertical-offset="870">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -1182,6 +1076,40 @@
         <state vertical-scroll-proportion="0.54034585" vertical-offset="0" max-vertical-offset="694">
           <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/views/partials/main.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08840864" vertical-offset="0" max-vertical-offset="870">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/scripts/services/factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1290">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/scripts/controllers/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.692307" vertical-offset="1549" max-vertical-offset="3945">
+          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/scripts/directives/tooltip.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58939093" vertical-offset="0" max-vertical-offset="840">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
