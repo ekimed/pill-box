@@ -44,6 +44,7 @@
     angular.module('pillboxApp')
         .controller('MedListCtrl', function($scope, $q, $timeout, Data, esService, InteractionAPI) {
             var esData = $scope.esData = [];
+            $scope.ddiDetected = false;
             $scope.tooltipMsg = 'Drug interactions between your medications were detected. Click to view.';
 
             // creates a query object for elasticsearch
@@ -93,7 +94,8 @@
             $scope.name = data ? Data.getData().firstName : 'Hello';
 
             // find the doc in rxterms with the highest relevancy
-            if ($scope.data.length) {
+            // check for drug-drug interactions
+            if ($scope.data.length >= 2) {
                 var promises = $scope.data.map(function (k) {
                     return esService.search(createQuery(k.Medication, 'DEFAULT'));
                 });
@@ -107,20 +109,23 @@
                     $timeout(function () {
                         // angular $timeout will run $apply() after, thus updating the scope
                         $scope.esData = esData;
+                        var cb = function () {
+                            $scope.ddiDetected = true;
+                        };
 
                         InteractionAPI.getInteractions(esData)
                             .success(function (data) {
                                 console.log(data);
+                                cb();
                             })
                             .error(function(data, status) {
                                 console.log('err_data:', data);
                                 console.log('err_status:', status);
                             });
+
                     });
                 });
             }
-
-
 
         });
 })();
