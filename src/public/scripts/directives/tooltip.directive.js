@@ -2,27 +2,6 @@
  * Created by eunicekim on 6/25/15.
  */
 
-//(function () {
-//    angular.module('pillboxApp')
-//        .directive('pbTooltip', ['$document', function($document) {
-//            return {
-//                restrict: 'EA',
-//                link: function (scope, element, attrs) {
-//                    // DOM behavior
-//                    scope.isVisible = function (shouldShow) {
-//                        scope.visibility = shouldShow;
-//                    };
-//
-//                    console.log(attrs);
-//                },
-//                scope: {
-//                    tooltipMsg: '='
-//                },
-//                template: '<span>{{tooltipMsg}}</span>'
-//            }
-//        }]);
-//})();
-
 (function () {
     angular.module('pillboxApp')
         .directive('pbTooltip',['$document', function ($document) {
