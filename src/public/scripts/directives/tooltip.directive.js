@@ -12,7 +12,6 @@
                    tooltipMsg: '='
                 },
                 link: function (scope, element, attrs) {
-                    console.log('The link fn was called');
                     element.css({
                         position: 'relative'
                     });

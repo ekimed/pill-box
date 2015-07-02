@@ -3,7 +3,7 @@ div.container.main(ng-controller="MedListCtrl")
 		h1.greeting(ng-model="data") {{name}}, these are your current medications:
 		div.row.ddi-container(ng-show="ddiDetected")
 			pb-tooltip(tooltip-msg="tooltipMsg")
-				i.fa.fa-2x.fa-exclamation-circle.dfa-2x.ddi-icon.bounce.bounce-q3.animated.tooltip-target
+				i.fa.fa-2x.fa-exclamation-circle.dfa-2x.ddi-icon.bounce.bounce-q3.animated.tooltip-target(ng-click="openModal()")
 		div.col-md-4#medList
 			div.row.border(ng-model="data")
 				div.single-med(ng-repeat="med in data")

@@ -1,5 +1,7 @@
 node_modules
+*.xml
 elasticsearch*.log
 .DS_Store
 src/_elasticsearch
 elasticsearch*.marvel*
+elasticsearch-1.6.0/data/*

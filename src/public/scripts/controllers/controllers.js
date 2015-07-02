@@ -42,10 +42,19 @@
 
 (function () {
     angular.module('pillboxApp')
-        .controller('MedListCtrl', function($scope, $q, $timeout, Data, esService, InteractionAPI) {
+        .controller('MedListCtrl', function($scope, $q, $timeout, Data, esService, InteractionAPI, ngDialog, DrugInteraction) {
             var esData = $scope.esData = [];
             $scope.ddiDetected = false;
             $scope.tooltipMsg = 'Drug interactions between your medications were detected. Click to view.';
+
+            // TODO modal dialog for DDI
+            $scope.openModal = function () {
+                ngDialog.open({
+                    template: 'server/views/modal/templates/ddi_template.jade',
+                    className: 'ngdialog-theme-default',
+                    controller: 'MedListCtrl'
+                });
+            };
 
             // creates a query object for elasticsearch
             var createQuery = function (queryStr, type) {
@@ -79,8 +88,8 @@
 
                 for (i = 0; i < arr.length; i++) {
                     doc = arr[i];
-                    if (doc['_score'] > maxVal) {
-                        maxVal = arr['_score'];
+                    if (doc._score > maxVal) {
+                        maxVal = arr._score;
                         highScore_doc = doc;
                     }
                 }
@@ -116,6 +125,7 @@
                         InteractionAPI.getInteractions(esData)
                             .success(function (data) {
                                 console.log(data);
+                                DrugInteraction.format(data);
                                 cb();
                             })
                             .error(function(data, status) {

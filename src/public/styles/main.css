@@ -242,3 +242,23 @@ input.search {
 .ddi-icon {
     padding: 5px 15px;
 }
+
+/*css styling for general modal*/
+.ngdialog {
+    padding-top: 20%;
+}
+.ngdialog-content {
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    position: relative;
+    width: 40%;
+}
+.ngdialog-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+/*end css styling for general modal*/
+
+/*css styling for ddi modal*/

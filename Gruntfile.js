@@ -55,13 +55,23 @@ module.exports = function(grunt){
             services: {
                 src: ['src/public/scripts/services/*.js']
             }
+        },
+
+        html2js: {
+            main: {
+                files: [{src: 'src/server/views/modal/templates/*.jade', dest: 'src/public/scripts/temp/templates.js'}]
+
+            },
+            options: {
+                jade: 'html'
+            }
         }
 	});
 
 
 
 // Register a default task that will run on 'grunt'
-grunt.registerTask('dev', [ 'ngmin:controllers', 'ngmin:directives', 'ngmin:services', 'uglify:development']);
+grunt.registerTask('dev', [ 'ngmin:controllers', 'ngmin:directives', 'ngmin:services', 'uglify:development', 'html2js']);
 
 // Load tasks (plugins) installed via npm so that grunt
 // can access and use them
@@ -70,5 +80,6 @@ grunt.loadNpmTasks('grunt-contrib-clean');
 grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-ngmin');
 grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-html2js');
 
 };
