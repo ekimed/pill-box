@@ -18,37 +18,43 @@
                 this.url = url;
             };
 
-            function findJson (o, term) {
-                var k, l;
-                if (angular.isObject(o)) {
-                    for (var key in o) {
-                        if (o.hasOwnProperty(key)) {
-                            k = o[key];
+            function traverse (obj, fn) {
+                var val, check, val2;
+                var isObject = function (o) {
+                    if (o instanceof Object && !(o instanceof Array)) {
+                        return true;
+                    }
 
-                            if (key === term) {
-                                console.log(k);
-                                break;
-                                return k;
-                            }
+                    return false;
+                };
 
-                            if (angular.isObject(k)) {
-                                findJson(k, term);
-                            } else if (angular.isArray(k)) {
-                                for (var i = 0; i < k.length; i++) {
-                                    l = k[i];
-                                    if (angular.isObject(l)) {
-                                        findJson(l, term);
-                                    }
-                                }
+                for (var key in obj) {
+                    val = obj[key];
+                    fn.apply(this, [key, val]);
+                    check = isObject(val);
+                    if (check) {
+                        traverse(val, fn);
+                    } else if (val instanceof Array) {
+                        for (var i = 0; i < val.length; i++) {
+                            val2 = val[i];
+                            check = isObject(val2);
+                            if (check) {
+                                traverse(val2, fn);
                             }
                         }
-
                     }
                 }
+            }
 
-                k ? k : false;
+            function getProp (obj, prop) {
+                var results = [];
+                traverse(obj, function (key, val) {
+                    if (key === prop) {
+                        results.push(val);
+                    }
+                });
 
-                return k;
+                return results;
             }
 
             return {
@@ -62,8 +68,11 @@
                         'name'
                     ];
 
-                    var test = findJson(data, 'fullInteractionType'); console.log('test', test);
-                    return test;
+                    var fullIntType = this.find(data, terms[0]); console.log(fullIntType);
+                },
+                find: function (data, term) {
+                    var res = getProp(data, term);
+                    return res;
                 }
             }
         }]);

@@ -53,6 +53,13 @@
       var esData = $scope.esData = [];
       $scope.ddiDetected = false;
       $scope.tooltipMsg = 'Drug interactions between your medications were detected. Click to view.';
+      var testObject = {
+          param1: { term: 'bingo' },
+          param2: [{ param4: 'bingo2' }],
+          param3: 'last string'
+        };
+      var test = DrugInteraction.find(testObject, 'param4');
+      console.log(test);
       // TODO modal dialog for DDI
       $scope.openModal = function () {
         ngDialog.open({
@@ -121,7 +128,7 @@
               $scope.ddiDetected = true;
             };
             InteractionAPI.getInteractions(esData).success(function (data) {
-              console.log(data);
+              console.log('Drug Interaction Data:', data);
               DrugInteraction.format(data);
               cb();
             }).error(function (data, status) {
