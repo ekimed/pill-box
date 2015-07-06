@@ -247,6 +247,9 @@ input.search {
     font-size: 14px;
 }
 
+.ddi-item {
+    padding-bottom: 10px;
+}
 .ngdialog-content h2 {
     margin-top: 0;
 }
