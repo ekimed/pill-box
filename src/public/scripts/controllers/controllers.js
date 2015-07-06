@@ -42,27 +42,27 @@
 
 (function () {
     angular.module('pillboxApp')
+        .controller('ddiModalCtrl', ['Data', '$scope', function (Data, $scope) {
+            var data = Data.getData();
+            console.log(data);
+            $scope.ddiLen = data.ddiData.length;
+            $scope.ddiData = data.ddiData;
+
+        }]);
+})();
+
+(function () {
+    angular.module('pillboxApp')
         .controller('MedListCtrl', function($scope, $q, $timeout, Data, esService, InteractionAPI, ngDialog, DrugInteraction) {
             var esData = $scope.esData = [];
             $scope.ddiDetected = false;
             $scope.tooltipMsg = 'Drug interactions between your medications were detected. Click to view.';
-            var testObject = {
-                param1: {
-                    term: 'bingo'
-                },
-                param2: [{
-                    param4: 'bingo2'
-                }],
-                param3: 'last string'
-            };
 
-            var test = DrugInteraction.find(testObject, 'param4'); console.log(test);
-            // TODO modal dialog for DDI
             $scope.openModal = function () {
                 ngDialog.open({
                     template: 'server/views/modal/templates/ddi_template.jade',
                     className: 'ngdialog-theme-default',
-                    controller: 'MedListCtrl'
+                    controller: 'ddiModalCtrl'
                 });
             };
 
@@ -134,8 +134,14 @@
 
                         InteractionAPI.getInteractions(esData)
                             .success(function (data) {
+                                var formattedData = DrugInteraction.format(data);
+                                var d = Data.getData();
+                                d.ddiData = formattedData;
+                                Data.setData(d);
+
                                 console.log('Drug Interaction Data:', data);
-                                DrugInteraction.format(data);
+                                console.log('Formatted Drug Interaction Data:', formattedData);
+
                                 cb();
                             })
                             .error(function(data, status) {
