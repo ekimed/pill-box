@@ -243,6 +243,15 @@ input.search {
     padding: 5px 15px;
 }
 
+.ddi-arrow {
+    font-size: 14px;
+}
+
+.ngdialog-content h2 {
+    margin-top: 0;
+}
+/*end css styling for ddi feature*/
+
 /*css styling for general modal*/
 .ngdialog {
     padding-top: 20%;
@@ -253,6 +262,7 @@ input.search {
     padding: 30px 20px;
     position: relative;
     width: 40%;
+    font-family: 'Raleway', serif;
 }
 .ngdialog-close {
     position: absolute;
