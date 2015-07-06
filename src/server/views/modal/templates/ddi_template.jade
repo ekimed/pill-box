@@ -1,2 +1,4 @@
-div.ngdialog-message
-	p this is a test
+div.ngdialog-message(ng-model="ddiData")
+	h2 {{ddiLen}} Drug Interaction Pairs Found
+	div.ddi-item(ng-repeat="d in ddiData")
+		div {{d.drug_a}} + {{d.drug_b}} <i class="fa fa-long-arrow-right ddi-arrow"></i> <i class="fa fa-exclamation-triangle ddi-warn"></i> {{d.description}}

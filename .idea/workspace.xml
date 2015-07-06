@@ -2,49 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e65bb5c-2ddf-446b-b250-7f1cf91d8e57" name="Default" comment="carousel dropdown highlighting added">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/segments_j" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k.fdt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k.fdx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k.fnm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k.nvd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k.nvm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k_Lucene410_0.dvd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k_Lucene410_0.dvm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k_Lucene41_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k_Lucene41_0.pos" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k_Lucene41_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5k_Lucene41_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5l.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5l.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5l.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5m.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5m.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5m.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5n.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5n.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/_5n.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/segments_2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/translog/translog-1435449603556" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.27/0/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/segments.gen" afterPath="$PROJECT_DIR$/elasticsearch-1.6.0/data/elasticsearch/nodes/0/indices/.marvel-2015.06.28/0/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/app.js" afterPath="$PROJECT_DIR$/src/public/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/controllers/controllers.js" afterPath="$PROJECT_DIR$/src/public/scripts/controllers/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/temp/controllers.js" afterPath="$PROJECT_DIR$/src/public/scripts/temp/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/controllers.min.js" afterPath="$PROJECT_DIR$/src/public/scripts/min/controllers.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/controllers.min.map" afterPath="$PROJECT_DIR$/src/public/scripts/min/controllers.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/temp/directives.js" afterPath="$PROJECT_DIR$/src/public/scripts/temp/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/directives.min.js" afterPath="$PROJECT_DIR$/src/public/scripts/min/directives.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/directives.min.map" afterPath="$PROJECT_DIR$/src/public/scripts/min/directives.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/views/layout.jade" afterPath="$PROJECT_DIR$/src/server/views/layout.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/styles/main.css" afterPath="$PROJECT_DIR$/src/public/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/views/partials/main.jade" afterPath="$PROJECT_DIR$/src/server/views/partials/main.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/views/modal/templates/ddi_template.jade" afterPath="$PROJECT_DIR$/src/server/views/modal/templates/ddi_template.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/temp/services.js" afterPath="$PROJECT_DIR$/src/public/scripts/temp/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/services.min.js" afterPath="$PROJECT_DIR$/src/public/scripts/min/services.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/min/services.min.map" afterPath="$PROJECT_DIR$/src/public/scripts/min/services.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/scripts/directives/tooltip.directive.js" afterPath="$PROJECT_DIR$/src/public/scripts/directives/tooltip.directive.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pill-box.iws" />
@@ -71,21 +35,9 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/public/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3496" max-vertical-offset="4035">
-              <caret line="259" column="16" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3592" max-vertical-offset="4230">
+              <caret line="249" column="11" selection-start-line="249" selection-start-column="11" selection-end-line="249" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ddi_data_service.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/public/scripts/services/ddi_data_service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13934426" vertical-offset="622" max-vertical-offset="1110">
-              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -93,18 +45,48 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/public/scripts/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="4095">
-              <caret line="125" column="54" selection-start-line="125" selection-start-column="54" selection-end-line="125" selection-end-column="54" />
+            <state vertical-scroll-proportion="-4.0" vertical-offset="1966" max-vertical-offset="4335">
+              <caret line="138" column="58" selection-start-line="138" selection-start-column="58" selection-end-line="138" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="templates.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/public/scripts/services/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factory.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/public/scripts/services/factory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1290">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/views/layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templates.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/public/scripts/temp/templates.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.36" vertical-offset="0" max-vertical-offset="250">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,20 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="factory.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/public/scripts/services/factory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1290">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tooltip.directive.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/public/scripts/directives/tooltip.directive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="855">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
               <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
@@ -171,19 +143,20 @@
         <option value="$PROJECT_DIR$/src/server/views/partials/searchMeds.jade" />
         <option value="$PROJECT_DIR$/src/server/routes/routes.js" />
         <option value="$PROJECT_DIR$/src/server/process/parse.js" />
-        <option value="$PROJECT_DIR$/src/server/views/layout.jade" />
         <option value="$PROJECT_DIR$/src/server/views/partials/list.jade" />
         <option value="$PROJECT_DIR$/src/server/views/partials/welcome.jade" />
         <option value="$PROJECT_DIR$/src/public/scripts/directives/pb-tooltip.html" />
-        <option value="$PROJECT_DIR$/src/public/scripts/services/factory.js" />
         <option value="$PROJECT_DIR$/src/server/views/partials/main.jade" />
         <option value="$PROJECT_DIR$/src/public/scripts/directives/tooltip.directive.js" />
         <option value="$PROJECT_DIR$/src/public/scripts/temp/templates.js" />
-        <option value="$PROJECT_DIR$/src/public/styles/main.css" />
         <option value="$PROJECT_DIR$/src/public/scripts/services/services.js" />
         <option value="$PROJECT_DIR$/src/public/scripts/app.js" />
-        <option value="$PROJECT_DIR$/src/public/scripts/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/src/public/scripts/services/ddi_data_service.js" />
+        <option value="$PROJECT_DIR$/src/server/views/layout.jade" />
+        <option value="$PROJECT_DIR$/src/public/scripts/directives/d3.directive.js" />
+        <option value="$PROJECT_DIR$/src/public/scripts/services/factory.js" />
+        <option value="$PROJECT_DIR$/src/public/scripts/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/src/public/styles/main.css" />
       </list>
     </option>
   </component>
@@ -196,8 +169,8 @@
     <initial>false</initial>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="391" />
-    <option name="y" value="105" />
+    <option name="x" value="417" />
+    <option name="y" value="23" />
     <option name="width" value="978" />
     <option name="height" value="642" />
   </component>
@@ -278,103 +251,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="process" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,32 +274,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -478,50 +329,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pill-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -532,7 +339,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/11main-application" />
+    <property name="last_opened_file_path" value="$USER_HOME$/async" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
   </component>
@@ -726,29 +533,53 @@
       <created>1435451285688</created>
       <updated>1435451285688</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Added d3js">
+      <created>1436168794690</created>
+      <updated>1436168794690</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Display DDI data in modal">
+      <created>1436203214909</created>
+      <updated>1436203214909</updated>
+    </task>
+    <task id="LOCAL-00037" summary="carousel dropdown highlighting added">
+      <created>1436203223388</created>
+      <updated>1436203223388</updated>
+    </task>
+    <task id="LOCAL-00038" summary="carousel dropdown highlighting added">
+      <created>1436203234559</created>
+      <updated>1436203234559</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Padding added ddi-item">
+      <created>1436204705383</created>
+      <updated>1436204705383</updated>
+    </task>
+    <task id="LOCAL-00040" summary="carousel dropdown highlighting added">
+      <created>1436204720288</created>
+      <updated>1436204720288</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="391" y="105" width="978" height="642" extended-state="0" />
+    <frame x="417" y="23" width="978" height="642" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3301738" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42909092" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13744076" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2413793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16361073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13744076" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -790,14 +621,10 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Fixed callback error" />
-    <MESSAGE value="elasticsearch config change, enable CORS" />
-    <MESSAGE value="missing return" />
     <MESSAGE value="Removed globals by implementing IIFE, added elasticsearch instant search" />
     <MESSAGE value="CSS styling for search input text and drop down" />
     <MESSAGE value="Updated ngmin format to files array format, dest-as-target format is deprecated" />
     <MESSAGE value="Updated elasticsearch query to partial match multiple fields" />
-    <MESSAGE value="carousel dropdown highlighting added" />
     <MESSAGE value="Put space before units for rxnorm data elasticsearch matching purposes" />
     <MESSAGE value="match the medications with data from rxterms index (elasticsearch)" />
     <MESSAGE value="update scope after async" />
@@ -815,7 +642,11 @@
     <MESSAGE value="updated font awesome version" />
     <MESSAGE value="Only show ddi icon when ddi result is returned" />
     <MESSAGE value="Removed comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed comment" />
+    <MESSAGE value="Added d3js" />
+    <MESSAGE value="Display DDI data in modal" />
+    <MESSAGE value="Padding added ddi-item" />
+    <MESSAGE value="carousel dropdown highlighting added" />
+    <option name="LAST_COMMIT_MESSAGE" value="carousel dropdown highlighting added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1028,49 +859,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54034585" vertical-offset="0" max-vertical-offset="694">
-          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/views/partials/main.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08840864" vertical-offset="0" max-vertical-offset="870">
           <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/scripts/services/factory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1290">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/scripts/directives/tooltip.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="825">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/scripts/temp/templates.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/scripts/services/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93933463" vertical-offset="0" max-vertical-offset="750">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,18 +874,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/styles/main.css">
+    <entry file="file://$PROJECT_DIR$/src/public/scripts/temp/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3496" max-vertical-offset="4035">
-          <caret line="259" column="16" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
+        <state vertical-scroll-proportion="-2.2530863" vertical-offset="1305" max-vertical-offset="3975">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/public/scripts/temp/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4139345" vertical-offset="690" max-vertical-offset="2370">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9259259" vertical-offset="0" max-vertical-offset="2640">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1106,21 +898,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/scripts/controllers/controllers.js">
+    <entry file="file://$PROJECT_DIR$/src/public/scripts/directives/tooltip.directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="4095">
-          <caret line="125" column="54" selection-start-line="125" selection-start-column="54" selection-end-line="125" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="825">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/public/scripts/services/ddi_data_service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13934426" vertical-offset="622" max-vertical-offset="1110">
-          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1449" max-vertical-offset="1935">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/scripts/services/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/scripts/controllers/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0" vertical-offset="1966" max-vertical-offset="4335">
+          <caret line="138" column="58" selection-start-line="138" selection-start-column="58" selection-end-line="138" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/scripts/services/factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1290">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3592" max-vertical-offset="4230">
+          <caret line="249" column="11" selection-start-line="249" selection-start-column="11" selection-end-line="249" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/scripts/temp/templates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36" vertical-offset="0" max-vertical-offset="250">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
