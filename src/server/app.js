@@ -1,6 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var routes = require('src/server/routes/routes.js');
+var routes = require('./routes/routes.js');
 var mongoose = require('mongoose');
 var multipart = require('connect-multiparty');
 
